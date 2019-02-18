@@ -1,0 +1,176 @@
+<div class="exchangeTitle">
+    <h2>
+        The List of Top Indian and Foreign Exchanges
+    </h2>
+    <h4>Rating ,Fees, Coins, signup method and restriction details </h4>
+</div>
+
+<div class="row">
+    <div class="col-s-1">
+
+    </div>
+
+    <div class="col-s-10">
+        <div class="row main">
+            <mat-tab-group (selectedTabChange)="tabChanged($event)">
+                <mat-tab>
+                    <ng-template mat-tab-label>
+                        <mat-icon> dashboard</mat-icon>
+                        Indian Exchanges
+                    </ng-template>
+                    <!--Exchange Lists-->
+                    <div class="row">
+                        <div class="col-s-2">
+                            <mat-form-field>
+                                <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter by Name">
+                            </mat-form-field>
+                        </div>
+                        <!-- <div class="pagination col-s-8">
+                            <h2>
+                                <mat-paginator [pageSizeOptions]="[25, 50,75]" showFirstLastButtons>
+                                </mat-paginator>
+                            </h2>
+                        </div> -->
+
+                    </div>
+                    <div class="row overflow-container">
+                        <div class="mat-elevation-z8">
+
+
+                            <table mat-table [dataSource]="dataSource" matSort matSortActive="name" matSortDirection="asc">
+
+                                <!--- Note that these columns can be defined in any order.
+                              The actual rendered columns are set as a property on the row definition" -->
+                                <!-- Name Column -->
+                                <ng-container matColumnDef="name" sticky>
+                                    <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                                        <h3>Name</h3>
+                                    </th>
+                                    <td mat-cell *matCellDef="let element">
+                                        <div class="row">
+                                            <div class="logo col-s-2">
+                                                <img class="exchangeIcon" src="../../assets/images/exchanges/{{element.Name| lowercase}}.png" />
+                                            </div>
+                                            <div class="col-s-10">
+                                                <div class="row">
+                                                    <h2 class="exchName"> {{element.Name}}
+                                                        <span *ngFor="let item of createRange(element.rating)">
+                                                        <img class="star" src="../../assets/images/star.png">
+                                                    </span>
+                                                        <button class="recommend" *ngIf="element.Recommended" mat-stroked-button [disabled]="true"><b>Recommended by IC</b></button>
+                                                    </h2>
+                                                </div>
+                                                <div class="detailbutton row">
+                                                    <p> Details</p>
+                                                    Country :<button mat-stroked-button [disabled]="true"><b> {{element.Country}}</b></button>Trading Type :<button mat-stroked-button [disabled]="true"><b>{{element.ItemType}}</b></button>
+                                                    <button *ngIf="element.Trades" mat-stroked-button [disabled]="true"><b>Trades Now</b></button>
+                                                    <button *ngIf="element.OrderBook" mat-stroked-button [disabled]="true"><b>Orderbook Available</b></button>
+                                                </div>
+                                                <div class="row description">
+                                                    <p>Description</p>
+                                                    {{element.Description}}
+                                                </div>
+                                                <div class="website">
+                                                    <button class="websitelink" (click)="GotoTheLink(element.AffiliateUrl)" mat-stroked-button>Website </button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </td>
+                                </ng-container>
+
+                                <!-- <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr> -->
+                                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+                            </table>
+                        </div>
+                    </div>
+
+
+                    <!---Ends-->
+                </mat-tab>
+
+                <mat-tab>
+                    <ng-template mat-tab-label>
+                        <mat-icon> flight_takeoff</mat-icon>
+                        Foreign Exchanges
+                    </ng-template>
+                    <!--Exchange Lists-->
+                    <div class="row">
+                        <div class="col-s-2">
+                            <mat-form-field>
+                                <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter by Name">
+                            </mat-form-field>
+                        </div>
+                        <div class="pagination col-s-8">
+                            <h2>
+                                <mat-paginator [pageSizeOptions]="[25, 50,75]" showFirstLastButtons>
+                                </mat-paginator>
+                            </h2>
+                        </div>
+
+                    </div>
+                    <div class="row overflow-container">
+                        <div class="mat-elevation-z8">
+
+
+                            <table mat-table [dataSource]="dataSource" matSort matSortActive="name" matSortDirection="asc">
+
+                                <!--- Note that these columns can be defined in any order.
+                              The actual rendered columns are set as a property on the row definition" -->
+                                <!-- Name Column -->
+                                <ng-container matColumnDef="name" sticky>
+                                    <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                                        <h3>Name</h3>
+                                    </th>
+                                    <td mat-cell *matCellDef="let element">
+                                        <div class="row">
+                                            <div class="logo col-s-2">
+                                                <img class="exchangeIcon" src="../../assets/images/exchanges/{{element.Name| lowercase}}.png" />
+                                            </div>
+                                            <div class="col-s-10">
+                                                <div class="row">
+                                                    <h2 class="exchName"> {{element.Name}}
+                                                        <span *ngFor="let item of createRange(element.rating)">
+                                                            <img class="star" src="../../assets/images/star.png">
+                                                        </span>
+                                                        <button class="recommend" *ngIf="element.Recommended" mat-stroked-button [disabled]="true"><b>Recommended by IC</b></button>
+                                                    </h2>
+                                                </div>
+                                                <div class="detailbutton row">
+                                                    <p> Details</p>
+                                                    Country :<button mat-stroked-button [disabled]="true"><b> {{element.Country}}</b></button>Trading Type :<button mat-stroked-button [disabled]="true"><b>{{element.ItemType}}</b></button>
+                                                    <button *ngIf="element.Trades" mat-stroked-button [disabled]="true"><b>Trades Now</b></button>
+                                                    <button *ngIf="element.OrderBook" mat-stroked-button [disabled]="true"><b>Orderbook Available</b></button>
+                                                </div>
+                                                <div class="row description">
+                                                    <p>Description</p>
+                                                    {{element.Description}}
+                                                </div>
+                                                <div class="website">
+                                                    <button class="websitelink" (click)="GotoTheLink(element.AffiliateUrl)" mat-stroked-button>Website </button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </td>
+                                </ng-container>
+
+                                <!-- <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr> -->
+                                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+                            </table>
+                        </div>
+                    </div>
+
+
+                    <!---Ends-->
+                </mat-tab>
+
+            </mat-tab-group>
+        </div>
+    </div>
+    <div class="col-s-1">
+
+    </div>
+</div>

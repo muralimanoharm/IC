@@ -1,0 +1,41 @@
+<div class="row">
+    <div class="center">
+        <h2>
+            Crypto Coder
+        </h2>
+        <h4>Basic to Advanced Blockchain Coding</h4>
+    </div>
+    <app-share></app-share>
+</div>
+
+<div class="row">
+    <div class="col-s-2 subtitles">
+        <mat-card>
+            Development
+        </mat-card>
+        <mat-accordion>
+            <mat-expansion-panel [expanded]='blockchain'>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Blockchains
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p class="cursor" [ngx-scroll-to]="'#routerOut'" routerLink="blockchaindev/Bitcoin" routerLinkActive="active" [ngClass]="{'selected':btc}" (click)="SelectedTab('btc')">Bitcoin</p>
+                <p class="cursor" [ngx-scroll-to]="'#routerOut'" routerLink="blockchaindev/Etherium" routerLinkActive="active" [ngClass]="{'selected':eth}" (click)="SelectedTab('eth')">Etherium </p>
+            </mat-expansion-panel>
+            <mat-expansion-panel [expanded]='ecosystem'>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Ecosystem
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <p class="cursor" [ngx-scroll-to]="'#routerOut'" routerLink="ecosystem/MakerDAO" routerLinkActive="active" [ngClass]="{'selected':dao}" (click)="SelectedTab('dao')">MakerDAO</p>
+                <p class="cursor" [ngx-scroll-to]="'#routerOut'" routerLink="ecosystem/Aion" routerLinkActive="active" [ngClass]="{'selected':aion}" (click)="SelectedTab('aion')">Aion</p>
+                <p class="cursor" [ngx-scroll-to]="'#routerOut'" routerLink="ecosystem/Cosmos" routerLinkActive="active" [ngClass]="{'selected':cosmos}" (click)="SelectedTab('cosmos')">Cosoms</p>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+    <div id="routerOut" class="col-s-10">
+        <router-outlet></router-outlet>
+    </div>
+</div>

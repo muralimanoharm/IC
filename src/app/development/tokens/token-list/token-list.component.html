@@ -1,0 +1,36 @@
+<div class="tokenSearch title">
+    <h2>{{cryptoName}} Asset List</h2>
+    <input type="text" [(ngModel)]="searchText" placeholder="Enter search term here">
+</div>
+
+<div class="row">
+    <div *ngFor="let item of tokenElementData | filter : cryptoName:'source' | filter : searchText:'name'">
+        <div class="col-s-3">
+            <mat-card>
+                <mat-card-header>
+                    <mat-card-title>{{item.name}}</mat-card-title>
+                    <mat-card-subtitle>{{item.companyName}}</mat-card-subtitle>
+                </mat-card-header>
+                <img *ngIf="item.source != 'eth'" class="sourceToken" mat-card-image src="../../../assets/images/tokens/{{item.source}}/{{item.symbol}}.png">
+                <mat-card-content>
+                    <h3>Description</h3>
+                    <p class="description">
+                        {{item.description}}
+                    </p>
+                </mat-card-content>
+                <mat-divider></mat-divider>
+                <mat-card-actions class="cardAction">
+                    <div class="btn-group">
+                        <button *ngIf="IslinkAvailable(item.webLink)">Website</button>
+                        <button *ngIf="IslinkAvailable(item.githubLink)">Github</button>
+                        <button *ngIf="IslinkAvailable(item.telegramLink)">Telegram</button>
+                        <button *ngIf="IslinkAvailable(item.twitter)">Twitter</button>
+                        <button *ngIf="IslinkAvailable(item.linkedId)">LinkedIn</button>
+                        <button *ngIf="IslinkAvailable(item.medium)">Medium</button>
+                        <button *ngIf="IslinkAvailable(item.whitepaperlink)">Whitepaper</button>
+                    </div>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+</div>

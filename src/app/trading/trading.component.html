@@ -1,0 +1,58 @@
+<div class="row">
+    <div class="col-s-3 data">
+        <ul class="menu">
+            <li (click)="showContent('1')"> How crypto market works ?</li>
+            <li (click)="showContent('2')">How to start trading?</li>
+            <li (click)="showContent('3')"> API Trading</li>
+        </ul>
+    </div>
+
+    <div class="col-s-9 data">
+        <div [hidden]="checkContentID(1)">
+            <h1>How crypto market works ? </h1>
+            <p>Satoshi Nakamoto is the name used by the unknown person or people who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation.[1] As part of the implementation, they also devised
+                the first blockchain database.[2] In the process, they were the first to solve the double-spending problem for digital currency using a peer-to-peer network. They were active in the development of bitcoin up until December 2010.
+            </p>
+        </div>
+        <div [hidden]="checkContentID(2)">
+            <h1>How to start trading?</h1>
+            <p>Peer-to-peer (P2P) computing or networking is a distributed application architecture that partitions tasks or workloads between peers. Peers are equally privileged, equipotent participants in the application. They are said to form a peer-to-peer
+                network of nodes. Peers make a portion of their resources, such as processing power, disk storage or network bandwidth, directly available to other network participants, without the need for central coordination by servers or stable hosts.[1]
+                Peers are both suppliers and consumers of resources, in contrast to the traditional client-server model in which the consumption and supply of resources is divided. Emerging collaborative P2P systems are going beyond the era of peers doing
+                similar things while sharing resources, and are looking for diverse peers that can bring in unique resources and capabilities to a virtual community thereby empowering it to engage in greater tasks beyond those that can be accomplished
+                by individual peers, yet that are beneficial to all the peers.[2]
+            </p>
+
+            <ul class="menu">
+                <li (click)="showSubContent('1')"> Indian Exchanges</li>
+                <li (click)="showSubContent('2')"> Foreign Exchanges</li>
+            </ul>
+            <div [hidden]="checkSubContentID(1)">
+                <h1>API Trading</h1>
+                <p>A cryptocurrency (or crypto currency) is a digital asset designed to work as a medium of exchange that uses strong cryptography to secure financial transactions, control the creation of additional units, and verify the transfer of assets.[1][2][3]
+                    Cryptocurrencies are a kind of alternative currency and digital currency (of which virtual currency is a subset). Cryptocurrencies use decentralized control as opposed to centralized digital currency and central banking systems.[4]
+                    The decentralized control of each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database.[5] Bitcoin, first released as open-source software in 2009,
+                    is generally considered the first decentralized cryptocurrency.[6] Since the release of bitcoin, over 4,000 altcoins
+                </p>
+            </div>
+            <div [hidden]="checkSubContentID(2)">
+                <h1>API Trading</h1>
+                <p>A cryptocurrency (or crypto currency) is a digital asset designed to work as a medium of exchange that uses strong cryptography to secure financial transactions, control the creation of additional units, and verify the transfer of assets.[1][2][3]
+                    Cryptocurrencies are a kind of alternative currency and digital currency (of which virtual currency is a subset). Cryptocurrencies use decentralized control as opposed to centralized digital currency and central banking systems.[4]
+                    The decentralized control of each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database.[5] Bitcoin, first released as open-source software in 2009,
+                    is generally considered the first decentralized cryptocurrency.[6] Since the release of bitcoin, over 4,000 altcoins
+                </p>
+            </div>
+
+
+        </div>
+        <div [hidden]="checkContentID(3)">
+            <h1>API Trading</h1>
+            <p>A cryptocurrency (or crypto currency) is a digital asset designed to work as a medium of exchange that uses strong cryptography to secure financial transactions, control the creation of additional units, and verify the transfer of assets.[1][2][3]
+                Cryptocurrencies are a kind of alternative currency and digital currency (of which virtual currency is a subset). Cryptocurrencies use decentralized control as opposed to centralized digital currency and central banking systems.[4] The
+                decentralized control of each cryptocurrency works through distributed ledger technology, typically a blockchain, that serves as a public financial transaction database.[5] Bitcoin, first released as open-source software in 2009, is generally
+                considered the first decentralized cryptocurrency.[6] Since the release of bitcoin, over 4,000 altcoins
+            </p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+.calendar-card {
+    max-width: 350px;
+}
+
+.airdropIcon {
+    background-image: url('../../../assets/images/airdrop.png');
+    background-size: cover;
+}
+
+.calImg {
+    height: 60px;
+    width: 60px;
+    margin-left: 41%;
+}
+
+.countLabel {
+    float: right!important;
+    background-color: #adeafd;
+    font-weight: 500;
+    padding: 2px 5px 1px 5px;
+    line-height: 1.5384616;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: .1px;
+    border-radius: 2px;
+}
+
+button {
+    background-color: rgb(65, 48, 175);
+    color: white;
+}
+
+.mat-stroked-button.mat-primary .mat-stroked-button-focus-overlay {
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: #0099cc;
+}
+
+mat-card-actions {
+    text-align: center;
+}
+
+.diplayNone {
+    display: none;
+}
+
+@media screen and (max-height: 450px) {}

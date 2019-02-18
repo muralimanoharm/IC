@@ -1,0 +1,118 @@
+<div class="row">
+    <div class="row">
+        <div class="center">
+            <h2>
+                Basics of CryptoCurrency
+            </h2>
+            <h4>The Absolute Beginner’s Guide to Cryptocurrency </h4>
+        </div>
+        <app-share></app-share>
+    </div>
+
+    <div class="col-s-2 data content subtitle">
+        <mat-card routerLink="faq" routerLinkActive="active">
+            Cryptocurrency FAQ
+        </mat-card>
+        <mat-accordion [multi]="true">
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Definition
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="definition/Bitcoin" routerLinkActive="Active">Bitcoin</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="definition/Altcoin" routerLinkActive="Active">Altcoin</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="definition/AllDef" routerLinkActive="Active">All Definitions</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="definition/AltList" routerLinkActive="Active">Altcoin List</li>
+                </ul>
+            </mat-expansion-panel>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Architecture
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="architecture/Blockchain" routerLinkActive="Active">Blockchain</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="architecture/Timestamping" routerLinkActive="Active">Timestamping</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="architecture/Proof of Work" routerLinkActive="Active">Proof of Work</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="architecture/Proof of Stake" routerLinkActive="Active">Proof of Stake</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="architecture/Programming" routerLinkActive="Active">Programming</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="architecture/Mining" routerLinkActive="Active">Mining</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="architecture/Wallet" routerLinkActive="Active">Wallet</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="architecture/Anonymity" routerLinkActive="Active">Anonymity</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="architecture/Fungibiity" routerLinkActive="Active">Fungibiity</li>
+                </ul>
+            </mat-expansion-panel>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Economics
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="economics/Transaction Fee" routerLinkActive="Active">Transaction Fee</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="economics/Exchanges" routerLinkActive="Active">Exchanges</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="economics/Coin Swap" routerLinkActive="Active">Coin Swap</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="economics/ATM" routerLinkActive="Active">ATM</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="economics/ICO" routerLinkActive="Active">ICO</li>
+                </ul>
+            </mat-expansion-panel>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Legality
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="" routerLinkActive="Active">Advertisement</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="" routerLinkActive="Active">Tax Status</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="" routerLinkActive="Active">Indian Restriction</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="" routerLinkActive="Active">Unregulated Economy</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="" routerLinkActive="Active">Lost and Theft</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="" routerLinkActive="Active">Darknet Market</li>
+                </ul>
+            </mat-expansion-panel>
+            <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Reception
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="" routerLinkActive="Active">Academic Studies</li>
+                </ul>
+            </mat-expansion-panel>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Pros and Cons
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li [ngx-scroll-to]="'#dest1'">Benefits</li>
+                    <li [ngx-scroll-to]="'#dest2'">Drawbacks</li>
+                </ul>
+            </mat-expansion-panel>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Miscellaneous
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <ul>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="" routerLinkActive="Active">References</li>
+                    <li [ngx-scroll-to]="'#routerOutCrypto'" routerLink="" routerLinkActive="Active">External Links</li>
+                </ul>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+
+    <div class="col-s-1">
+
+    </div>
+    <div id="routerOutCrypto" class="col-s-7 data">
+        <router-outlet></router-outlet>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+.simple-ad {
+    text-align: end;
+    cursor: pointer;
+    img:hover {
+        opacity: 0.5;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .simple-ad {
+        text-align: center;
+    }
+}

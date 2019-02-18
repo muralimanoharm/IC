@@ -1,0 +1,371 @@
+<div class="preventcopy">
+    <div *ngIf="title == 'Blockchain'">
+        <h1 class="contentTitle" class="contentTitle">{{title}}</h1>
+        <p><strong>What is Blockchain ?</strong></p>
+        <p>Picture a spreadsheet that is duplicated thousands of times across a network of computers. Then imagine that this network is designed to regularly update this spreadsheet and you have a basic understanding of the blockchain.</p>
+        <p>A&nbsp;<strong>blockchain</strong>, originally&nbsp;<strong>block chain</strong>,<sup id="cite_ref-primer_4-0" class="reference"></sup><sup id="cite_ref-obmh_5-0" class="reference"></sup>&nbsp;is a growing list of&nbsp;records, called&nbsp;<em>blocks</em>,
+            which are linked using&nbsp;<a title="Cryptography" href="/#/Crypto/Crypto/definition/AllDef/define/Cryptography">cryptography</a>.&nbsp;Each block contains a&nbsp;<a title="Cryptographic hash function" href="/Crypto/Crypto/definition/AllDef/define/Cryptography">cryptographic hash</a>&nbsp;of
+            the previous block,&nbsp;a&nbsp;<a title="Trusted timestamping" href="https://en.wikipedia.org/wiki/Trusted_timestamping">timestamp</a>, and transaction data.</p>
+        <p><img style="display: block; margin-left: auto; margin-right: auto;" title="Cloud computing concept  Free Vector" src="https://image.freepik.com/free-vector/cloud-computing-concept_53876-64621.jpg" alt="Cloud computing concept  Free Vector" /></p>
+        <p><span style="font-size: 5pt;"><a href="https://www.freepik.com/free-vector/cloud-computing-concept_3530042.htm">Designed by Rawpixel.com</a></span></p>
+        <p>Blocks hold batches of valid&nbsp;<a title="Transaction processing" href="/#/Crypto/Crypto/definition/AllDef/define/Transactions">transactions</a>&nbsp;that are hashed and encoded into a&nbsp;<a title="Merkle tree" href="https://en.wikipedia.org/wiki/Merkle_tree">Merkle tree</a>.&nbsp;
+            <sup id="cite_ref-te20151031_1-7" class="reference"></sup>Each block includes the&nbsp;<a class="mw-redirect" title="Cryptographic hash" href="/#/Crypto/Crypto/definition/AllDef/define/Cryptography">cryptographic hash</a>&nbsp;of the prior
+            block in the blockchain, linking the two. The linked blocks form a chain.<sup id="cite_ref-te20151031_1-8" class="reference"></sup>&nbsp;This&nbsp;iterative&nbsp;process confirms the integrity of the previous block, all the way back to the
+            original genesis block</p>
+        <p><strong>Use of Blockchain ?</strong></p>
+        <p>Information held on a blockchain exists as a shared &mdash; and continually reconciled &mdash; database. This is a way of using the network that has obvious benefits. The blockchain database isn&rsquo;t stored in any single location, meaning the
+            records it keeps are truly public and easily verifiable. No centralized version of this information exists for a hacker to corrupt. Hosted by millions of computers simultaneously, its data is accessible to anyone on the internet.</p>
+        <p>&nbsp;</p>
+        <p>** Blockchain was invented by&nbsp;Satoshi Nakamoto&nbsp;in 2008 to serve as the public transaction&nbsp;<a title="Ledger" href="/#/Crypto/Crypto/definition/AllDef/define/Distributed%20Ledger">ledger</a>&nbsp;of the&nbsp;<a title="Cryptocurrency"
+                href="/#/Crypto/Crypto/definition/AllDef/define/Cryptocurrency">cryptocurrency</a>&nbsp;
+            <a title="Bitcoin" href="/#/Crypto/Crypto/definition/AllDef/define/Bitcoin">bitcoin.</a>&nbsp;**</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    </div>
+    <div *ngIf="title == 'Timestamping'">
+        <h1 class="contentTitle">{{title}}</h1>
+        <p><a href="#">Trusted Timestamping</a>, the process of securely keeping track of the creation and modification time of a document, is an indispensable tool in the business world. It allows interested parties to know, without a doubt, that a document
+            in question existed at a particular date and time.</p>
+        <p>By design a Bitcoin transaction includes a date and time, held on the Blockchain. By including a&nbsp;<a href="/#/Crypto/Crypto/definition/AllDef/define/Secure%20Hash%20Algorithm%20256">cryptographic digest</a>&nbsp;of a file you can later certify
+            that the data existed at that time.</p>
+        <p>Each block contains a&nbsp;<a class="external text" href="http://en.wikipedia.org/wiki/Unix_time" rel="nofollow">Unix time</a>&nbsp;timestamp. In addition to serving as a source of variation for the&nbsp;<a title="Block hashing algorithm" href="/#/Crypto/Crypto/definition/AllDef/define/Secure%20Hash%20Algorithm%20256">block hash</a>,
+            they also make it more difficult for an adversary to manipulate the block chain.</p>
+        <p>A timestamp is accepted as valid if it is greater than the median timestamp of previous 11 blocks, and less than the network-adjusted time + 2 hours. "Network-adjusted time" is the median of the timestamps returned by all nodes connected to you.
+            As a result, block timestamps are not exactly accurate, and they do not even need to be in order. Block times are accurate only to within an hour or two.</p>
+        <p>Whenever a node connects to another node, it gets a UTC timestamp from it, and stores its offset from node-local UTC. The network-adjusted time is then the node-local UTC plus the median offset from all connected nodes. Network time is never adjusted
+            more than 70 minutes from local system time, however.</p>
+        <p>Cryptocurrencies use various timestamping schemes to "prove" the validity of transactions added to the blockchain ledger without the need for a trusted third party.</p>
+        <p>The first timestamping scheme invented was the&nbsp;<a class="mw-redirect" title="Proof-of-work" href="/#/Crypto/Crypto/architecture/Proof%20of%20Work">proof-of-work</a>&nbsp;scheme. The most widely used proof-of-work schemes are based on SHA-256
+            and&nbsp;scrypt.
+            <sup id="cite_ref-ars1_16-1" class="reference"></sup></p>
+        <p>Some other hashing algorithms that are used for proof-of-work include&nbsp;<a title="CryptoNote" href="https://en.wikipedia.org/wiki/CryptoNote#Egalitarian_proof_of_work">CryptoNight</a>,&nbsp;<a title="BLAKE (hash function)" href="https://en.wikipedia.org/wiki/BLAKE_(hash_function)">Blake</a>,&nbsp;
+            <a title="SHA-3" href="https://en.wikipedia.org/wiki/SHA-3">SHA-3</a>, and&nbsp;<a title="Dash (cryptocurrency)" href="https://en.wikipedia.org/wiki/Dash_(cryptocurrency)#X11">X11</a>.</p>
+        <p>The proof-of-stake is a method of securing a cryptocurrency network and achieving distributed consensus through requesting users to show ownership of a certain amount of currency. It is different from proof-of-work systems that run difficult hashing
+            algorithms to validate electronic transactions. The scheme is largely dependent on the coin, and there's currently no standard form of it. Some cryptocurrencies use a combined&nbsp;<a class="mw-redirect" title="Proof-of-work" href="/#/Crypto/Crypto/architecture/Proof%20of%20Work">proof-of-work</a>/
+            <a title="Proof-of-stake" href="/#/Crypto/Crypto/architecture/Proof%20of%20Stake">proof-of-stake</a>&nbsp;scheme</p>
+        <p>Bitcoin uses an unsigned integer for the timestamp, so the&nbsp;<a class="extiw" title="wikipedia:Year 2038 problem" href="#/Crypto/Crypto/definition/AllDef/define/Year%202038%20problem">year 2038 problem</a>&nbsp;is delayed for another 68 years.</p>
+    </div>
+    <div *ngIf="title == 'Proof of Work'">
+        <h1 class="contentTitle">{{title}}</h1>
+        <h3><span style="font-family: verdana, geneva;"><strong>Proof of Work</strong></span></h3>
+        <p><span style="font-family: verdana, geneva;">A&nbsp;<strong>Proof-of-Work</strong>&nbsp;(<strong>PoW</strong>)&nbsp;<strong>system</strong>&nbsp;(or&nbsp;<strong>protocol</strong>, or&nbsp;<strong>function</strong>) is an economic measure to deter&nbsp;<a class="mw-redirect" title="Denial of service" href="/#/Crypto/Crypto/definition/AllDef/define/DDoS">denial of service</a>&nbsp;attacks and other service abuses such as&nbsp;spam&nbsp;on a network by requiring some work from the service requester, usually meaning processing time by a computer.</span></p>
+        <p><span style="font-family: verdana, geneva;">Proof of work (PoW) is the process of producing a cryptographic hash that, when an input of any given length is run through a cryptographic hash function, an output of a fixed length is formed. Proof of work in current&nbsp;<a href="/#/Crypto/Crypto/definition/AllDef/define/Blockchain" target="_blank" rel="noopener">blockchain</a>&nbsp;systems historically originate from its use in Hashcash. Hashcash was conceived by&nbsp;<a href="/#/Crypto/Crypto/definition/AllDef/define/Adam%20Back" target="_blank" rel="nofollow noopener">Adam Back</a>, and is a proof of work system that was designed to limit email spam and denial-of-service attacks. Hashcash came in the form of a software plugin that inserted a &lsquo;X-Hashcash:&rsquo; into the email header section of an email layout:</span></p>
+        <p><span style="font-family: verdana, geneva;"><strong>For example Consider the below Email.</strong></span></p>
+        <p><span style="font-family: verdana, geneva;">From: crypto &lt;crypto@crypto.crypto&gt;</span><br /><span style="font-family: verdana, geneva;">To: Adam Back &lt;adam@hashcash.org&gt;</span><br /><span style="font-family: verdana, geneva;">Subject: test hashcash</span><br
+            /><span style="font-family: verdana, geneva;">Date: Thu, 26 Jun 2003 11:59:59 +0000</span></p>
+        <p><span style="font-family: verdana, geneva;"><strong>X-Hashcash:</strong></span><br /><span style="font-family: verdana, geneva;">0:030626:adam@hashcash.org:6470e06d773e05a8</span></p>
+        <p><span style="font-family: verdana, geneva;">In order to send the email, Hashcash requires the sender to compute proof of work calculations on what is effectively the recipient&rsquo;s email address, which in this case is: &lsquo;adam@hashcash.org&rsquo;. The email address, along with some accompanying data, forms the below input:</span></p>
+        <p><span style="font-family: verdana, geneva;"><strong>0:030626:adam@cypherspace.org:6470e06d773e05a8</strong></span></p>
+        <p><span style="font-family: verdana, geneva;">This string of data is then used as an input for a cryptographic hash function, which at this point was Secure Hash Algorithm 1 (SHA-1). Running this input produces an output of:</span></p>
+        <p><span style="font-family: verdana, geneva;"><strong>00000000c70db7389f241b8f441fcf068aead3f0</strong></span></p>
+        <p><span style="font-family: verdana, geneva;">The correct hash is found when it contains a defined number of leading zero bits, as is shown above. However, arriving to a correct cryptographic hash usually requires that the input data is repeatedly hashed, with slight variations made to the input data each time it is hashed. The computing power required to generate a correct hash using Hashcash is minimal for the sending of legitimate emails, as normal users do not send that many emails in the first place. However, spam emailers will find it more difficult to generate the required proof for the sending of mass emails, as it requires considerably more computational resources. This proof of work setup in Hashcash operates extremely similarly to the proof of work system that can be found in cryptocurrencies such as&nbsp;<a href="/#/Crypto/Crypto/definition/AllDef/define/Bitcoin" target="_blank" rel="noopener">Bitcoin</a>.</span></p>
+        <p><span style="font-family: verdana, geneva;">&nbsp;</span></p>
+        <p><span style="font-family: verdana, geneva;"><strong>There are two classes of proof-of-work protocols.</strong></span></p>
+        <ul>
+            <li><span style="font-family: verdana, geneva;"><strong>Challenge-response</strong>&nbsp;protocols assume a direct interactive link between the requester (client) and the provider (server). The provider chooses a challenge, say an item in a set with a property, the requester finds the relevant response in the set, which is sent back and checked by the provider. As the challenge is chosen on the spot by the provider, its difficulty can be adapted to its current load. The work on the requester side may be bounded if the challenge-response protocol has a known solution (chosen by the provider), or is known to exist within a bounded search space.</span></li>
+        </ul>
+        <div class="center">
+            <div class="floatnone"><span style="font-family: verdana, geneva;"><a class="image" href="https://en.wikipedia.org/wiki/File:Proof_of_Work_challenge_response.svg"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Proof_of_Work_challenge_response.svg/550px-Proof_of_Work_challenge_response.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/55/Proof_of_Work_challenge_response.svg/825px-Proof_of_Work_challenge_response.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/55/Proof_of_Work_challenge_response.svg/1100px-Proof_of_Work_challenge_response.svg.png 2x" alt="Proof of Work challenge response.svg" width="550" height="151" data-file-width="459" data-file-height="126" /></a></span></div>
+        </div>
+        <ul>
+            <li><span style="font-family: verdana, geneva;"><strong>Solution-verification</strong>&nbsp;protocols do not assume such a link: as a result, the problem must be self-imposed before a solution is sought by the requester, and the provider must check both the problem choice and the found solution. Most such schemes are unbounded probabilistic iterative procedures such as&nbsp;<a title="Hashcash" href="https://en.wikipedia.org/wiki/Hashcash">Hashcash</a>.</span></li>
+        </ul>
+        <div class="center">
+            <div class="floatnone"><span style="font-family: verdana, geneva;"><a class="image" href="https://en.wikipedia.org/wiki/File:Proof_of_Work_solution_verification.svg"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Proof_of_Work_solution_verification.svg/550px-Proof_of_Work_solution_verification.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Proof_of_Work_solution_verification.svg/825px-Proof_of_Work_solution_verification.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Proof_of_Work_solution_verification.svg/1100px-Proof_of_Work_solution_verification.svg.png 2x" alt="Proof of Work solution verification.svg" width="550" height="151" data-file-width="459" data-file-height="126" /></a></span></div>
+        </div>
+        <h3>&nbsp;</h3>
+        <h3><span style="font-family: verdana, geneva; font-size: 5pt;"><strong>Source :wiki</strong></span></h3>
+        <h3><span style="font-family: verdana, geneva;"><strong>Proof of Work in Cryptocurrency Systems</strong></span></h3>
+        <p><span style="font-family: verdana, geneva;">Proof of work in Bitcoin (and other proof of work cryptocurrencies) function as a tool that is used to process blocks of transactions and add them to the blockchain. In other words, proof of work is utilized for block generation. The process of generating correct proofs in order to add a block to the blockchain is known as &lsquo;mining&rsquo; and the individuals that participate in the mining process are known as &lsquo;miners&rsquo;. Just like Hashcash, miners must take data from a&nbsp;<a href="/#/Crypto/Crypto/definition/AllDef/define/Block%20header" target="_blank" rel="nofollow noopener">block header</a>&nbsp;as an input, and repeatedly run it through a cryptographic hash function, which in this case for Bitcoin, is Secure Hash Algorithm 256 (SHA-256). Miners hash slight variations of the input data by including an arbitrary number (a nonce) each time the input data is ran through the cryptographic hash function. Similarly to Hashcash, the correct hash is found when a defined number of leading zero bits is found. Producing a correct hash value in cryptocurrency proof of work systems is a probabilistically low activity that requires the generation of a considerable number of hashes before a valid hash is arrived at. However, possessing higher computing power will translate to an increased likelihood of generating a valid hash, due to the individual being able to simply generate more hashes.</span></p>
+        <p><span style="font-family: verdana, geneva;">Proof of work cryptocurrency systems also include what is known as a network difficulty feature. Network difficulty is a measure of how difficult it is to find a hash below a target hash. A target hash is simply the number that the header of a hashed block must be equal or less than. For Bitcoin, the network difficulty is adjusted every 2016 blocks, based on the time it took to find the previous 2016 blocks. Discovering 2016 blocks is estimated to take approximately two weeks. So, if the previous 2016 blocks are found in less than two weeks, then the network difficulty is increased. Conversely, if the previous 2016 blocks took more than two weeks to find, the network difficulty is reduced. Network difficulty is dynamically adjusted to maintain a constant rate at which new blocks are generated, which for Bitcoin is one block every ten minutes.</span></p>
+        <p><span style="font-family: verdana, geneva;">With proof of work mining, miners are competing amongst themselves to find a correct hash value and gain the right to add a block to the blockchain. In exchange for committing the computational resources necessary to run numerous proofs, miners are rewarded with cryptocurrency e.g. bitcoins, which is known as a block reward. Other nodes on the network also verify that the miner has found the correct hash before the block is added to the chain. Cryptocurrency proof of work systems are constructed in such a manner that correct hashes are difficult to find, in that they are time-consuming and costly to produce, but they are also easily verifiable.</span></p>
+    </div>
+    <div *ngIf="title == 'Proof of Stake'">
+        <h1 class="contentTitle">{{title}}</h1>
+        <p>Many would have heard that bitcoin uses lot of electricity.</p>
+        <p>Why is that ? and What is the alternate ?</p>
+        <p>It makes use of enormous amount of electricity because of the <a href="/#/Crypto/Crypto/definition/AllDef/define/Proof%20of%20Work">proof of work</a> algorithm. Proof of work method went largely unused untill <a href="/#/Crypto/Crypto/definition/AllDef/define/Satoshi">satoshi</a>            came up with <a href="/#/Crypto/Crypto/definition/Bitcoin">bitcoin</a> in 2009.</p>
+        <p>Though it solves many problems it works by utlizing many nodes to solve a cryptographic puzzle.</p>
+        <p>Puzzles are solved by miners and the first one to solve the puzzle gets the mining reward. This has led to a situation where people started building larger and larger mining machines. Bitcoin miners alone uses 54 TWh of electricity which is enough
+            to power 5 million houses in US or even power the entry countyr of new zea land</p>
+        <p>To Solve this we need a new algorith which is efficient and less power consuming.&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><strong>Proof of stake</strong>&nbsp;(<strong>PoS</strong>) is a type of algorithm by which a <a title="Cryptocurrency" href="/#/Crypto/Crypto/definition/AllDef/define/Cryptocurrency">cryptocurrency</a>&nbsp;<a class="mw-redirect" title="Blockchain (database)"
+                href="/#/Crypto/Crypto/definition/AllDef/define/Blockchain">blockchain</a>&nbsp;network aims to achieve&nbsp;distributed consensus. In PoS-based cryptocurrencies the creator of the next block is chosen via various combinations of random selection
+            and wealth or age (<em>i.e.,</em>&nbsp;the stake). In contrast, the algorithm of&nbsp;<a title="Proof-of-work system" href="/#/Crypto/Crypto/definition/AllDef/define/Proof%20of%20Work">proof of work</a> algorithm. Proof of work method went
+            largely unused"&gt;proof-of-work-based cryptocurrencies such as&nbsp;<a title="Bitcoin" href="/#/Crypto/Crypto/definition/Bitcoin">bitcoin</a>&nbsp;uses&nbsp;<a title="Bitcoin network" href="/#/Crypto/Crypto/definition/AllDef/define/mining">mining</a>;
+            that is, the solving of computationally intensive puzzles to validate transactions and create new blocks.</p>
+        <p>&nbsp;</p>
+        <p>Proof of stake presents itself as taking a novel approach with regard to block generation on a blockchain. With proof of work, as previously mentioned, miners who find the correct hash are allowed to generate new blocks and are rewarded for doing
+            so. However, with proof of stake systems, individuals that are chosen to generate a block, also known as validators, depend on a different set of criteria. This criteria differs depending on the proof of stake system, but largely speaking,
+            a validator is chosen to generate a new block based on their economic stake in the network. A validator&rsquo;s economic stake can include:</p>
+        <p>&nbsp;</p>
+        <p><strong>Relative value:</strong>&nbsp;The relative value of coins held in the validator&rsquo;s wallet, which is equal to: the total value of coins in the validator&rsquo;s wallet divided by the total value of coins on the network. Validators
+            are selected to generate a new block with a probability that is proportional to the amount of coins that the validator possesses. Thus, the more coins a validator houses in his wallet, the increased likelihood of being selected to generate
+            a block.</p>
+        <p><strong>Coin age:</strong>&nbsp;Some proof of stake systems also take into account the length of time that a validator has held coins in their wallet, with this criteria being referred to as &lsquo;coin age&rsquo;. Coin age is defined as the coin
+            amount multiplied by the number of days that the coins have been held in a wallet. Therefore, a validator possessing a large holding of coins over a lengthy time-period is more likely to be selected to generate a new block.</p>
+        <h2><span id="Advantages" class="mw-headline" style="font-size: 12pt;">Advantages</span></h2>
+        <p>Incentives differ between the two systems of block generation. Under proof of work, miners may potentially own none of the currency they are mining and thus seek only to maximize their own profits. It is unclear whether this disparity lowers or
+            raises security risks.&nbsp;<sup id="cite_ref-pow-pos-debate_10-0" class="reference"></sup>Under proof of stake, however, those "guarding" the coins always own the coins, although several cryptocurrencies do allow or enforce the lending of
+            staking power to other nodes.</p>
+        <p><strong>Criticism</strong></p>
+        <p>One issue that can arise is the "nothing-at-stake" problem, wherein block generators have nothing to lose by voting for multiple blockchain histories. The problem describes an event in which two blocks are produced at the same time, which results
+            in two competing blockchains. In this scenario, validators are incentivized to form blocks on top of both competing chains just to be sure that they are backing the chain that will eventually win out. However, the problem here is that if it
+            is presumed that validators are economically rational, then convergence of the two chains might not occur, and one chain may never win out, thereby preventing consensus from being achieved. Because unlike in proof-of-work systems, there is
+            little cost to working on several chains</p>
+        <p>The nothing at stake problem can be overcome through the use of a ‘slashing’ strategy. This solution involves penalizing validators that simultaneously form blocks on multiple chains. Penalization can be in the form of slashing a validator’s deposit
+            that they have served up as collateral.</p>
+
+        <p>Cardano and Etherium are currenlty working on their projects to implement proof of stake</p>
+    </div>
+    <div *ngIf="title == 'Programming'">
+        <h1 class="contentTitle">{{title}}</h1>
+        <h2><span style="font-size: 12pt;">Top Blockchain Programming Languages &ndash;</span></h2>
+        <ol>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Simplicity</li>
+            <li>Solidity</li>
+            <li>GOLang</li>
+            <li>Javascript</li>
+        </ol>
+        <h2><span style="font-size: 12pt;"><strong>Best Blockchain Programming Language</strong></span></h2>
+        <p>There are several programming languages that can help you create applications for blockchain. You may use any of the traditional ones like C++, Java and Python, or, others like Simplicity and Solidity &ndash; that are new and more specific to
+            blockchain.
+        </p>
+        <p>Let&rsquo;s take a closer look at these one blockchain programming language at a time.</p>
+        <h2><span style="font-size: 12pt;">1. C++</span></h2>
+        <p>C++ was developed as an extension to the more rudimentary C programming language. The object-oriented C++ was built on the process-oriented C.</p>
+        <p>This is perhaps the biggest difference between the two languages. C++ packs data and its functions into &lsquo;objects&rsquo;, which can be called into and unpacked for use in other programs easily.</p>
+        <p>This blockchain programming language allows for effective management of resources and offers greater control over memory. Blockchain requires many users and miners to interact and operate both systematically and simultaneously.</p>
+        <p>C++ creates applications that can not only coordinate between numerous endpoints but also process their interactions quickly. It&rsquo;s why blockchain projects like <strong>Bitcoin, Ethereum, and Ripple were all written in C++.</strong></p>
+        <p>learning resources:</p>
+        <ul>
+            <li><a href="https://github.com/bitcoin/bitcoin" target="_blank" rel="noopener">Bitcoin Core</a></li>
+            <li><a href="https://github.com/ripple/rippled" target="_blank" rel="noopener">Ripple Daemon</a></li>
+            <li><a href="http://www.cplusplus.com/doc/tutorial/" target="_blank" rel="noopener">C++ Tutorial</a></li>
+        </ul>
+        <h2><span style="font-size: 12pt;">2. Java</span></h2>
+        <p>Java has been crucial for the worldwide web. Some would argue it is at the heart of it along with HTML and CSS. The blockchain programming language is traditional and useful in creating highly interactive webpages.</p>
+        <p>It is also now useful in making simple and immutable blockchains. Immutability makes it impossible for anyone to change the contents in a block after it has been verified or &ldquo;hashed&rdquo;.</p>
+        <p>Every new block, which is added to a blockchain includes the hash of the previous block along with a new hash for the new block.</p>
+        <p>Once hashed, any change in its content will produce a new &ldquo;previousHash&rdquo;, which will deter the new block from being added to the chain till its contents match with the contents of the previous block, thereby maintaining immutability.</p>
+        <h2><span style="font-size: 12pt;">3. Python</span></h2>
+        <p>Python was created by a Dutch programmer named Guido van Rossum in 1991. His goal was to create a simple and minimalistic programming language.</p>
+        <p>The syntax and logic of this blockchain programming language uses reflects this very ambition of the creator. Python is, hence, a top language for software and web development.</p>
+        <p>It is popular among developers, data scientists. It is now also a top blockchain programming language.</p>
+        <p><strong><em>Learning Resources</em></strong></p>
+        <ul>
+            <li><a href="https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html" target="_blank" rel="noopener">IBM Blockchain Foundations Tutorial&nbsp;</a></li>
+            <li><a href="https://web3py.readthedocs.io/" target="_blank" rel="noopener">Ethereum Web Wrapper</a></li>
+        </ul>
+        <h2><span style="font-size: 12pt;">4. Simplicity</span></h2>
+        <p>Simplicity is a blockchain programming language that was designed for smart contracts. This blockchain programming language is so easy, claimed its creator Russel O&rsquo;Connor, that &ldquo;it fits on a t-shirt&rdquo;.</p>
+        <p>Solidity is an attempt to improve basic cryptocurrency languages like Bitcoin Script and<strong> Ethereum Virtual Machine (EVM)</strong>. It uses static analysis &ndash; a technique that enables a universal algorithm to determine the cost of running
+            any Simplicity program &ndash; to prevent programs from &ldquo;running out of gas&rdquo; during analysis.</p>
+        <p>O&rsquo;Connor and his company, Blockstream, hope that the language will be included in Bitcoin after its features are carefully examined.</p>
+        <h2><span style="font-size: 12pt;">5. Solidity&nbsp;&nbsp;</span></h2>
+        <p>And at last, Solidity! This blockchain programming language is high-level and <strong>contract-based</strong>. Its script is similar to scripts of some of the languages listed above like Java, and it borrows concepts like variables, functions
+            and classes from them.</p>
+        <p>The language is easy to learn for programmers. Solidity offers plenty of explanation on how its code works for those who are interested in learning it.</p>
+        <p>The explanation might be difficult to follow, however, for those who are unfamiliar with modern programming languages. As the new language on the block, Solidity is in the process of becoming popular now.</p>
+        <p>The increase in number of courses and resources on the language is indicative of that, and the language is expected to contribute significantly to software technology by improving blockchain.</p>
+        <p><strong><em>Learning resources</em></strong></p>
+        <ul>
+            <li><a href="https://consensys.net/academy/" target="_blank" rel="noopener">Consensys Academy</a></li>
+            <li><a href="https://solidity.readthedocs.io/en/v0.4.24/" target="_blank" rel="noopener">Solidity Documentation</a></li>
+        </ul>
+        <p>&nbsp;</p>
+        <h3>6. GOLang</h3>
+        <p>The GO (short for GOLang) programming language is a relatively modern domain-general language developed at Google in 2007 &amp; unveiled for public use in 2012. Designed as a robust, multi-purpose language, GO was an attempt at combining the syntax
+            &amp; user-friendliness of modern languages such as Python &amp; Javascript, with the performance &amp; security advantages of older, compiled languages such as C.</p>
+        <p>GO is a compiled language &ndash; which means it runs directly within an operating system. This feature allows maximal flexibility when it comes to using GO for multiple parts of a blockchain project. Want to contribute directly to an existing
+            blockchain? Ethereum has a protocol SDK written in GO. Want to write a smart contract? The Linux-Foundation Hyperledger Fabric blockchain has that covered.</p>
+        <p><strong><em>Learning Resources</em></strong></p>
+        <ul>
+            <li><a href="https://golang.org/doc/" target="_blank" rel="noopener">Go Documentation</a></li>
+            <li><a href="https://github.com/ethereum/go-ethereum" target="_blank" rel="noopener">Go Ethereum</a></li>
+            <li><a href="https://github.com/hyperledger/fabric-sdk-go" target="_blank" rel="noopener">Hyperledger Fabric</a></li>
+        </ul>
+        <h3>&nbsp;</h3>
+        <h3><strong>7. JavaScript</strong></h3>
+        <p>JavaScript is a loosely-typed, scripting programming language for the web supported by all major browsers; it is the primary language used to enhance static HTML &amp; CSS pages to full-fledged UIs. A few of these common web UIs include animations,
+            refreshing pages, user menus &amp; dialog boxes, interactive maps, etc&hellip;</p>
+        <p>This language powering all webpage behaviors in modern browsers, Javascript, was never supposed to leave the highest-level presentation layer of a web app. Yet it&rsquo;s undeniable that Javascript took off, especially for newcomers, in an unprecedented
+            way. &nbsp;With Node.JS first placing Javascript server-side, then Angular/React/Vue basically rewriting the HTML/CSS stack client-side, full-stack Javascript has become all the rage. Without delving too deeply it&rsquo;s safe to say at least
+            a handful of veteran developers will groan at this recommendation. While there may be some merit to these complaints it doesn&rsquo;t render the following sentence false:</p>
+        <p><em>Javascript is very newcomer-friendly, maturing, &amp; now entrenched in all parts of the modern web stack.</em></p>
+        <p>For Javascript, the forefront runner in blockchain support is the Lisk blockchain project. Their landing page speaks volume in terms of their belief in building an entire blockchain ecosystem in Javascript: &ldquo;Lisk makes it easy for developers
+            to build and deploy blockchain applications in JavaScript.&rdquo;</p>
+        <p><strong><em>Learning Resources</em></strong></p>
+        <ul>
+            <li><a href="https://lisk.io/" target="_blank" rel="noopener">Lisk</a></li>
+        </ul>
+    </div>
+    <div *ngIf="title == 'Mining'">
+        <h1 class="contentTitle">{{title}}</h1>
+        <p>Cryptocurrency mining, or&nbsp;<em>cryptomining</em>, is a process in which transactions for various forms of&nbsp;<a href="/#/Crypto/Crypto/definition/AllDef/define/Cryptocurrency">cryptocurrency</a>&nbsp;are verified and added to the&nbsp;
+            <a href="/#/Crypto/Crypto/definition/AllDef/define/blockchain">blockchain</a>&nbsp;digital ledger. Also known as cryptocoin mining, altcoin mining, or&nbsp;<a href="/#/Crypto/Crypto/definition/AllDef/define/bitcoin">Bitcoin</a>&nbsp;mining
+            (for the most popular form of cryptocurrency, Bitcoin), cryptocurrency mining has increased both as a topic and activity as cryptocurrency usage itself has grown exponentially in the last few years.</p>
+        <p>Each time a cryptocurrency transaction is made, a cryptocurrency miner is responsible for ensuring the authenticity of information and updating the blockchain with the transaction. The mining process itself involves competing with other cryptominers
+            to solve complicated mathematical problems with cryptographic hash functions that are associated with a block containing the transaction data.</p>
+        <div id="mntl-sc-block_1-0-27" class="comp mntl-sc-block mntl-sc-block-html">
+            <p>In order for bitcoin miners to actually earn bitcoin from verifying transactions, two things have to occur. First, they must verify 1 megabyte (MB) worth of transactions, which can theoretically be as small as 1 transaction but are more often
+                several thousand, depending on how much data each transaction stores. This is the easy part.</p>
+        </div>
+        <div id="mntl-sc-block_1-0-28" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block">&nbsp;</div>
+        <div id="mntl-sc-block_1-0-29" class="comp mntl-sc-block mntl-sc-block-html">
+            <p>Second, in order to add a block of transactions to the blockchain, miners must solve a complex computational math problem, also called a "proof of work." What they're actually doing is trying to come up with a 64-digit hexadecimal number,
+                called a "hash," that is less than or equal to the target hash. Basically, a miner's computer spits out hashes at a rate of megahashes per second (MH/s), gigahashes per second (GH/s), or even terahashes per second (TH/s) depending on the
+                unit, guessing all possible 64-digit numbers until they arrive at a solution. In other words, it's a gamble.</p>
+        </div>
+        <p>The first cryptocurrency miner to crack the code is rewarded by being able to authorize the transaction, and in return for the service provided, cryptominers earn small amounts of cryptocurrency of their own. In order to be competitive with other
+            cryptominers, though, a cryptocurrency miner needs a computer with specialized hardware.</p>
+        <p><img id="mntl-sc-block-image_1-0-8" class=" lazyloaded" style="display: block; margin-left: auto; margin-right: auto;" src="https://www.investopedia.com/thmb/v7QCc2vCUcIapCE3q3HMktuMqYE=/660x513/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/BlockReward-5c0ad88946e0fb0001af7198.png"
+                srcset="https://www.investopedia.com/thmb/EAkO7HSlcUFHGNMgcOm7uVOwaAE=/300x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/BlockReward-5c0ad88946e0fb0001af7198.png 300w, https://www.investopedia.com/thmb/l83e3Rn3mBIQYmC403qUV7fKNa0=/390x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/BlockReward-5c0ad88946e0fb0001af7198.png 390w, https://www.investopedia.com/thmb/sIbwuQwBfYQF5YOk4aOHQ_-tFWw=/480x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/BlockReward-5c0ad88946e0fb0001af7198.png 480w, https://www.investopedia.com/thmb/URup7guRB6Eibv5qOXs7pTv0gDQ=/660x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/BlockReward-5c0ad88946e0fb0001af7198.png 660w"
+                width="405" height="315" data-srcset="https://www.investopedia.com/thmb/EAkO7HSlcUFHGNMgcOm7uVOwaAE=/300x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/BlockReward-5c0ad88946e0fb0001af7198.png 300w, https://www.investopedia.com/thmb/l83e3Rn3mBIQYmC403qUV7fKNa0=/390x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/BlockReward-5c0ad88946e0fb0001af7198.png 390w, https://www.investopedia.com/thmb/sIbwuQwBfYQF5YOk4aOHQ_-tFWw=/480x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/BlockReward-5c0ad88946e0fb0001af7198.png 480w, https://www.investopedia.com/thmb/URup7guRB6Eibv5qOXs7pTv0gDQ=/660x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/BlockReward-5c0ad88946e0fb0001af7198.png 660w"
+                data-src="https://www.investopedia.com/thmb/v7QCc2vCUcIapCE3q3HMktuMqYE=/660x513/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/BlockReward-5c0ad88946e0fb0001af7198.png" data-click-tracked="true" data-img-lightbox="true" data-expand="300"
+                data-tracking-container="true" /></p>
+        <p><strong>What is Difficulty level ?</strong></p>
+        <p>&nbsp;</p>
+        <div id="mntl-sc-block_1-0-36" class="comp mntl-sc-block mntl-sc-block-html">
+            <p>"Say I tell three friends that I'm thinking of a number between 1 and 100, and I write that number on a piece of paper and seal it in an envelope. My friends don't have to guess the exact number, they just have to be the first person to guess
+                any number that is less than or equal to the number I am thinking of. And there is no limit to how many guesses they get.</p>
+        </div>
+        <div id="mntl-sc-block_1-0-37" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block">&nbsp;</div>
+        <div id="mntl-sc-block_1-0-38" class="comp mntl-sc-block mntl-sc-block-html">
+            <p>"Let's say I'm thinking of the number 19. If Friend A guesses 21, they lose because 21&gt;19. If Friend B guesses 16 and Friend C guesses 12, then they've both theoretically arrived at viable answers, because 16&lt;19 and 12&lt;19. There is
+                no 'extra credit' for Friend B, even though B's answer was closer to the target answer of 19.</p>
+        </div>
+        <div id="mntl-sc-block_1-0-39" class="comp mntl-sc-block mntl-sc-block-adslot mntl-block">&nbsp;</div>
+        <div id="mntl-sc-block_1-0-40" class="comp mntl-sc-block mntl-sc-block-html">
+            <p>"Now imagine that I pose the 'guess what number I'm thinking of' question, but I'm not asking just three friends, and I'm not thinking of a number between 1 and 100. Rather, I'm asking millions of would-be miners and I'm thinking of a 64-digit
+                hexadecimal number. Now you see that it's going to be extremely hard to guess the right answer."</p>
+            <p>Mining needs a computer and a special program, which helps miners compete with their peers in solving complicated mathematical problems.</p>
+            <p>The reward for mining a block is now 12.5 bitcoins.</p>
+            <p>Earlier, only cryptography enthusiasts served as miners. However, as cryptocurrencies gained in popularity and increased in value, mining is now considered a lucrative business. Consequently, several people and enterprises have started investing
+                in warehouses and hardware.</p>
+            <p>As enterprises jumped into the fray, unable to compete, bitcoin miners have begun to join open pools, combining resources to effectively compete.</p>
+            <p>Steps to mine various cryptocurrencies :&nbsp;<a href="/#/mine">Here</a></p>
+        </div>
+    </div>
+    <div *ngIf="title == 'Wallet'">
+        <h1 class="contentTitle">{{title}}</h1>
+        <p><strong>What is a wallet ?</strong></p>
+        <p>Wallets are an essential factor of owning and investing in cryptocurrencies of any sort. Wallets for digital currencies are very similar to wallets for your hard, in-hand currencies, like dollars or euros; just a digitized version of your bank
+            account. They are used to buy and store your crypto, and send your crypto to others.</p>
+        <p>Cryptocurrency wallets are software programs that store your public and private keys and interface with various&nbsp;<a href="/#/Crypto/Crypto/definition/AllDef/define/Blockchain/">blockchain</a>&nbsp;so users can monitor their balance, send money
+            and conduct other operations. When a person sends you&nbsp;<a href="/#/Crypto/Crypto/definition/AllDef/define/bitcoin">bitcoins</a>&nbsp;or any other type of digital currency, they are essentially signing off ownership of the coins to your
+            wallet&rsquo;s address. To be able to spend those coins and unlock the funds, the private key stored in your wallet must match the public address the currency is assigned to. If public and private keys match, the balance in your digital wallet
+            will increase, and the senders will decrease accordingly. There is no actual exchange of real coins. The transaction is signified merely by a transaction record on the&nbsp;<a href="/#/Crypto/Crypto/definition/AllDef/define/Blockchain/">blockchain</a>&nbsp;and
+            a change in balance in your cryptocurrency wallet.</p>
+        <p><strong>What happens when you keep cryptocurrency in exchanges ?..</strong></p>
+        <p>Using exchanges is not always equivalent to storing your <a href="/#/Crypto/Crypto/definition/AllDef/define/cryptocurrency/" data-wpel-link="internal">cryptocurrencies </a>in a wallet. Keeping your money on an exchange can cause great vulnerabilities
+            to your holdings. This is because exchanges are always online, and you do not own the keys when on an exchange. Exchanges are the easiest to hack, and often are. They can also crash, and leave you in a difficult position with price fluctuations,
+            or cancel your account and seize your funds, a quality that wallets do not have.<em>&nbsp;</em>Some exchanges, like Coinbase, also function as digital wallets.</p>
+        <p><strong>Major Types of Wallets</strong></p>
+        <p><strong>Hot Storage Wallets</strong></p>
+        <p>If you are holding onto your crypto for longer periods, you definitely do not want to hold them in certain wallets that are more vulnerable to attacks. These would be hot wallets, and online web wallets or mobile wallets. Hot wallets are ones
+            that are easily connected to the internet, and therefore accessible through the internet anywhere (although, they are not always connected to the internet). Hot storage wallets are much more susceptible to attacks and hackers because of this
+            and the wallet being storedsomewhere online.</p>
+        <p><strong>Cold storage wallets</strong></p>
+        <p>Cold storage wallets,which are not connected to the internet, would be better for the purpose of storing cryptocurrencies for long term purposes. The types of wallets you will need will vary based on what you planned to do with your cryptocurrencies,
+            like holding long-term, or trading more frequently.&nbsp;</p>
+        <p>Wallets for cryptocurrencies can come in different forms, with different levels of security and pros and cons for using them. The main two are hardware and software wallets, and also the variations of hot storage or cold storage, but there are
+            other kinds as well that typically fall within one of these categories.</p>
+        <p>Below we explain different types of wallets, so you can grow an understanding and determine which one will be the best for you! You can also visit our pages for hardware wallets, software wallets, and online web wallet interfaces and generators
+            for more information on those types specifically. We will be publishing various types of wallet reviews in the coming future!</p>
+        <p>&nbsp;</p>
+        <p><strong>Types of wallet&nbsp;</strong></p>
+        <p>&nbsp;</p>
+        <p>Wallets can be broken down into three distinct categories &ndash; software, hardware, and paper. Software wallets can be a desktop, mobile or online.</p>
+        <p>&nbsp;</p>
+        <p><strong>Desktop:</strong>&nbsp;</p>
+        <p>Desktop wallets are downloaded and installed on a PC or laptop. They are only accessible from the single computer in which they are downloaded. Desktop wallets offer one of the highest levels of security however if your computer is hacked or gets
+            a virus there is the possibility that you may lose all your funds.</p>
+        <p>&nbsp;</p>
+        <p><strong>Online:&nbsp;</strong></p>
+        <p>Online wallets run on the cloud and are accessible from any computing device in any location. While they are more convenient to access, online wallets store your private keys online and are controlled by a third party which makes them more vulnerable
+            to hacking attacks and theft.</p>
+        <p>&nbsp;</p>
+        <p><strong>Mobile:&nbsp;</strong></p>
+        <p>Mobile wallets run on an app on your phone and are useful because they can be used anywhere including retail stores. Mobile wallets are usually much smaller and simpler than desktop wallets because of the limited space available on a mobile.</p>
+        <p>&nbsp;</p>
+        <p><strong>Hardware:&nbsp;</strong></p>
+        <p>Hardware wallets differ from software wallets in that they store a user&rsquo;s private keys on a hardware device like a USB. Although hardware wallets make transactions online, they are stored offline which delivers increased security.&nbsp;
+            <a href="/#/commonwallet" rel="nofollow">Hardware wallets</a>can be compatible with several web interfaces and can support different currencies; it just depends on which one you decide to use. What&rsquo;s more, making a transaction is easy.
+            Users simply plug in their device to any internet-enabled computer or device, enter a pin, send currency and confirm. Hardware wallets make it possible to easily transact while also keeping your money offline and away from danger.</p>
+        <p>&nbsp;</p>
+        <p><strong>Paper:</strong>&nbsp;wallets are easy to use and provide a very high level of security. While the term paper wallet can simply refer to a physical copy or printout of your public and private keys, it can also refer to a piece of software
+            that is used to securely generate a pair of keys which are then printed. Using a paper wallet is relatively straightforward. Transferring Bitcoin or any other currency to your&nbsp;paper wallet&nbsp;is accomplished by the transfer of funds
+            from your software wallet to the public address shown on your paper wallet. Alternatively, if you want to withdraw or spend currency, all you need to do is transfer funds from your paper wallet to your software wallet. This process, often
+            referred to as &lsquo;sweeping,&rsquo; can either be done manually by entering your private keys or by scanning the QR code on the paper wallet.</p>
+        <p>&nbsp;</p>
+        <p><a href="/#/commonwallet"><strong>List of Various Crypto Wallets</strong></a></p>
+        <p><a href="/#/wallet"><strong>Steps to create Wallets for different cryptocurrency</strong></a></p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    </div>
+    <div *ngIf="title == 'Anonymity'">
+        <h1 class="contentTitle">{{title}}</h1>
+        <h1><span style="font-size: 16pt;">What are anonymity of cryptocurrencies?</span></h1>
+        <div class="page-content mb-5">
+            <p>In a society where our privacy is constantly under threat, lack of privacy in process of purchase of cryptocurrencies is not an exception. Therefore, one of the most important aspects of cryptocurrency is the privacy of the&nbsp;transaction.&nbsp;Many
+                perceived&nbsp;
+                <a href="/#/Crypto/Crypto/definition/Bitcoin">Bitcoin</a>&nbsp;as privacy coins or payment mode in its early years. Its was believed to be one of the great promises of this technology &ndash; anonymity. The transactions are recorded and
+                made public, but they are linked only with an electronic address. It means that you can preserve your privacy as long as the pseudonym is not linked to you.</p>
+            <p>In fact, many blockchains only disguise users&rsquo; identities while leaving behind a public record of all transactions that have occurred on the&nbsp;<a href="/#/Crypto/Crypto/definition/AllDef/define/Blockchain">blockchain</a>. The data
+                in the ledger often includes how many tokens a user has received or sent in historical transactions, as well as the balance of any cryptocurrency that they have within their wallet.</p>
+            <p>Therefore, there is a solution to the privacy issue &ndash;&nbsp;<strong>privacy coins</strong>.&nbsp;Privacy coins are the safest way for users to make blockchain transactions without their financial details being exposed to the public. These
+                platforms typically have several privacy-centric functions, like stealth addresses or private transactions, which can be used to hide user information on blockchains.</p>
+            <p>Although privacy coins are often portrayed as controversial, they are widely used by the privacy enthusiasts.&nbsp;Enhanced privacy and anonymity is an&nbsp;attraction for criminals and those engaged in illegal activities, as you probably
+                already noticed, this became the main narrative against bitcoin and cryptocurrencies in general.&nbsp;Of course, embracing privacy and anonymity doesn&rsquo;t mean you are engaged in illegal activities, it just simply means that you&rsquo;re
+                redeeming your rights to have absolute control over your privacy. The main idea of privacy coins retrieve your innate rights to rights privacy.&nbsp;To understand the core of private cons we will explain few privacy coins in great detail.</p>
+            <h2>Monero</h2>
+            <p>Monero allows its users to have a firm command over the privacy of their data by keeping transaction information completely anonymous within the blockchain.&nbsp;It is cryptographically private by default, utilizing several privacy features
+                &ndash; most prominently being&nbsp;<strong>stealth addresses</strong>,&nbsp;<strong>ring confidential transactions</strong>&nbsp;and a&nbsp;<strong>ring signature</strong>.</p>
+            <p>Monero uses a&nbsp;<strong>network of stealth addresses,</strong>&nbsp;one-time use address that is created for every transaction, in order to allow users to disconnect themselves from the blockchain. The&nbsp;private coin&nbsp;users also
+                have a public addresses that are published on the blockchain, but most of their transactions will be passed through unique stealth addresses.</p>
+            <p><strong>Ring Confidential Transactions&nbsp;</strong>(also called RingCT) works by creating cryptographic proof that can show that the input and output amounts are equal, without revealing any of the actual numbers.&nbsp;This feature hides
+                the amount of each transaction on Monero&rsquo;s network.</p>
+            <p>Monero is&nbsp;offering a high grade of privacy, it is impossible to link any transaction back to any one user in network. Only the sender is able to generate and send the spend key, and only the actual recipient will be able to detect the
+                key and spend the funds linked to it.&nbsp;To ensure that, Monero uses&nbsp;<strong>ring signature,&nbsp;</strong>that is a digital signature that is created by bringing a group of signers together. The digital signature brings multiple
+                signers (usually 5) into each transaction.</p>
+            <p>With these inherently straightforward and easy to understand features, Monero has managed to remain relevant in the crypto space while offering users a completely untraceable cryptocurrency platform.&nbsp;It was launched in 2014, and since
+                then it has grown to become one of the most stable and secure privacy coins released to date. Monero platform is the product of a Bitcoin fork but, unlike Bitcoin, it was created with several features that ensures anonymity.</p>
+            <h2>Zcash</h2>
+            <p>Zcash uses a different approach to be truly anonymous. Zcash started as a fork of the bitcoin blockchain on October 28, 2016. Earlier it was called the Zerocoin protocol before it was transformed into the Zerocash system and then finally,
+                Zcash.
+            </p>
+            <p>The primary privacy feature that Zcash uses is&nbsp;<strong>zero-knowledge Succinct Non-Interactive Argument of Knowledge proofs</strong>&nbsp;(zk-SNARKs). Zk-SNARKs enables&nbsp;traders to reveal the number of coins they have to another individual
+                without fear of any additional information being leaked.&nbsp;The cryptography behind zk-SNARKs allows for all transaction data to be private and encrypted.&nbsp;The process of creating a transaction with zero-knowledge proofs (zk-SNARKs)
+                is slow and costly &ndash; requiring that you run a full node that demands up to 4GB of RAM until the&nbsp;transaction is sent.</p>
+            <p>Zcash, by its design, has optional anonymity and privacy features.&nbsp;It is important to note that using privacy features is optional, as users can choose between a public and private addresses.</p>
+            <h2>Dash</h2>
+            <p>Dash is a bit different from the previously mentioned coins.&nbsp;Dash functions similar to Bitcoin, in that the blockchain is transparent by default while offering optional privacy by way of mixing.&nbsp;But in addition to Bitcoin&rsquo;s
+                core features, Dash also includes the option for instant and private transactions.</p>
+            <p>Dash is not cryptographically private, it promises privacy through mixing, utilizing a modified version of&nbsp;<strong>CoinJoin</strong>. CoinJoin is an anonymization method for Bitcoin transactions.&nbsp;Using this method transactions &nbsp;are
+                attached together in order to make a&nbsp;<em>joint payments</em>. But unlike a traditional joint payments, the value that was exchanged by each party and the place that the payment ended up are completely undiscoverable by third parties.</p>
+            <p>Dash in your digital wallet consists of disparate&nbsp;<em>inputs</em>&nbsp;that serve as separate, discreet coins. It breaks these transaction inputs down into standard denominations and mixes them with the inputs of two other people without
+                your coins ever leaving your wallet.&nbsp;<strong>Masternodes</strong>&nbsp;are introduced to the network for the purpose of validating transactions on the second tier of the service, which facilitates private and instant transactions
+                as well as governance features. In order to run a masternode, a user must have at least 1,000 tokens in their wallet.</p>
+            <p>Privacy coins are a niche group of cryptocurrencies, there is no end to the possibilities with privacy coins and with the market more robust than ever, now might be the time to consider these exciting anonymous digital assets. Although some
+                people may have no concerns about whether their transaction history is discoverable by third parties, others might adamantly refuse to participate in any cryptocurrency platform that cannot guarantee them complete privacy.</p>
+        </div>
+
+    </div>
+    <div *ngIf="title == 'Fungibiity'">
+        <h1 class="contentTitle">{{title}}</h1>
+        <p><span style="font-size: 12pt;">Fungible cryptocurrencies represent the overwhelming majority of tokens on the market.&nbsp;<em>Fungible</em>&nbsp;tokens are digital assets built so that each individual token (or fraction of a token) is equivalent to the next.</span></p>
+        <p><span style="font-size: 12pt;">For example, fiat money is fungible as $20 notes are interchangeable with all other (real) $20 notes. Similarly, one Bitcoin&nbsp;is equal to one Bitcoin, and it&rsquo;s equal to all other Bitcoins.</span></p>
+        <p><span style="font-size: 12pt;">This makes&nbsp;<em>fungibility</em>&nbsp;completely essential to the concept of currency, whether they be crypto or otherwise.</span></p>
+        <p><span style="font-size: 12pt;">Another defining factor of&nbsp;<em>fungibility</em>&nbsp;is the ability to change that $20 note into smaller denominations and<em>&nbsp;still retain</em>&nbsp;the same overall value. I mean, I can swap my $20 note for two $10s and not have lost any money along the way. Neat.</span></p>
+        <p><span style="font-size: 12pt;">Using Bitcoin as an example, I can swap half a Bitcoin for anyone else&rsquo;s half a Bitcoin, feeling confident that our Bitcoin halves hold the same value, despite being halves of different coins.</span></p>
+        <p>&nbsp;</p>
+        <p><span style="font-size: 12pt;">Non-fungible tokens are designed to be&nbsp;<em>special</em>. It&rsquo;s best to think of these kinds of tokens as representing unique, collectible items.</span></p>
+        <p><span style="font-size: 12pt;">Consider precious gems. Diamonds, for example, come in all different sizes, grades, and cuts.</span></p>
+    </div>
+</div>

@@ -1,0 +1,111 @@
+input[type=text]:focus {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 67%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../../../../assets/images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.tokenSearch {
+    text-align: center;
+    padding-bottom: 30px;
+    background-image: url("../../../../assets/images/crypto.png");
+    background-size: cover;
+    opacity: 0.7;
+}
+
+p {
+    font-size: inherit;
+    text-align: justify;
+}
+
+.description {
+    height: 230px;
+}
+
+mat-card-content {
+    font-size: 12px;
+}
+
+mat-card-title {
+    font-size: 15px;
+}
+
+mat-card-subtitle {
+    font-size: 11px;
+}
+
+mat-card-header {
+    height: 80px;
+}
+
+.sourceToken {
+    height: 152px;
+}
+
+.btn-group button {
+    background-color: #4130af;
+    border: 0px solid #3d2faf;
+    color: white;
+    padding: 7px 9px;
+    cursor: pointer;
+    float: left;
+    margin: 2px;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+
+/* Add a background color on hover */
+
+.btn-group button:hover {
+    background-color: white;
+    color: #4130af;
+}
+
+.cardAction {
+    height: 70px;
+}
+
+button {
+    padding: 5px;
+}
+
+mat-card {
+    cursor: pointer;
+}
+
+mat-card:hover {
+    box-shadow: 0 12px 24px 0 rgba(19, 33, 47, 0.16), 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+@media(max-width: 600px) {
+    .cardAction {
+        height: auto;
+    }
+    .description {
+        height: auto;
+    }
+    mat-card-content {
+        font-size: 15px;
+    }
+}

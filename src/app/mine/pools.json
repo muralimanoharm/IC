@@ -1,0 +1,5578 @@
+{
+    "Response": "Success",
+    "Message": "",
+    "HasWarning": false,
+    "Type": 100,
+    "RateLimit": {},
+    "Data": {
+        "22513": {
+            "Id": "22513",
+            "Url": "/mining/pools/antpool/",
+            "LogoUrl": "/media/351043/antpool_.png",
+            "Name": "Antpool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://www.antpool.com/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "BTC",
+                "LTC",
+                "ETH",
+                "ZEC"
+            ],
+            "ServerLocations": [
+                "Asia"
+            ],
+            "PaymentType": [
+                "PPLNS",
+                "PPS",
+                "Solo"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@BITMAINtech",
+            "AverageFee": "2.43%",
+            "FeeExpanded": "Bitcoin\nPPLNS (0% Fee)\nPPS (-5% Fee)\nPPS+ (4% PPS Fee + 2% TX fee)\nSOLO (1% Fee)\n\nLitecoin\nPPLNS (0% Fee)\nPPS (1.5% Fee) \n\nEthereum\nPPLNS (0% Fee)\n\nZcash\nPPLNS (0% Fee)\nPPS (5% Fee)",
+            "MinimumPayout": "0.001 BTC; 0.001 LTC; 0.1 ETH;"
+        },
+        "22519": {
+            "Id": "22519",
+            "Url": "/mining/pools/slush-pool/",
+            "LogoUrl": "/media/351107/slush.png",
+            "Name": "Slush Pool ",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://slushpool.com/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "BTC",
+                "ZEC"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS",
+                "PPS",
+                "Solo"
+            ],
+            "MergedMiningCoins": [
+                "NMC"
+            ],
+            "Twitter": "@slush_pool",
+            "AverageFee": "1%",
+            "FeeExpanded": "BTC - 2%\nZEC - 0%",
+            "MinimumPayout": "0.001 BTC\n0.001 ZEC"
+        },
+        "22522": {
+            "Id": "22522",
+            "Url": "/mining/pools/bcmonster/",
+            "LogoUrl": "/media/351108/bcmonster.jpg",
+            "Name": "BCMonster",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://www.bcmonster.com/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "BTC",
+                "BTG",
+                "BCA",
+                "KMD"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@TheBCMonster",
+            "AverageFee": "1%",
+            "FeeExpanded": "All 1%",
+            "MinimumPayout": "0.001 BTC"
+        },
+        "22526": {
+            "Id": "22526",
+            "Url": "/mining/pools/bitminter/",
+            "LogoUrl": "/media/351109/bitminter.png",
+            "Name": "BitMinter",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://bitminter.com/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "BTC"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [
+                "NMC"
+            ],
+            "Twitter": "@BitMinter",
+            "AverageFee": "1%",
+            "FeeExpanded": "BTC - 1%",
+            "MinimumPayout": "0.01 BTC (fee exempt)\n0.0001 BTC (0.00002 BTC fee)"
+        },
+        "22530": {
+            "Id": "22530",
+            "Url": "/mining/pools/btcc/",
+            "LogoUrl": "/media/351110/btcc.png",
+            "Name": "BTCC",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://pool.btcc.com/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "BTC",
+                "LTC",
+                "BCH",
+                "SBTC"
+            ],
+            "ServerLocations": [
+                "Asia"
+            ],
+            "PaymentType": [
+                "PPS",
+                "FPPS",
+                "PPLNSG"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@YourBTCC",
+            "AverageFee": "3,25%",
+            "FeeExpanded": "BTC - 1%\nBCH - 4% \nSBTC - 4%\nLTC - 4%",
+            "MinimumPayout": "0.01 BTC\n0.01 LTC\n0.01 BCH\n0.01 SBTC"
+        },
+        "22541": {
+            "Id": "22541",
+            "Url": "/mining/pools/bw-mining/",
+            "LogoUrl": "/media/351112/bw.png",
+            "Name": "BW Mining",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://www.bw.com",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "BTC",
+                "ETH",
+                "LTC",
+                "ETC",
+                "UB"
+            ],
+            "ServerLocations": [
+                "Asia"
+            ],
+            "PaymentType": [
+                "PPLNS",
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@UKodzoev",
+            "AverageFee": "1.93%",
+            "FeeExpanded": "BTC:\nPPS 0%　\nPPS+ 4%　\nPPLNS 1%\n\nETH:\nPPS 1.5%　　\nPPLNS 1%\n\nETC:\nPPS 1.5%\n\nLTC:\nPPS 4.5%\n\nUB:\nPPS 3%\nPPS+ 4%",
+            "MinimumPayout": "0.005 BTC\n0.01 LTC\n0.1 ETH\n0.1 ETC"
+        },
+        "22576": {
+            "Id": "22576",
+            "Url": "/mining/pools/solockpool/",
+            "LogoUrl": "/media/351111/btcdig.png",
+            "Name": "Solo.CKPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://solo.ckpool.org/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Europe"
+            ],
+            "PaymentType": [
+                "Solo"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "BTC - 1%",
+            "MinimumPayout": "12.5 BTC (full block reward)"
+        },
+        "22596": {
+            "Id": "22596",
+            "Url": "/mining/pools/f2pool/",
+            "LogoUrl": "/media/30002274/f2pool.png",
+            "Name": "F2Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://www.f2pool.com",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "BTC",
+                "ETH",
+                "LTC",
+                "ZEC",
+                "ETC",
+                "SC",
+                "DASH",
+                "XMR",
+                "XMC",
+                "DCR",
+                "XZC",
+                "XVG"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS",
+                "PPS+"
+            ],
+            "MergedMiningCoins": [
+                "NMC",
+                "SYS",
+                "DOGE"
+            ],
+            "Twitter": "@F2Pool_Official",
+            "AverageFee": "3%",
+            "FeeExpanded": "BTC 0% (PPS+) \nLTC 4% (PPS)\nZEC 5% (PPS) \nETH 3% (PPS)\nETC 5% (PPS)\nSC 3% (PPS)\nDASH 0% (PPS)\nXMR 3% (PPS)\nXMC 3% (PPS)\nDCR 3% (PPS)\nXZC 5% (PPS)\nXVG 5% (PPS)",
+            "MinimumPayout": "0.005 BTC \n0.02 LTC\n0.1 ZEC\n0.1 ETH\n0.1 ETC\n100 SC\n0.1 DASH\n0.1 XMR\n0.1 XMC\n0.1 DCR\n200 XVG\n0.1 XZC"
+        },
+        "22625": {
+            "Id": "22625",
+            "Url": "/mining/pools/give-me-coins/",
+            "LogoUrl": "/media/351124/givemecoins.png",
+            "Name": "Give me Coins",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://give-me-coins.com",
+            "PoolFeatures": [
+                "Monitoring",
+                "Vardiff",
+                "Stratum"
+            ],
+            "Coins": [
+                "BTC",
+                "LTC",
+                "VTC",
+                "FTC",
+                "PPC",
+                "DASH",
+                "BCH"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [
+                "DOGE",
+                "NMC",
+                "SYS",
+                "ULTC",
+                "PTC"
+            ],
+            "Twitter": "@gmcoins",
+            "AverageFee": "0.6%",
+            "FeeExpanded": "LTC 0%\nBTC 0%\nVTC 0%\nBCH 0%\nMUE 0%\nFTC 1%\nPPC 1%",
+            "MinimumPayout": "0.05 LTC\n0.01 BTC\n1 FTC\n0.5 VTC\n0.1 PPC\n0.01 DASH\n0.1 MUE"
+        },
+        "22628": {
+            "Id": "22628",
+            "Url": "/mining/pools/bitclubpool/",
+            "LogoUrl": "/media/351125/bitclub.png",
+            "Name": "BitClub",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://bitclubpool.com/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "BTC",
+                "ETH"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@bcnbillionaire",
+            "AverageFee": "0%",
+            "FeeExpanded": "BTC - 0%\nETH - 0%",
+            "MinimumPayout": "0.001 BTC; 0.1 ETH"
+        },
+        "22634": {
+            "Id": "22634",
+            "Url": "/mining/pools/ethereumpoolco/",
+            "LogoUrl": "/media/351127/eth.png",
+            "Name": "EthereumPool.co",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://ethereumpool.co/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@Ethereumpool_co",
+            "AverageFee": "1%",
+            "FeeExpanded": "ETH - 1%",
+            "MinimumPayout": "0.1 ETH"
+        },
+        "22640": {
+            "Id": "22640",
+            "Url": "/mining/pools/nanopool/",
+            "LogoUrl": "/media/351150/nanopool.png",
+            "Name": "Nanopool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://nanopool.org/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "ETH",
+                "ETC",
+                "SC",
+                "ZEC",
+                "XMR",
+                "PASC",
+                "ETN"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Europe",
+                "U.S.A",
+                "Australia"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@nanopool_org",
+            "AverageFee": "1.43%",
+            "FeeExpanded": "ETH - 1%\nZEC - 1%\nETC - 1%\nSC - 2%\nETN - 2%\nXMR - 1%\nPASC - 2%",
+            "MinimumPayout": "0.05 ETH\n0.1 ETC\n500 SC\n0.01 ZEC\n100 ETN\n0.1 XMR\n0.5 PASC\n50 RVN"
+        },
+        "22643": {
+            "Id": "22643",
+            "Url": "/mining/pools/dwarf-pool/",
+            "LogoUrl": "/media/351128/dwarfpool.png",
+            "Name": "Dwarf Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://dwarfpool.com/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "ETH",
+                "XMR",
+                "EXP",
+                "GRS",
+                "ZEC"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "HBPPS",
+                "RBPPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@DwarfPool",
+            "AverageFee": "1%",
+            "FeeExpanded": "ETH - 1%; XMR - 1%; EXP - 1%; GRS - 1%; ZEC 1%R",
+            "MinimumPayout": "1.01ETH; 0.2 XMR;1.01 EXP; 1 GRS"
+        },
+        "22688": {
+            "Id": "22688",
+            "Url": "/mining/pools/coinotron/",
+            "LogoUrl": "/media/351129/coinotronlogo.png",
+            "Name": "Coinotron",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://www.coinotron.com",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "ETH",
+                "GRS",
+                "LTC",
+                "VIA",
+                "VTC",
+                "PPC",
+                "FTC",
+                "ETC"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNS",
+                "PPS",
+                "Prop",
+                "RBPPS"
+            ],
+            "MergedMiningCoins": [
+                "DOGE"
+            ],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "LTC - 1% (PPLNS); 2% (RBPPS2); 3% (PPS)\nETH 1.0% (PPLNS); 3.0% (RBPPS)\nETC 1.0% (PPLNS); 3.0% (RBPPS)\nDOGE  1.5% (PPLNS)\nDASH 1.5% (PPLNS)\nVIA 1.5% (PROP); 1.5% (PPLNS)\nPPC - 1.5% (PPS); 3.0% (RBPPS)",
+            "MinimumPayout": "0.1 LTC; 0.1 ETH; 0.1 ETC; 1000 DOGE; 0.1 DASH; 4 VIA; 0.1FTC; 0.02 VTC"
+        },
+        "22705": {
+            "Id": "22705",
+            "Url": "/mining/pools/ethpool/",
+            "LogoUrl": "/media/351130/ethpool.png",
+            "Name": "Ethpool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://ethpool.org/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Monitoring",
+                "Stratum"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Solo"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@etherchain_org",
+            "AverageFee": "1%",
+            "FeeExpanded": "ETH - 1%",
+            "MinimumPayout": "5 ETH"
+        },
+        "22717": {
+            "Id": "22717",
+            "Url": "/mining/pools/ethermine/",
+            "LogoUrl": "/media/351131/ethermine.png",
+            "Name": "Ethermine",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://ethermine.org/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@etherchain_org",
+            "AverageFee": "1%",
+            "FeeExpanded": "ETH - 0%",
+            "MinimumPayout": "0.1 ETH"
+        },
+        "22799": {
+            "Id": "22799",
+            "Url": "/mining/pools/coinmine/",
+            "LogoUrl": "/media/351145/coinminepl.png",
+            "Name": "Coinmine",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://www2.coinmine.pl",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH",
+                "DASH",
+                "EXP",
+                "GRS",
+                "PPC",
+                "QRK",
+                "SRC",
+                "START",
+                "WDC",
+                "DCR",
+                "ETC",
+                "LBC",
+                "VLT",
+                "ZEC",
+                "ZCL"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1.23%",
+            "FeeExpanded": "ETH - 1%; ZEC - 1%; DASH - 1%; EXP - 1%; DCR - 1%; GRS - 1.5%; PPC - 1.5%; QRK - 1.5%; SRC - 1.5%; WDC - 1.5%; START - 1.5%; ETC - 0%;  LBC - 1.5%; VLT - 1.5%; ZCL - 1%",
+            "MinimumPayout": "1 ETH; 0.1 ZEC; 0.1 DASH; 1 EXP; 1 DCR; 1 GRS; 1 PPC; 1 QRK; 1 SRC; 1 WDC; 1 START; 1 ETC; 1 LBC; 1 VLT"
+        },
+        "22897": {
+            "Id": "22897",
+            "Url": "/mining/pools/minergate/",
+            "LogoUrl": "/media/351151/minergate_logo_3.png",
+            "Name": "MinerGate",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://minergate.com/a/dd92c0652dae74b2e0ebc19a",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring",
+                "Smart Mining"
+            ],
+            "Coins": [
+                "BTC",
+                "ETH",
+                "LTC",
+                "XMR",
+                "BCN",
+                "QCN",
+                "XDN",
+                "DSH",
+                "AEON",
+                "FCN",
+                "MCN",
+                "INF8",
+                "ETC",
+                "ZEC",
+                "BTG",
+                "XMO"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS",
+                "PPS"
+            ],
+            "MergedMiningCoins": [
+                "FCN",
+                "MCN",
+                "XMO"
+            ],
+            "Twitter": "@minergate",
+            "AverageFee": "1.14%",
+            "FeeExpanded": "BTC - 1.5 % (PPS); 1 % (PPLNS)\nETH - 1 % (PPLNS)\nETC - 0 % (PPLNS)\nLTC - 1.5 % (PPS); 1 % (PPLNS)\nXMR - 1.5 % (PPS); 1 % (PPLNS)\nBCN - 1.5 % (PPS); 1 % (PPLNS)\nFCN - 1.5 % (PPS); 1 % (PPLNS)\nQCN - 1.5 % (PPS); 1 % (PPLNS)\nXDN - 1.5 % (PPS); 1 % (PPLNS)\nMCN - 1.5 % (PPS); 1 % (PPLNS)\nAEON - 1.5 % (PPS); 1 % (PPLNS)\nDSH - 1.5 % (PPS); 1 % (PPLNS)\nAEON - 1.5 % (PPS); 1 % (PPLNS)\nINF8 - 1.5 % (PPS); 1 % (PPLNS)",
+            "MinimumPayout": "BCN: 100; \nXMR: 0.1; \nXMO: 0.1; \nFCN: 0.01;\nQCN: 0.01; \nXDN: 1; \nMCN: 0.01; \nAEON: 0.01;\nDSH: 0.01; \nINF8: 0.01; \nLTC: 0.01; \nBTC: 0.01;\nETH: 0.001; \nETC: 0.001; \nZEC: 0.0001;"
+        },
+        "22903": {
+            "Id": "22903",
+            "Url": "/mining/pools/merge-mining-pool/",
+            "LogoUrl": "/media/351111/btcdig.png",
+            "Name": "Merge Mining Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "mmpool.org",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC",
+                "DEV",
+                "I0C"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "DGM",
+                "PPS"
+            ],
+            "MergedMiningCoins": [
+                "NMC",
+                "DEV",
+                "I0C",
+                "GRP",
+                "UNO",
+                "SYS"
+            ],
+            "Twitter": "",
+            "AverageFee": "1.5%",
+            "FeeExpanded": "BTC - 1.5%",
+            "MinimumPayout": "n/a"
+        },
+        "23045": {
+            "Id": "23045",
+            "Url": "/mining/pools/multipool/",
+            "LogoUrl": "/media/351158/multipool.png",
+            "Name": "Multipool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://www.multipool.us",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring",
+                "Smart Mining"
+            ],
+            "Coins": [
+                "BTC",
+                "LTC",
+                "DASH",
+                "ANC",
+                "AUR",
+                "BXT",
+                "CANN",
+                "CAP",
+                "DGB",
+                "DGC",
+                "FRC",
+                "IXC",
+                "KARM",
+                "MEC",
+                "MOON",
+                "MZC",
+                "NAUT",
+                "NOTE",
+                "NVC",
+                "PPC",
+                "SPT",
+                "START",
+                "TIPS",
+                "TRC",
+                "UNB",
+                "URO",
+                "WDC",
+                "ZET"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS",
+                "Prop"
+            ],
+            "MergedMiningCoins": [
+                "NMC",
+                "UNO",
+                "DOGE",
+                "MYRH",
+                "VIA",
+                "UIS"
+            ],
+            "Twitter": "@Multipool",
+            "AverageFee": "1.455%",
+            "FeeExpanded": "BTC - 0%;  BXT - 1.5%; LTC - 1.5%; DASH - 1.5%; ANC - 1.5%; AUR - 1.5%; CANN - 1.5%; CAP - 1.5%; DGB - 1.5%; DGC - 1.5%; FRC - 1.5%; IXC - 1.5%; KARM - 1.5%; MEC - 1.5%; MOON - 1.5%; MZC - 1.5%; NAUT - 1.5%; NOTE - 1.5%; NVC - 1.5%; PPC - 1.5%; SPT - 1.5%; START - 1.5%; TIPS - 1.5%; TRC - 1.5%; UNB - 1.5%; URO - 1.5%; WDC - 1.5%; ZET - 1.5%; MYRH - 1.5\n\nNMC - 1.5%; UNO - 1.5%; DOGE - 1.5%; MYRH - 1.5%; VIA - 1.5%; UIS - 1.5%",
+            "MinimumPayout": "0.001BTC; 0.001 BXT; 0.01 LTC; 0.1 DASH; 0.1 ANC; 0.01 AUR; 1 CANN; 1 CAP; 1 DGB; 1DGC ; 1 FRC; 0.005 IXC; 1 KARM; 1 MEC; 500 MOON; 1 MZC, 0.1 NAUT; 0.001 NOTE; 0.1 NVC; 0.01 PPC; 1 SPT; 0.01 START, 10 TIPS; 1 TRC; 1 UNB; 0.1 URO; 1 WDC; 1 ZET\n\n0.01 NMC; 0.0001 UNO; 10 DOGE; 1 MYRH; 0.1 VIA; 0.01 UIS"
+        },
+        "23065": {
+            "Id": "23065",
+            "Url": "/mining/pools/kanopool/",
+            "LogoUrl": "/media/351111/btcdig.png",
+            "Name": "KanoPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://www.kano.is/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@kanobtc",
+            "AverageFee": "0.9%",
+            "FeeExpanded": "BTC - 0.9%",
+            "MinimumPayout": "After 100 confirmations"
+        },
+        "23071": {
+            "Id": "23071",
+            "Url": "/mining/pools/suprnova/",
+            "LogoUrl": "/media/351160/supernova.png",
+            "Name": "Suprnova",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://www.suprnova.cc/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH",
+                "LTC",
+                "DASH",
+                "EXP",
+                "DCR",
+                "KR",
+                "HODL",
+                "ESP",
+                "MER",
+                "INV",
+                "MNM",
+                "TTC",
+                "NEVA",
+                "FRN",
+                "DNET",
+                "AMBER",
+                "BTA",
+                "SIB",
+                "MONA",
+                "GRS",
+                "EAC",
+                "GB",
+                "CSC",
+                "DGB",
+                "GMC",
+                "XVG",
+                "START",
+                "GRT",
+                "QTL",
+                "FLO",
+                "XVC",
+                "GEO",
+                "CANN",
+                "XMG",
+                "WOOD",
+                "BELLA",
+                "SPR",
+                "MYRGRS",
+                "KUC",
+                "DEM",
+                "CHEM",
+                "ETC",
+                "LBC",
+                "BBR",
+                "KRB",
+                "RBIT",
+                "BENJI",
+                "XCN",
+                "VLT",
+                "XRE",
+                "ZEC",
+                "ZCL",
+                "KMD",
+                "BCH"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Australia",
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [
+                "VIA",
+                "UNI"
+            ],
+            "Twitter": "@SuprnovaPools",
+            "AverageFee": "0.92%",
+            "FeeExpanded": "ETH - 1%; ZEC - 1%; ETC - 1%LTC - 1%; DASH - 0%; EXP - 1%; DCR - 1%; KR - 1%; HODL - 1%; ESP - 1%; XRE - 1%; MER - 1%; INV - 1%; MNM - 1%; HVCO - 1%; TTC - 1%; LOCO - 1%; NEVA - 1%; FRN - 1%; DNET - 1%; AMBER - 1%; BTA - 1%; SIB - 1%; MONA - 1%; GRS - 0 %; EAC - 1%; GB - 1%; CSC - 1%; DGB - 1%; GMC - 1%; XVG - 1%; START - 0%; GRT - 1%; QTL - 1%; FLO - 1%; WOOD - 1%; XVC - 1%; GEO - 1%; CANN - 1%; XMG; INCP - 1%;LBC - 1%; BBR - 1%; KRB - 1%; RBIT - 1%; BENJI - 1%; XCN - 1%; VLT - 1%; XRE - 1%; ZCL - 1%;KMD - 1%",
+            "MinimumPayout": "0.01 ETH; 0.01 ZEC; 0.01 ETC; 0.1 DASH; 0.01 EXP; 0.5 DCR; 0.01 KR; 0.1 HODL; 1  ESP; 0.1  XRE; 0.1 MRE;  0.1  INV; 0.1  MNM; 0.1HVCO; 0.1 TTC;  0.1 LOCO;  0.1 NEVA; 0.1  FRN; 0.1 DNET; 0.1 UTH; 0.1 AMBER; 0.1 BTA;  0.1 SIB; 0.1 MONA; 0.1 GRS; 0.1 EAC; 0.1 GB; 0.1 CSC; 0.1 DGB; 0.1 GMC; 0.1  XVG; 0.1 START; 0.1 GRT; 0.1 QTL; 0.1 FLO; 0.1 WOOD; 0.01  XVC; 0.1 GEO; 0.1 CANN; 0.1 VIA; 0.1 LTC; 0.1 XMG; INCP - 0.1; LBC - 0.1; BBR - 0.1; KRB - 0.1; RBIT - 0.1; BENJI - 0.1; XCN - 0.1; VLT - 0.1; XRE - 0.1;KMD - 0.1"
+        },
+        "23109": {
+            "Id": "23109",
+            "Url": "/mining/pools/litecoinpool/",
+            "LogoUrl": "/media/351161/litecoinpool.png",
+            "Name": "Litecoinpool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://www.litecoinpool.org/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring",
+                "Smart Mining"
+            ],
+            "Coins": [
+                "LTC"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@ltcpool",
+            "AverageFee": "0%",
+            "FeeExpanded": "LTC - 0%",
+            "MinimumPayout": "0.01 LTC"
+        },
+        "23171": {
+            "Id": "23171",
+            "Url": "/mining/pools/tbdice/",
+            "LogoUrl": "/media/351165/ltc.png",
+            "Name": "TBDice",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://ltc.tbdice.org/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "LTC"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Solo"
+            ],
+            "MergedMiningCoins": [
+                "DOGE"
+            ],
+            "Twitter": "",
+            "AverageFee": "0.5%",
+            "FeeExpanded": "LTC - 0.5%; DOGE - 5%",
+            "MinimumPayout": "25 LTC; 10000 DOGE"
+        },
+        "23211": {
+            "Id": "23211",
+            "Url": "/mining/pools/dashminer/",
+            "LogoUrl": "/media/351166/dashminer.png",
+            "Name": "DashMiner",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://dashminer.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "DASH",
+                "BTC"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@dashminerpool",
+            "AverageFee": "1%",
+            "FeeExpanded": "BTC - 1%; DASH - 1%",
+            "MinimumPayout": "0.0001 BTC; 0.0001 DASH"
+        },
+        "23240": {
+            "Id": "23240",
+            "Url": "/mining/pools/decredpool/",
+            "LogoUrl": "/media/351194/dcr.png",
+            "Name": "DecredPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://www.decredpool.org/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "DCR"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "DCR - 0%",
+            "MinimumPayout": "1 DCR"
+        },
+        "23243": {
+            "Id": "23243",
+            "Url": "/mining/pools/zpool/",
+            "LogoUrl": "/media/351195/zpool.png",
+            "Name": "ZPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://zpool.ca/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring",
+                "Smart Mining"
+            ],
+            "Coins": [
+                "BTC",
+                "BTCD",
+                "RADS",
+                "VRC"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@_xpool_",
+            "AverageFee": "2%",
+            "FeeExpanded": "BTC - 2%; BTCD - 2%; RADS - 2%; VRC - 2%",
+            "MinimumPayout": "0.0005 BTC; 0.0005 BTCD; 0.0005 RADS; 0.0005 VRC"
+        },
+        "23248": {
+            "Id": "23248",
+            "Url": "/mining/pools/monerohash/",
+            "LogoUrl": "/media/351196/xmr.png",
+            "Name": "MoneroHash",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://monerohash.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1.6%",
+            "FeeExpanded": "XMR - 1.6%",
+            "MinimumPayout": "0.3 XMR"
+        },
+        "23250": {
+            "Id": "23250",
+            "Url": "/mining/pools/xmr-prohash/",
+            "LogoUrl": "/media/351196/xmr.png",
+            "Name": "XMR ProHash",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://xmr.prohash.net/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "XMR - 1%",
+            "MinimumPayout": "2 XMR"
+        },
+        "23315": {
+            "Id": "23315",
+            "Url": "/mining/pools/monero-crypto-pool/",
+            "LogoUrl": "/media/351196/xmr.png",
+            "Name": "Monero Crypto Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://monero.crypto-pool.fr/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "2%",
+            "FeeExpanded": "XMR - 2%",
+            "MinimumPayout": "0.3 XMR"
+        },
+        "23316": {
+            "Id": "23316",
+            "Url": "/mining/pools/minexmr/",
+            "LogoUrl": "/media/351196/xmr.png",
+            "Name": "MineXMR",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://minexmr.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "XMR - 1%",
+            "MinimumPayout": "0.5 XMR"
+        },
+        "23317": {
+            "Id": "23317",
+            "Url": "/mining/pools/moneropool/",
+            "LogoUrl": "/media/351196/xmr.png",
+            "Name": "MoneroPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://moneropool.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1.9%",
+            "FeeExpanded": "XMR - 1.9%",
+            "MinimumPayout": "0.5 XMR"
+        },
+        "23324": {
+            "Id": "23324",
+            "Url": "/mining/pools/minercenter/",
+            "LogoUrl": "/media/351197/xpool.png",
+            "Name": "MinerCenter",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://miner.center/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR",
+                "BCN",
+                "XDN",
+                "QCN",
+                "FCN"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.5%",
+            "FeeExpanded": "0.5%",
+            "MinimumPayout": "0.5 XMR; 10.000 XDN; 0.1 QCN; 0.1 FCN"
+        },
+        "23327": {
+            "Id": "23327",
+            "Url": "/mining/pools/alpereum/",
+            "LogoUrl": "/media/351198/alpetreum.png",
+            "Name": "AlpEreum",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://alpereum.ch/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.2%",
+            "FeeExpanded": "ETH - 0.2%",
+            "MinimumPayout": "0.01 ETH"
+        },
+        "23408": {
+            "Id": "23408",
+            "Url": "/mining/pools/cryptopools/",
+            "LogoUrl": "/media/351213/cryptopools_1.png",
+            "Name": "CryptoPools",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://cryptopools.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ARG",
+                "CURE",
+                "DGB",
+                "DNOTES",
+                "CAPS",
+                "DMD",
+                "DCREDITS",
+                "DGC"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "2%",
+            "FeeExpanded": "DCR - 2%\nARG - 2%\nCURE - 2%\nVIA - 2%\nDGB - 2%\nDNOTES - 2%\nCAPS - 1%\nDMD - 2%\nDCREDITS - 2%",
+            "MinimumPayout": "1 DCN; 1 ARG; 1 CURE; 1 VIA; 1 DGB; 1 DNOTES; 1 CAPS; 1 DMD; 1DCREDITS"
+        },
+        "23571": {
+            "Id": "23571",
+            "Url": "/mining/pools/siamining/",
+            "LogoUrl": "/media/351216/siamining.png",
+            "Name": "SiaMining",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://siamining.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Monitoring"
+            ],
+            "Coins": [
+                "SC"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "3%",
+            "FeeExpanded": "SC - 3%",
+            "MinimumPayout": "2000 SC"
+        },
+        "24290": {
+            "Id": "24290",
+            "Url": "/mining/pools/coinminers-ethereum-classic-pool/",
+            "LogoUrl": "/media/351302/etc2.png",
+            "Name": "CoinMiners Ethereum Classic Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://ethc.coin-miners.info",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETC"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.25%",
+            "FeeExpanded": "ETC - 0.25%",
+            "MinimumPayout": "0.1 ETC"
+        },
+        "24469": {
+            "Id": "24469",
+            "Url": "/mining/pools/digger/",
+            "LogoUrl": "/media/351127/eth.png",
+            "Name": "Digger",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://digger.ws/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH",
+                "ETC",
+                "EXP"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.83%",
+            "FeeExpanded": "ETH - 0.5%; ETC - 1%; EXP - 1%",
+            "MinimumPayout": "0.2 ETH;  0.2 ETC;  0.2 EXP"
+        },
+        "24474": {
+            "Id": "24474",
+            "Url": "/mining/pools/mastermining/",
+            "LogoUrl": "/media/351127/eth.png",
+            "Name": "MasterMining",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://mastermining.net",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.2%",
+            "FeeExpanded": "ETH - 0.2%",
+            "MinimumPayout": "0.1 ETH"
+        },
+        "25785": {
+            "Id": "25785",
+            "Url": "/mining/pools/cryptoadhd/",
+            "LogoUrl": "/media/351392/dash.png",
+            "Name": "CryptoADHD",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://cryptoadhd.com/index.php",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "DASH",
+                "MZC",
+                "H2O",
+                "EBG",
+                "IRL"
+            ],
+            "ServerLocations": [],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@CryptoADHD",
+            "AverageFee": "0.8%",
+            "FeeExpanded": "DASH - 0%; MZC - 1%; H2O - 1%; EBG - 1%; IRL - 1%",
+            "MinimumPayout": ""
+        },
+        "27401": {
+            "Id": "27401",
+            "Url": "/mining/pools/epool/",
+            "LogoUrl": "/media/351302/etc2.png",
+            "Name": "EPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://ethc.epool.io/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETC"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1% - ETC",
+            "MinimumPayout": "0.1 ETC"
+        },
+        "27405": {
+            "Id": "27405",
+            "Url": "/mining/pools/ethteam/",
+            "LogoUrl": "/media/351302/etc2.png",
+            "Name": "Ethteam",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://ethteam.com/#/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETC"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "ETC - 1%",
+            "MinimumPayout": "0.5. ETC"
+        },
+        "27408": {
+            "Id": "27408",
+            "Url": "/mining/pools/etcgpuminer/",
+            "LogoUrl": "/media/351302/etc2.png",
+            "Name": "ETC.gpuminer",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://etc.gpuminer.ru/#/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETC"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.2%",
+            "FeeExpanded": "0.2% - ETC",
+            "MinimumPayout": "1 ETC"
+        },
+        "28067": {
+            "Id": "28067",
+            "Url": "/mining/pools/poolmonero/",
+            "LogoUrl": "/media/351196/xmr.png",
+            "Name": "Pool.Monero",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://pool.monero.org/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.1%",
+            "FeeExpanded": "XMR - 0.1%",
+            "MinimumPayout": "5 XMR"
+        },
+        "28210": {
+            "Id": "28210",
+            "Url": "/mining/pools/xmrpool/",
+            "LogoUrl": "/media/351196/xmr.png",
+            "Name": "xmrpool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://xmrpool.eu",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.5%",
+            "FeeExpanded": "XMR - 0.5%",
+            "MinimumPayout": "0.8 XMR"
+        },
+        "28428": {
+            "Id": "28428",
+            "Url": "/mining/pools/poolmn/",
+            "LogoUrl": "/media/351530/poolmn.png",
+            "Name": "Pool.MN",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://pool.mn/eth/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH",
+                "LBC"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "ETH - 1%",
+            "MinimumPayout": "0.01 ETH"
+        },
+        "28661": {
+            "Id": "28661",
+            "Url": "/mining/pools/cryptopia/",
+            "LogoUrl": "/media/351548/cryptopia.png",
+            "Name": "Cryptopia",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://www.cryptopia.co.nz/MineShaft",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "DOT",
+                "DGB"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "DOT - 1%",
+            "MinimumPayout": ""
+        },
+        "28667": {
+            "Id": "28667",
+            "Url": "/mining/pools/ethppua/",
+            "LogoUrl": "/media/351127/eth.png",
+            "Name": "Eth.pp.ua",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://eth.pp.ua/",
+            "PoolFeatures": [
+                "Verdiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "ETH - 1%",
+            "MinimumPayout": "0.1 ETH"
+        },
+        "28669": {
+            "Id": "28669",
+            "Url": "/mining/pools/btccom/",
+            "LogoUrl": "/media/351551/btc.png",
+            "Name": "BTC.com",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://pool.btc.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC",
+                "BCH",
+                "ETH",
+                "ETC"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [
+                "NMC",
+                "RSK"
+            ],
+            "Twitter": "@btccom_official",
+            "AverageFee": "1.5%",
+            "FeeExpanded": "BTC - 1.5%",
+            "MinimumPayout": ""
+        },
+        "28989": {
+            "Id": "28989",
+            "Url": "/mining/pools/nicehash/",
+            "LogoUrl": "/media/351587/nicehash.jpg",
+            "Name": "NiceHash",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://www.nicehash.com/?refby=58466",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC",
+                "ZEC"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@NiceHashMining",
+            "AverageFee": "3%",
+            "FeeExpanded": "BTC - 3%; ZEC - 1%",
+            "MinimumPayout": ""
+        },
+        "29039": {
+            "Id": "29039",
+            "Url": "/mining/pools/expanse-pool/",
+            "LogoUrl": "/media/351593/exp.png",
+            "Name": "Expanse Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://pool.expanse.tech/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "EXP"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "EXP - 1%",
+            "MinimumPayout": "0.5 EXP"
+        },
+        "29186": {
+            "Id": "29186",
+            "Url": "/mining/pools/mining-field/",
+            "LogoUrl": "/media/351621/dmd.png",
+            "Name": "Mining Field",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://dmd.miningfield.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "DMD",
+                "DGB",
+                "DGC",
+                "SMR",
+                "TIT"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@miningfield",
+            "AverageFee": "0%",
+            "FeeExpanded": "DMD - 0%\nDGB - 0%\nDGC - 0%\nSMR - 0%\nTIT - 0%",
+            "MinimumPayout": ""
+        },
+        "29189": {
+            "Id": "29189",
+            "Url": "/mining/pools/danbis-dmd-pool/",
+            "LogoUrl": "/media/351622/dmd.png",
+            "Name": "Danbi's DMD Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://dmdpool.digsys.bg/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "DMD"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "DMD - 1%",
+            "MinimumPayout": "1 DMD"
+        },
+        "31587": {
+            "Id": "31587",
+            "Url": "/mining/pools/flypool/",
+            "LogoUrl": "/media/351890/zec.png",
+            "Name": "Flypool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://zcash.flypool.org/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ZEC"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "ZEC - 1%",
+            "MinimumPayout": "0.001 ZEC"
+        },
+        "32889": {
+            "Id": "32889",
+            "Url": "/mining/pools/zeropond/",
+            "LogoUrl": "/media/351890/zec.png",
+            "Name": "Zeropond",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://pool.zeropond.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ZEC"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "2%",
+            "FeeExpanded": "ZEC - 2%",
+            "MinimumPayout": "0.1 ZEC"
+        },
+        "32891": {
+            "Id": "32891",
+            "Url": "/mining/pools/coinsforall/",
+            "LogoUrl": "/media/351951/coinsforall.png",
+            "Name": "CoinsForAll",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://coinsforall.io/#!/",
+            "PoolFeatures": [],
+            "Coins": [
+                "ZEC",
+                "ETC",
+                "XPM",
+                "ZCL"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "ZEC - 1%\nETC - 1%\nXPM - 1%\nZCL - 1%",
+            "MinimumPayout": ""
+        },
+        "33276": {
+            "Id": "33276",
+            "Url": "/mining/pools/viabtc/",
+            "LogoUrl": "/media/352008/viabtc.png",
+            "Name": "ViaBTC",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://www.viabtc.com",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC",
+                "LTC",
+                "BCH",
+                "ETH",
+                "ZEC",
+                "DASH"
+            ],
+            "ServerLocations": [
+                "Asia"
+            ],
+            "PaymentType": [
+                "PPS",
+                "PPLNS",
+                "SOLO"
+            ],
+            "MergedMiningCoins": [
+                "NMC",
+                "DOGE"
+            ],
+            "Twitter": "@ViaBTC",
+            "AverageFee": "3%",
+            "FeeExpanded": "PPS - 4%\nPPLNS - 2%",
+            "MinimumPayout": "0.0001 BTC\n0.0001 BCH\n0.0001 LTC"
+        },
+        "34349": {
+            "Id": "34349",
+            "Url": "/mining/pools/coin-lab/",
+            "LogoUrl": "/media/351127/eth.png",
+            "Name": "Coin Lab",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://eth.coin-lab.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "ETH - 1%",
+            "MinimumPayout": "0.5 ETH"
+        },
+        "34403": {
+            "Id": "34403",
+            "Url": "/mining/pools/thecoinpw/",
+            "LogoUrl": "/media/352122/thecoin.png",
+            "Name": "TheCoin.pw",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://thecoin.pw/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ACOIN",
+                "ASC",
+                "CNC",
+                "CSC",
+                "DGB",
+                "DGC",
+                "NOTE",
+                "FST",
+                "FFC",
+                "FLO",
+                "FRK",
+                "GLD",
+                "XJO",
+                "MEC",
+                "MYR",
+                "SXC",
+                "SWING",
+                "TGC",
+                "TIT",
+                "UNIT",
+                "XVG",
+                "WEBB",
+                "ZET"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "All coins - 0%",
+            "MinimumPayout": ""
+        },
+        "34408": {
+            "Id": "34408",
+            "Url": "/mining/pools/myetherpool/",
+            "LogoUrl": "/media/352123/myetherpool.png",
+            "Name": "MyEtherPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://myetherpool.org/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@myetherpool",
+            "AverageFee": "1%",
+            "FeeExpanded": "ETH - 1%",
+            "MinimumPayout": "1 ETH"
+        },
+        "34411": {
+            "Id": "34411",
+            "Url": "/mining/pools/ethereumpoolus/",
+            "LogoUrl": "/media/351127/eth.png",
+            "Name": "EthereumPool.us",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://ethereumpool.us/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "HBPPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "ETH - 1%",
+            "MinimumPayout": "1 ETH"
+        },
+        "34412": {
+            "Id": "34412",
+            "Url": "/mining/pools/sparkpoolcom/",
+            "LogoUrl": "/media/30002095/spark-pool.png",
+            "Name": "SparkPool.com",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://eth.sparkpool.com/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "U.S.A",
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "ETH - 1%",
+            "MinimumPayout": "0.05 ETH"
+        },
+        "35233": {
+            "Id": "35233",
+            "Url": "/mining/pools/waterhole-pool/",
+            "LogoUrl": "/media/1383939/waterhole1.png",
+            "Name": "Waterhole Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://waterhole.io/pool/zec/home",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC",
+                "ETH",
+                "ZEC"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.001 ZEC"
+        },
+        "37778": {
+            "Id": "37778",
+            "Url": "/mining/pools/globalpoolorg/",
+            "LogoUrl": "/media/33187834/globalpool.png",
+            "Name": "Globalpool.org",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://globalpool.org/en/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETC",
+                "ETH",
+                "EXP",
+                "ZEC",
+                "MUSIC"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.25%",
+            "FeeExpanded": "0.25% ALL",
+            "MinimumPayout": "1 ETC\n0.5 ETH\n1 EXP\n10 MUSIC"
+        },
+        "37785": {
+            "Id": "37785",
+            "Url": "/mining/pools/miningspeed/",
+            "LogoUrl": "/media/1383974/miningspeed.png",
+            "Name": "MiningSpeed",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://pool.miningspeed.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "HUSH",
+                "ZEC",
+                "KMD",
+                "ZCL"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@miningspeed",
+            "AverageFee": "0.3%",
+            "FeeExpanded": "HUSH - 0.3%\nZEC -  0.3%\nKMD -  0.3%\nZCL - 0.3%\nZEN - 0.3%",
+            "MinimumPayout": "0.05 HUSH\n0.01 ZEC\n0.01 KMD\n0.05 ZCL\n0.05 ZEN"
+        },
+        "40982": {
+            "Id": "40982",
+            "Url": "/mining/pools/etcmine/",
+            "LogoUrl": "/media/351302/etc2.png",
+            "Name": "ETCmine",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://etcmine.pro",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETC"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "1 ETC"
+        },
+        "42500": {
+            "Id": "42500",
+            "Url": "/mining/pools/komodopool/",
+            "LogoUrl": "/media/1382393/kmd.png",
+            "Name": "KomodoPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://www.komodopool.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "KMD"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.001 KMD"
+        },
+        "44686": {
+            "Id": "44686",
+            "Url": "/mining/pools/pool-sexy/",
+            "LogoUrl": "/media/1382620/sexy-pool.png",
+            "Name": "Pool Sexy",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://www.pool.sexy/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH",
+                "ETC",
+                "ELE",
+                "EXP",
+                "UBQ",
+                "SOIL",
+                "SHIFT",
+                "ZCL",
+                "ZEC",
+                "DBIX",
+                "MC",
+                "DASH",
+                "HUSH",
+                "ZEN"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.25%",
+            "FeeExpanded": "0.25%",
+            "MinimumPayout": "0.2ETH \n0.25ETC \n5ELE \n1EXP \n0.5UBQ \n5SOIL\n5SHIFT\n0.01ZCL\n0.5 ZEN \n0.1 HUSH \n5 MC \n0.2 DBIX"
+        },
+        "44805": {
+            "Id": "44805",
+            "Url": "/mining/pools/rigpool/",
+            "LogoUrl": "/media/351111/btcdig.png",
+            "Name": "RigPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://www.rigpool.com/index.php",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.001 BTC"
+        },
+        "44806": {
+            "Id": "44806",
+            "Url": "/mining/pools/jonny-bravos-mining-emporium/",
+            "LogoUrl": "/media/351111/btcdig.png",
+            "Name": "Jonny Bravo's Mining Emporium",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://www.bravo-mining.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.5%",
+            "FeeExpanded": "0.5%",
+            "MinimumPayout": "0.001 BTC"
+        },
+        "55689": {
+            "Id": "55689",
+            "Url": "/mining/pools/luckpool/",
+            "LogoUrl": "/media/351890/zec.png",
+            "Name": "Luckpool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://luckpool.org/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ZEC",
+                "ZCL",
+                "KMD",
+                "HUSH",
+                "ZEN"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.3%",
+            "FeeExpanded": "0.3%",
+            "MinimumPayout": "0.001ZEC\n0.1 ZCL\n0.1 KMD\n0.001 HUSH \n0.001 ZEN"
+        },
+        "56535": {
+            "Id": "56535",
+            "Url": "/mining/pools/connectbtc/",
+            "LogoUrl": "/media/1382812/connectpool.jpg",
+            "Name": "ConnectBTC",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://www.connectbtc.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC"
+            ],
+            "ServerLocations": [
+                "Asia"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@connectbtcpool",
+            "AverageFee": "0",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.001BTC"
+        },
+        "56539": {
+            "Id": "56539",
+            "Url": "/mining/pools/gbminers/",
+            "LogoUrl": "/media/1382813/gbminers.png",
+            "Name": "GBMiners",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://gbminers.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC"
+            ],
+            "ServerLocations": [
+                "Asia"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.09",
+            "FeeExpanded": "0.09%",
+            "MinimumPayout": "0.01BTC"
+        },
+        "66204": {
+            "Id": "66204",
+            "Url": "/mining/pools/cryptopool/",
+            "LogoUrl": "/media/1383084/cryptopool.png",
+            "Name": "CryptoPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://cryptopool.io/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "DASH",
+                "LTC",
+                "ZEC",
+                "ETH",
+                "ETC",
+                "UBQ",
+                "ZEN",
+                "EXP",
+                "XMR",
+                "BCH",
+                "ETN",
+                "BCC",
+                "MUE",
+                "BTG",
+                "NOTE",
+                "GAME"
+            ],
+            "ServerLocations": [
+                "Australia"
+            ],
+            "PaymentType": [
+                "PPLNS",
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@Cryptopoolio",
+            "AverageFee": "0.7%",
+            "FeeExpanded": "Dash - PPLNS - 1%\nLTC - PPLNS - 1%\nZEC - PPLNS - 1%\nBCC - PPLNS - 1%\nETH - Prop - 0.50%\nETC - Prop - 0.50%\nUBQ - Prop - 0.50%\nZEN - Prop - 0.50%\nEXP - Prop - 0.50%\nXMR - PROP - 0.50%",
+            "MinimumPayout": "0.1 DASH\n1 LTC\n1 ZEC\n0.1 DGB"
+        },
+        "66209": {
+            "Id": "66209",
+            "Url": "/mining/pools/komodo-mining-pool/",
+            "LogoUrl": "/media/1383152/komodominingpool.png",
+            "Name": "Komodo Mining Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://komodominingpool.com/#/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "KMD",
+                "ZEC",
+                "ZCL",
+                "HUSH"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "0.1 KMD\n0.001 ZEC\n0.1 ZCL"
+        },
+        "67072": {
+            "Id": "67072",
+            "Url": "/mining/pools/canoe-mining-pool/",
+            "LogoUrl": "/media/1383108/canoe.png",
+            "Name": "Canoe Mining Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://www.canoepool.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS+",
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "3%",
+            "FeeExpanded": "PPS+ - 4%; PPLNS - 2%",
+            "MinimumPayout": "0.0001 BTC"
+        },
+        "67089": {
+            "Id": "67089",
+            "Url": "/mining/pools/batpool/",
+            "LogoUrl": "/media/1383106/batpool.png",
+            "Name": "Batpool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://www.batpool.com",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC",
+                "LTC"
+            ],
+            "ServerLocations": [
+                "Asia"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.001 BTC\n0.01 LTC"
+        },
+        "67475": {
+            "Id": "67475",
+            "Url": "/mining/pools/sparkpool/",
+            "LogoUrl": "/media/1383115/spark.png",
+            "Name": "SparkPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://www.sparkpool.io",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum"
+            ],
+            "Coins": [
+                "FRN",
+                "HYPER",
+                "KUR",
+                "QVORT",
+                "RAIN"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "unkown"
+        },
+        "77016": {
+            "Id": "77016",
+            "Url": "/mining/pools/xmrlife-pool/",
+            "LogoUrl": "/media/351196/xmr.png",
+            "Name": "XMR.life Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://www.xmr.life",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.7%",
+            "FeeExpanded": "0.7%",
+            "MinimumPayout": "0.5 XMR"
+        },
+        "84811": {
+            "Id": "84811",
+            "Url": "/mining/pools/minezzone/",
+            "LogoUrl": "/media/1383328/minezzone.png",
+            "Name": "MineZ.zone",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://minez.zone/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ZEC",
+                "ZECL"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.1 ZEC\n0.1 ZCL"
+        },
+        "105235": {
+            "Id": "105235",
+            "Url": "/mining/pools/bestxmrpool/",
+            "LogoUrl": "/media/351196/xmr.png",
+            "Name": "BestXMRPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://bestxmrpool.com/#",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "0.1 XMR"
+        },
+        "115096": {
+            "Id": "115096",
+            "Url": "/mining/pools/digihash/",
+            "LogoUrl": "/media/1383475/dgb.png",
+            "Name": "DigiHash",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://digihash.co/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "DGB"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "5%",
+            "FeeExpanded": "5%",
+            "MinimumPayout": "100 DGB"
+        },
+        "115114": {
+            "Id": "115114",
+            "Url": "/mining/pools/the-blocks-factory/",
+            "LogoUrl": "/media/1383476/theblocksfactory.png",
+            "Name": "The Blocks Factory",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://theblocksfactory.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "DGB"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop",
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@TBF_POOL",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "100 DGB, 80 FTC, 1 ORB"
+        },
+        "137115": {
+            "Id": "137115",
+            "Url": "/mining/pools/minercity/",
+            "LogoUrl": "/media/1383569/minercity.png",
+            "Name": "Minercity",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://minercity.org/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "KMD"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "RBPPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.05"
+        },
+        "177227": {
+            "Id": "177227",
+            "Url": "/mining/pools/e-poolnet/",
+            "LogoUrl": "/media/351111/btcdig.png",
+            "Name": "E-Pool.net",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://e-pool.net/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC",
+                "LTC",
+                "QRK",
+                "SRC",
+                "CNO",
+                "DGC",
+                "DASH",
+                "INFX",
+                "SMC",
+                "XVP",
+                "MUE",
+                "BSTY",
+                "MYR",
+                "UIS",
+                "FTC",
+                "VTC",
+                "VCN",
+                "ZTC",
+                "XJO",
+                "BXT",
+                "CSC",
+                "CAT",
+                "NOTE",
+                "FRK",
+                "GAME",
+                "NLG",
+                "SEX",
+                "WDC",
+                "FST",
+                "EMC2",
+                "DGB"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.25%",
+            "FeeExpanded": "0.25%",
+            "MinimumPayout": "Every Block"
+        },
+        "177411": {
+            "Id": "177411",
+            "Url": "/mining/pools/bitfire/",
+            "LogoUrl": "/media/1383704/bitfire.png",
+            "Name": "BitFire",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://bitfire.one",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ZEN",
+                "ZCL"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "0.01 ZEN\n0.01 ZCL"
+        },
+        "177546": {
+            "Id": "177546",
+            "Url": "/mining/pools/dinastycoin-mining-pool/",
+            "LogoUrl": "/media/1383708/dinastycoin-mining-pool.png",
+            "Name": "Dinastycoin Mining Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://poolmining1.dinastycoin.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "DCY"
+            ],
+            "ServerLocations": [
+                "Unknown"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.5%",
+            "FeeExpanded": "0.5%",
+            "MinimumPayout": "100.000 DCY"
+        },
+        "195035": {
+            "Id": "195035",
+            "Url": "/mining/pools/noobpool/",
+            "LogoUrl": "/media/351127/eth.png",
+            "Name": "Noobpool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://www.noobpool.com",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "ETH",
+                "ETC",
+                "ELLA"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop",
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.3(3)%",
+            "FeeExpanded": "ETH - 0%\nETC - 0%\nELLA - 1%",
+            "MinimumPayout": "0.1 ETH\n0.5 ELLA"
+        },
+        "197895": {
+            "Id": "197895",
+            "Url": "/mining/pools/coinsfarm/",
+            "LogoUrl": "/media/1383876/coinsfarm.png",
+            "Name": "Coins.Farm",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://coins.farm/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "MUSIC"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1 % MUSIC \n1 % ELLA",
+            "MinimumPayout": "1 MUSIC\n1 ELLA"
+        },
+        "197903": {
+            "Id": "197903",
+            "Url": "/mining/pools/hashgate/",
+            "LogoUrl": "/media/1383877/hashgate.png",
+            "Name": "Hashgate",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://hashgate.eu/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "KMD",
+                "HUSH",
+                "ZCL"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNT"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.8%",
+            "FeeExpanded": "0.8%",
+            "MinimumPayout": "Unknown"
+        },
+        "197944": {
+            "Id": "197944",
+            "Url": "/mining/pools/dutchmining/",
+            "LogoUrl": "/media/351127/eth.png",
+            "Name": "DutchMining",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://eth.dutchmining.nl/#/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.25%%",
+            "FeeExpanded": "ETH - 0.25%%",
+            "MinimumPayout": "0.2 ETH"
+        },
+        "204624": {
+            "Id": "204624",
+            "Url": "/mining/pools/aurora-pool/",
+            "LogoUrl": "/media/351127/eth.png",
+            "Name": "Aurora Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://aurorapool.net/#/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.05 ETH"
+        },
+        "205599": {
+            "Id": "205599",
+            "Url": "/mining/pools/onion-pool/",
+            "LogoUrl": "/media/1383951/onionpool.png",
+            "Name": "Onion Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://www.onionpool.com",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.01 ETH"
+        },
+        "208214": {
+            "Id": "208214",
+            "Url": "/mining/pools/bitcoincom-pool/",
+            "LogoUrl": "/media/1383243/bitcoincom.png",
+            "Name": "Bitcoin.com",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://pool.bitcoin.com/index.html?code=N6YimV",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC",
+                "BCH"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS",
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@BTCTN",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": ""
+        },
+        "219605": {
+            "Id": "219605",
+            "Url": "/mining/pools/getpool-network/",
+            "LogoUrl": "/media/1384000/hush.png",
+            "Name": "GetPool Network",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://getpool.network/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "HUSH"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.5%",
+            "FeeExpanded": "0.5%",
+            "MinimumPayout": "0.1 HUSH"
+        },
+        "235755": {
+            "Id": "235755",
+            "Url": "/mining/pools/deltapool/",
+            "LogoUrl": "/media/9350708/delta1.png",
+            "Name": "DeltaPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://mining.deltapool.net",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ZEC",
+                "ZEN",
+                "ZCL"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop",
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "0.1"
+        },
+        "252334": {
+            "Id": "252334",
+            "Url": "/mining/pools/minercircle/",
+            "LogoUrl": "/media/351196/xmr.png",
+            "Name": "MinerCircle",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://www.minercircle.com",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1.9%",
+            "FeeExpanded": "1.9%",
+            "MinimumPayout": "0.2 XMR"
+        },
+        "302279": {
+            "Id": "302279",
+            "Url": "/mining/pools/ethepool/",
+            "LogoUrl": "/media/351127/eth.png",
+            "Name": "EthePool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://ethepool.com/#/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.5%",
+            "FeeExpanded": "0.5%",
+            "MinimumPayout": "0.1 ETH"
+        },
+        "302359": {
+            "Id": "302359",
+            "Url": "/mining/pools/icemining/",
+            "LogoUrl": "/media/351127/eth.png",
+            "Name": "IceMining",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://icemining.io/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH",
+                "SUMO"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1.25%",
+            "FeeExpanded": "1% ETH\n1.5% SUMO",
+            "MinimumPayout": "0.5 ETH\n2 SUMO"
+        },
+        "337037": {
+            "Id": "337037",
+            "Url": "/mining/pools/zpoolguru/",
+            "LogoUrl": "/media/12318278/zpool.png",
+            "Name": "ZPoolGuru",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://zpool.guru/",
+            "PoolFeatures": [
+                "Stratum"
+            ],
+            "Coins": [
+                "ZEC"
+            ],
+            "ServerLocations": [],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@ZpoolGuru",
+            "AverageFee": "0.5%",
+            "FeeExpanded": "0.5% ZEC",
+            "MinimumPayout": "0.1 ZEC"
+        },
+        "339454": {
+            "Id": "339454",
+            "Url": "/mining/pools/luxor-mining/",
+            "LogoUrl": "/media/30001657/luxor-mining.png",
+            "Name": "Luxor Mining",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://mining.luxor.tech/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "SC",
+                "DCR",
+                "LBRY"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS",
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@LuxorTechTeam",
+            "AverageFee": "0.2%",
+            "FeeExpanded": "0.3% DCR\n0.3% LBRY\n0.0% SC",
+            "MinimumPayout": "100 SC\n0.2 DCR\n50 LBRY"
+        },
+        "341000": {
+            "Id": "341000",
+            "Url": "/mining/pools/metaversefarm/",
+            "LogoUrl": "/media/12318333/etp.png",
+            "Name": "Metaverse.farm",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://metaverse.farm/#/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETP"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.1%",
+            "FeeExpanded": "0.1%",
+            "MinimumPayout": "0.5 ETP"
+        },
+        "341250": {
+            "Id": "341250",
+            "Url": "/mining/pools/coinfoundry/",
+            "LogoUrl": "/media/27010521/coinfoundry.png",
+            "Name": "Coinfoundry",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://coinfoundry.org/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR",
+                "ETH",
+                "ETC",
+                "DASH",
+                "LTC",
+                "MONA",
+                "ZEC",
+                "ZCL",
+                "ZEN",
+                "VTC",
+                "GBX",
+                "ETN",
+                "BTCP",
+                "XVG"
+            ],
+            "ServerLocations": [
+                "U.S.A",
+                "Europe",
+                "Asia"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@coinfoundryorg",
+            "AverageFee": " 0.3%",
+            "FeeExpanded": "0.3% All",
+            "MinimumPayout": "0.03 DASH\n0.05 BTCP\n0.1 XMR\n10 ETN\n0.1 LTC\n0.01 ETH\n0.01 ETC\n0.01 ZEC\n0.1 ZEN\n0.1 GBX\n0.5 MONA\n0.5 VTC\n10 XVG"
+        },
+        "349448": {
+            "Id": "349448",
+            "Url": "/mining/pools/sandpool/",
+            "LogoUrl": "/media/12318333/etp.png",
+            "Name": "SandPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://sandpool.org/#/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETP"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.01%",
+            "FeeExpanded": "0.01%",
+            "MinimumPayout": "0.5 ETP"
+        },
+        "362807": {
+            "Id": "362807",
+            "Url": "/mining/pools/xmrget/",
+            "LogoUrl": "/media/351196/xmr.png",
+            "Name": "xmrGET",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://xmrget.com/#",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.01%",
+            "FeeExpanded": "0.01%",
+            "MinimumPayout": "0.1 XMR"
+        },
+        "364355": {
+            "Id": "364355",
+            "Url": "/mining/pools/cryptofriends/",
+            "LogoUrl": "/media/14761949/cryptofriends.png",
+            "Name": "Cryptofriends",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://cryptofriends.org/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "AEON",
+                "XLC",
+                "XMR",
+                "KRB"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.1%",
+            "FeeExpanded": "0.1%",
+            "MinimumPayout": "0.1 AEON\n1 XLC\n0.1 XMR\n0.5 KRB"
+        },
+        "377827": {
+            "Id": "377827",
+            "Url": "/mining/pools/xmr-pooleu/",
+            "LogoUrl": "/media/351196/xmr.png",
+            "Name": "XMR-Pool.eu",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://www.xmr-pool.eu",
+            "PoolFeatures": [
+                "Vardiff"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Solo",
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.45%",
+            "FeeExpanded": "PPLNS - 0.5%\nSolo - 0.4%",
+            "MinimumPayout": "0.3 XMR"
+        },
+        "391397": {
+            "Id": "391397",
+            "Url": "/mining/pools/hashanywhere-monero/",
+            "LogoUrl": "/media/14913649/hashanywheremonero.png",
+            "Name": "HashAnywhere Monero",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://monero.hashanywhere.com",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "0.3 XMR"
+        },
+        "405570": {
+            "Id": "405570",
+            "Url": "/mining/pools/ivt-pool/",
+            "LogoUrl": "/media/16404859/ivtpool.png",
+            "Name": "IVT Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://btg.ivtcoin.com",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTG"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0",
+            "FeeExpanded": "0",
+            "MinimumPayout": "Unknown"
+        },
+        "413241": {
+            "Id": "413241",
+            "Url": "/mining/pools/1ds-equipool/",
+            "LogoUrl": "/media/16746426/equipool.png",
+            "Name": "1ds Equipool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://equipool.1ds.us/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTCZ",
+                "ZEC",
+                "ZEN",
+                "KMD",
+                "ZCL",
+                "VOT",
+                "HUSH"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@1dsPools",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "0.1 BTCZ"
+        },
+        "415372": {
+            "Id": "415372",
+            "Url": "/mining/pools/2miners/",
+            "LogoUrl": "/media/30002117/2miners.png",
+            "Name": "2Miners",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://2miners.com/#/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH",
+                "ETC",
+                "EXP",
+                "MUSIC",
+                "PIRL",
+                "ETP",
+                "WHL",
+                "DBIX",
+                "BTG",
+                "ZEC",
+                "ZCL",
+                "ZEN",
+                "ELLA",
+                "CLO",
+                "YOC",
+                "AKA",
+                "HUSH",
+                "BTCP",
+                "BTCZ"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Europe"
+            ],
+            "PaymentType": [
+                "SOLO",
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1.25%",
+            "FeeExpanded": "PPLNS:\n1% ETH\n1% ETC\n1% EXP\n1% MUSIC\n1% ETP\n1% BTG\n1% ZEC\n1% ZCL\n1% ZEN\n\nSOLO:\n1.5% ETH\n1.5% ETC\n1.5% EXP\n1.5% MUSIC\n1.5% ETP\n1.5% PIRL\n1.5% WHL\n1.5% DBIX\n1.5% BTG\n1.5% ZEC\n1.5% ZCL\n1.5% ZEN",
+            "MinimumPayout": "PPLNS:\n0.02 ETH\n0.1 ETC\n0.1 EXP\n0.1 MUSIC\n0.1 ETP\n0.01 BTG\n0.01 ZEC\n0.01 ZCL\n0.01 ZEN\n0.1 ELLA\n0.1 CLO\n0.1 YOC\n0.1 AKA\n0.01 HUSH\n0.01 BTCP\n0.01 BTCZ\n\nSOLO:\n1 ETH\n1 ETC\n1 EXP\n1 MUSIC\n1 ETP\n1 PIRL\n1 WHL\n1 DBIX\n0.01 BTG\n0.01 ZEC\n0.01 ZCL\n1 ELLA\n1 CLO \n1 YOC \n1 AKA \n0.01 HUSH \n0.01 BTCP\n0.01 BTCZ\n0.01 ZEN"
+        },
+        "422339": {
+            "Id": "422339",
+            "Url": "/mining/pools/1ds-cryptopool/",
+            "LogoUrl": "/media/16746479/d4c6636549f5726af77956b46c9f8b8a75ff666afbff0f2a7d-pimgpsh_fullsize_distr.png",
+            "Name": "1ds CryptoPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://cryptopool.1ds.us/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "LTC",
+                "HOLD",
+                "CPN",
+                "COPPER",
+                "LCP",
+                "EMD",
+                "WDC",
+                "GAME",
+                "SXC",
+                "888",
+                "XGOX",
+                "NLG",
+                "CAT",
+                "QTL",
+                "NOTE",
+                "NYAN",
+                "RUP",
+                "BENJI",
+                "LINX",
+                "CMPCO",
+                "SPT",
+                "BELA",
+                "XMCC",
+                "LEAF"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "1dsPools",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": ""
+        },
+        "423336": {
+            "Id": "423336",
+            "Url": "/mining/pools/crypto-coinsclub-mining-pool/",
+            "LogoUrl": "/media/16746491/crypto-coins.png",
+            "Name": "Crypto-Coins.Club Mining Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://bip.crypto-coins.club",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR",
+                "ETN",
+                "KRB",
+                "BIP",
+                "XLC",
+                "DCY"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@BipCoinOfficial",
+            "AverageFee": "1%",
+            "FeeExpanded": "0.25% XMR\n2% ETN\n2% KRB\n1% BIP\n0.2% XLC\n0.5% DCY",
+            "MinimumPayout": "2.500 BIP\n2.500 KRB\n750.000 DCY\n2.500 XLC\n0.250 XMR\n10.000 ETN"
+        },
+        "432691": {
+            "Id": "432691",
+            "Url": "/mining/pools/xmrminingpowernet-mining-pool/",
+            "LogoUrl": "/media/16746550/xmrminingpower-mining-pool.png",
+            "Name": "XMR.MiningPower.net",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://xmr.miningpower.net/#/home",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "Holland"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@mining_power",
+            "AverageFee": "0.4%",
+            "FeeExpanded": "0.4%",
+            "MinimumPayout": "0.3 XMR (Wallet)\n5 XMR (Exchange)"
+        },
+        "521828": {
+            "Id": "521828",
+            "Url": "/mining/pools/coinversus/",
+            "LogoUrl": "/media/16746693/coinversus.png",
+            "Name": "CoinVersus",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://coinversus.com ",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "DASH"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "P2P"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": ""
+        },
+        "652589": {
+            "Id": "652589",
+            "Url": "/mining/pools/moneromilk/",
+            "LogoUrl": "/media/20780730/moneromilk.png",
+            "Name": "MoneroMilk",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://www.moneromilk.com/#",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1.2%",
+            "FeeExpanded": "1.2%",
+            "MinimumPayout": "0.35 XMR"
+        },
+        "666867": {
+            "Id": "666867",
+            "Url": "/mining/pools/miningpond/",
+            "LogoUrl": "/media/25792580/miningpond.png",
+            "Name": "MiningPond",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://www.ellaism.miningpond.com",
+            "PoolFeatures": [
+                "Vardiff",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ELLA",
+                "MUSIC",
+                "PIRL",
+                "NUKO",
+                "VIC"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.1%",
+            "FeeExpanded": "ELLA - 0%\nMUSIC - 0%\nPIRL - 0.5%\nNUKO - 0%\nVIC - 0%",
+            "MinimumPayout": "0.5 ELLA\n5 MUSIC\n0.25 PIRL\n2 NUKO\n0.5 VIC"
+        },
+        "679742": {
+            "Id": "679742",
+            "Url": "/mining/pools/loorea/",
+            "LogoUrl": "/media/20780802/loorea.png",
+            "Name": "Loorea",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://loorea.com",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "​PPLNS Fee 1%\nSolo Fee 0.8%\nBTC Fee 1.5%",
+            "MinimumPayout": "(Wallet) 0.1 XMR\n(BTC) 5 XMR\n(Exchange) 5 XMR​"
+        },
+        "680651": {
+            "Id": "680651",
+            "Url": "/mining/pools/ethertrench/",
+            "LogoUrl": "/media/20780804/ethertrench.png",
+            "Name": "Ethertrench",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://ethertrench.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Monitoring",
+                "Stratum"
+            ],
+            "Coins": [
+                "ETH",
+                "ETC",
+                "EXP"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@ethertrench",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "(ETH) - Min. payout threshold: 0.01 Ether\n(ETC) - Min. payout threshold: 0.5 ETC\n(EXP) - Min. payout threshold: 0.5 EXP"
+        },
+        "684458": {
+            "Id": "684458",
+            "Url": "/mining/pools/crypto-hub/",
+            "LogoUrl": "/media/25792568/cryptohub.png",
+            "Name": "CryptoHub",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://cryptohub.online/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XLR",
+                "AMS",
+                "HONEY",
+                "BZL",
+                "POLY",
+                "INFO",
+                "NNC",
+                "GOA",
+                "NDC",
+                "CRM",
+                "HBC",
+                "XMCC",
+                "MONK",
+                "SURC",
+                "FLAP",
+                "BTCE",
+                "SAGA",
+                "LEMS",
+                "WSC",
+                "KLT",
+                "CROC",
+                "808",
+                "GSAVE"
+            ],
+            "ServerLocations": [
+                "Argentina"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@CryptoHubONLINE",
+            "AverageFee": "1.13%",
+            "FeeExpanded": "XLR - 1.4%\nAMS - 2% \nHONEY - 1%\nBZL - 1%\nPOLY - 1%\nINFO - 1%\nNNC - 1%\nGOA - 1%\nNDC - 1%\nCRM - 1%\nXMCC - 1%\nHBC - 1%\nMONK - 1%\nSUCR - 1%\nFLAP - 2%\nBTCE - 1%\nSAGA - 1%\nLEMS - 1%\nWSC - 1%\nKLT - 1%\nCROC - 1.1%\n808 - 1.5%\nGSAVE - 1%",
+            "MinimumPayout": "Unknown"
+        },
+        "684621": {
+            "Id": "684621",
+            "Url": "/mining/pools/votecoin/",
+            "LogoUrl": "/media/25792574/votecoin.png",
+            "Name": "Votecoin",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://pool.votecoin.site/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "VOT"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNT"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "1 VOT"
+        },
+        "684851": {
+            "Id": "684851",
+            "Url": "/mining/pools/cryptomach/",
+            "LogoUrl": "/media/25792576/cryptomach.png",
+            "Name": "CryptoMach",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://cryptomach.com",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH",
+                "ETC",
+                "EXP",
+                "ELE",
+                "BTC",
+                "MUSIC",
+                "SOIL",
+                "UBQ",
+                "ZEC",
+                "PIRL",
+                "WHL",
+                "SHF",
+                "ELLA"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@CRYPTOMACH",
+            "AverageFee": "0.36%",
+            "FeeExpanded": "ETH 0.1%\nETC 0.5%\nEXP 0.5%\nELE 0%\nDBIX 0.5%\nMC 0.5%\nSOIL 0.5%\nUBIQ 0.5%\nZEC 1%\nPIRL 0%\nWHL 0%\nSHF 0%\nELLA 0%",
+            "MinimumPayout": "1 ETH\n1 ETC\n1 EXP\n1 ELE\n1 DBIX\n1 MC\n2 SOIL\n1 UBIQ\n(ZEC - Payouts disabled)\n2 PIRL\n2 WHL\n2 SHF\n2 ELLA"
+        },
+        "685073": {
+            "Id": "685073",
+            "Url": "/mining/pools/mining4/",
+            "LogoUrl": "/media/25792578/mining4.png",
+            "Name": "Mining4",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://equi.mining4.co.uk/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ZEC",
+                "ZEN",
+                "BTZ",
+                "ZCL",
+                "KMD",
+                "HUSH",
+                "DASH",
+                "BTG"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPNT",
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.25%",
+            "FeeExpanded": "Equihash pool 0.25%\nDash pool 0.25%\nBitcoin Gold Pool 0.25%",
+            "MinimumPayout": "0.01 ZEC\n0.1 ZEN\n0.1 BTZ\n0.1 ZCL\n0.1 KMD\n0.1 HUSH\n0.01DASH\n0.01 BTG"
+        },
+        "688065": {
+            "Id": "688065",
+            "Url": "/mining/pools/croatpoolcat/",
+            "LogoUrl": "/media/25792588/poolcat.png",
+            "Name": "Croat.Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://croat.pool.cat/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Monitoring"
+            ],
+            "Coins": [
+                "CROAT"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@CROATcoin",
+            "AverageFee": "0.8%",
+            "FeeExpanded": "0.8%",
+            "MinimumPayout": "1 CROAT"
+        },
+        "688256": {
+            "Id": "688256",
+            "Url": "/mining/pools/minezencash/",
+            "LogoUrl": "/media/25792591/minezencash.png",
+            "Name": "MineZenCash",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://minezencash.cloud",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ZEN"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.2%",
+            "FeeExpanded": "0.2%",
+            "MinimumPayout": "0.05 ZEN"
+        },
+        "688460": {
+            "Id": "688460",
+            "Url": "/mining/pools/megapool/",
+            "LogoUrl": "/media/25792593/megapool.png",
+            "Name": "MegaPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://megapool.io",
+            "PoolFeatures": [
+                "Stratum",
+                "Vardiff",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ELLA",
+                "UBQ",
+                "EXP",
+                "MUSIC",
+                "PIRL",
+                "SOIL"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@megapool_io",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.5 ELLA\n0.1 UBQ\n0.1 EXP\n1 MUSIC\n0.5 PIRL\n1 SOIL"
+        },
+        "692689": {
+            "Id": "692689",
+            "Url": "/mining/pools/xmrpoolcom/",
+            "LogoUrl": "/media/351196/xmr.png",
+            "Name": "XMRpool.com",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://xmrpool.com/#",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop",
+                "RBPPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.2%",
+            "FeeExpanded": "0.2%",
+            "MinimumPayout": "0.1 XMR"
+        },
+        "692932": {
+            "Id": "692932",
+            "Url": "/mining/pools/maxhash/",
+            "LogoUrl": "/media/25792599/maxhash.png",
+            "Name": "MaxHash",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://ethpool.maxhash.org/#/",
+            "PoolFeatures": [
+                "Vardiff",
+                "VarFee",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH",
+                "UBQ",
+                "EXP",
+                "MUSIC"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@MaxHash_Pool",
+            "AverageFee": "0%",
+            "FeeExpanded": "Variable-Fee system - based on pool performance",
+            "MinimumPayout": "0.05 ETH\n0.5 UBQ\n0.25 EXP\n25 MUSIC"
+        },
+        "697392": {
+            "Id": "697392",
+            "Url": "/mining/pools/miningpoolat/",
+            "LogoUrl": "/media/351127/eth.png",
+            "Name": "MiningPool.at",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://miningpool.at",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.05 Ether"
+        },
+        "698141": {
+            "Id": "698141",
+            "Url": "/mining/pools/boxy-mining-pool/",
+            "LogoUrl": "/media/25792614/boxy.png",
+            "Name": "Boxy",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://pool.boxy.online",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BOXY"
+            ],
+            "ServerLocations": [
+                "Asia"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@boxycoin",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.1 BOXY"
+        },
+        "698380": {
+            "Id": "698380",
+            "Url": "/mining/pools/pirl-poolio/",
+            "LogoUrl": "/media/25792619/pirl-poolio.png",
+            "Name": "Pirl-Pool.io",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://www.pirl-pool.io/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "PIRL"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "Asia",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "1"
+        },
+        "707434": {
+            "Id": "707434",
+            "Url": "/mining/pools/803-mine-pool/",
+            "LogoUrl": "/media/25792631/803-mine-pool.png",
+            "Name": "803 Mine Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://pool.803mine.com",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "AUR",
+                "BTC",
+                "BCH",
+                "CANN",
+                "CURE",
+                "DASH",
+                "DEM",
+                "DGB",
+                "DOGE",
+                "FLO",
+                "GRS",
+                "XJO",
+                "LTC",
+                "LINX",
+                "MZC",
+                "MNC",
+                "MUE",
+                "PPC",
+                "XVG",
+                "ZET"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@803MinePool",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "0.01"
+        },
+        "707565": {
+            "Id": "707565",
+            "Url": "/mining/pools/propool/",
+            "LogoUrl": "/media/25792635/propool.png",
+            "Name": "ProPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://zEnmine.pro/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "DBIX",
+                "ETC",
+                "EXP",
+                "ZEN",
+                "ZEC",
+                "HUSH",
+                "ZCL",
+                "BTG"
+            ],
+            "ServerLocations": [
+                "Euro",
+                "Asia",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0",
+            "FeeExpanded": "0",
+            "MinimumPayout": "1"
+        },
+        "708193": {
+            "Id": "708193",
+            "Url": "/mining/pools/pokercoinpool/",
+            "LogoUrl": "/media/25792639/poker.png",
+            "Name": "PokercoinPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://www.pokercoinpool.com",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "POKER"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "1"
+        },
+        "708274": {
+            "Id": "708274",
+            "Url": "/mining/pools/minepoolch/",
+            "LogoUrl": "/media/25792640/minepoolch.png",
+            "Name": "Minepool.ch",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://minepool.ch/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTCZ",
+                "KMD",
+                "LTZ",
+                "SNG",
+                "VOT"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "0.001"
+        },
+        "713169": {
+            "Id": "713169",
+            "Url": "/mining/pools/mobile-mining-electroneum/",
+            "LogoUrl": "/media/25792679/mobilemining.png",
+            "Name": "Mobile Mining",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://electroneum.mobile-mining.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETN"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "2 ETN"
+        },
+        "713291": {
+            "Id": "713291",
+            "Url": "/mining/pools/karbo-farm/",
+            "LogoUrl": "/media/25792681/karbo-mining-pool.png",
+            "Name": "Karbo Farm",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://karbo.farm/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Monitoring",
+                "Stratum"
+            ],
+            "Coins": [
+                "KRB"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@karbofarm",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "0.5 KRB"
+        },
+        "713327": {
+            "Id": "713327",
+            "Url": "/mining/pools/firepool/",
+            "LogoUrl": "/media/25792682/firepool.png",
+            "Name": "FirePool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://etn.firepool.de/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETN"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.7%",
+            "FeeExpanded": "0.7%",
+            "MinimumPayout": "2.00 ETN"
+        },
+        "714296": {
+            "Id": "714296",
+            "Url": "/mining/pools/ehashcoins/",
+            "LogoUrl": "/media/27010447/ehashcoins.png",
+            "Name": "eHashCoins",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://ehashcoins.org/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "VIC",
+                "PGC",
+                "NUKO",
+                "UBQ",
+                "DBIX",
+                "WHL",
+                "MUSIC",
+                "PIRL",
+                "EXP",
+                "ETC",
+                "ELLA",
+                "HUSH",
+                "ZEN",
+                "KMD",
+                "ZCL",
+                "SNG"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNS",
+                "SOLO"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "1 coin"
+        },
+        "726802": {
+            "Id": "726802",
+            "Url": "/mining/pools/miner-maniac/",
+            "LogoUrl": "/media/27010489/minermaniac.png",
+            "Name": "Miner Maniac",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://www.minermaniac.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "SNG",
+                "ZEN",
+                "BTCP",
+                "BTCZ",
+                "VOT",
+                "ZEC"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNT"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.5%",
+            "FeeExpanded": "0.5% All",
+            "MinimumPayout": "0.1 ZenCash\n0.1 BitcoinPrivate\n1 SnowGem\n1 VoteCoin\n1 BitcoinZ\n0.01 ZCash"
+        },
+        "733911": {
+            "Id": "733911",
+            "Url": "/mining/pools/akumaxmr/",
+            "LogoUrl": "/media/27010520/akumaxmr.png",
+            "Name": "AkumaXMR",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://www.akumaxmr.com/",
+            "PoolFeatures": [
+                "Monitoring",
+                "Stratum",
+                "Vardiff"
+            ],
+            "Coins": [
+                "XMR"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "Asia",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "RBPPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@AkumaXMRPool",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.1XMR"
+        },
+        "752671": {
+            "Id": "752671",
+            "Url": "/mining/pools/prime-pools/",
+            "LogoUrl": "/media/27010606/primepool.png",
+            "Name": "Prime Pools",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://prime-pools.com",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETN"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@PrimePools",
+            "AverageFee": "0.5%",
+            "FeeExpanded": "0.5%",
+            "MinimumPayout": "50 ETN"
+        },
+        "757359": {
+            "Id": "757359",
+            "Url": "/mining/pools/pandapool/",
+            "LogoUrl": "/media/27010646/vb1du7t5_400x400.png",
+            "Name": "PandaPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://pandapool.io/r/601694008",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTG",
+                "ZCL",
+                "HUSH",
+                "ZEC",
+                "BTCZ",
+                "ZEN",
+                "KMD",
+                "XMR",
+                "DSH",
+                "BCN",
+                "ETN",
+                "SUMO",
+                "KRB",
+                "ETC",
+                "EXP",
+                "MUSIC",
+                "ELLA",
+                "SIB",
+                "DIN",
+                "STONE",
+                "RAP",
+                "GBX",
+                "CBS"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNS",
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@pandapool_io",
+            "AverageFee": "1,5%",
+            "FeeExpanded": "1.5%",
+            "MinimumPayout": "0.005 XMR\n0.1 DSH\n0.1 BCN\n0.0003 ZCL\n0.0003 ZEC\n0.01 ETC\n0.0003 BTG\n0.003 BTCZ\n0.0003 ZEN\n0.0003 KMD\n0.0003 HUSH\n0.01 EXP\n0.01 MUSIC\n0.1 ETN\n0.01 SUMO\n0.01 SIB\n0.01 KRB\n0.01 ELLA\n0.01 DIN\n0.01 STONE\n0.01 RAP\n0.01 GBX\n0.01 CBS"
+        },
+        "757494": {
+            "Id": "757494",
+            "Url": "/mining/pools/etzepool/",
+            "LogoUrl": "/media/27010656/etzepool.png",
+            "Name": "ePool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://etz.epool.pw/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETZ"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.5%",
+            "FeeExpanded": "0.5%",
+            "MinimumPayout": "0.5"
+        },
+        "762634": {
+            "Id": "762634",
+            "Url": "/mining/pools/rig-mining-pool/",
+            "LogoUrl": "/media/27010672/rig-mining-pool.png",
+            "Name": "Rig Mining Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://rigminingpool.com/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH",
+                "ETC",
+                "DBIX"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "0.2 ETH\n0.5 ETC\n0.5 DBIX"
+        },
+        "795450": {
+            "Id": "795450",
+            "Url": "/mining/pools/minemoney/",
+            "LogoUrl": "/media/27011020/minemoney.png",
+            "Name": "MineMoney",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://minemoney.co",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ARG",
+                "MAY",
+                "ALEX",
+                "EVO",
+                "NKC",
+                "PLC",
+                "UNIC",
+                "UNIT",
+                "LEA",
+                "XJO",
+                "TGC",
+                "MZC",
+                "PPC",
+                "TIT",
+                "ZET",
+                "DGB",
+                "DGC",
+                "XMY",
+                "UIS",
+                "BSTY",
+                "AUR",
+                "BTB",
+                "SONG",
+                "WDC",
+                "MAX",
+                "TAJ",
+                "XRE",
+                "LUX",
+                "BLC",
+                "LIT",
+                "PHO",
+                "VTC",
+                "MAC",
+                "DNR",
+                "XVG"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@MineMoneyCo",
+            "AverageFee": "0.915 %",
+            "FeeExpanded": "sha256\t0.95%\nyescrypt\t1%\nscrypt\t0.95%\nkeccak\t1%\nblake2s\t1%\nx11evo\t1%\nphi\t0%\nblakecoin\t1%\ntimetravel\t1%\nlyra2v2\t1%\ntribus\t1%\nmyr-gr\t1%\nskein\t1%",
+            "MinimumPayout": "0.0035 BTC"
+        },
+        "795626": {
+            "Id": "795626",
+            "Url": "/mining/pools/instapool/",
+            "LogoUrl": "/media/27011021/instapool.png",
+            "Name": "Instapool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://europe.instapool.eu/#/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0,9%",
+            "FeeExpanded": "0,9%",
+            "MinimumPayout": "0.05ETH"
+        },
+        "795669": {
+            "Id": "795669",
+            "Url": "/mining/pools/uwezopool/",
+            "LogoUrl": "/media/27011022/uwezopool.png",
+            "Name": "Uwezopool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "http://www.uwezopool.com/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "UWC"
+            ],
+            "ServerLocations": [
+                "Africa"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "Unknown",
+            "FeeExpanded": "",
+            "MinimumPayout": "1 UWC"
+        },
+        "795708": {
+            "Id": "795708",
+            "Url": "/mining/pools/sureblock/",
+            "LogoUrl": "/media/27011024/sureblock.png",
+            "Name": "SureBlock",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://www.sureblock.online/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "XSH"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.5%",
+            "FeeExpanded": "0.5%",
+            "MinimumPayout": "0.10"
+        },
+        "795747": {
+            "Id": "795747",
+            "Url": "/mining/pools/shit-coin-mining/",
+            "LogoUrl": "/media/27011025/shitcoinmining.png",
+            "Name": "Shit Coin Mining",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://etn.shitcoinmining.net",
+            "PoolFeatures": [
+                "Stratum",
+                "Vardiff",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETN"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "100 ETN"
+        },
+        "804096": {
+            "Id": "804096",
+            "Url": "/mining/pools/xeminer-pool/",
+            "LogoUrl": "/media/30001645/xeminer.png",
+            "Name": "XeMiner",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://xeminer.net",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH"
+            ],
+            "ServerLocations": [
+                "Asia",
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.5",
+            "FeeExpanded": "0.5 ETH",
+            "MinimumPayout": "0.01 ETH"
+        },
+        "843219": {
+            "Id": "843219",
+            "Url": "/mining/pools/yopoolio/",
+            "LogoUrl": "/media/30001951/yocoinpool.png",
+            "Name": "YoPool.io",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://yopool.io/#/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "YOC"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "Prop"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1%",
+            "MinimumPayout": "0.5 YOC"
+        },
+        "868752": {
+            "Id": "868752",
+            "Url": "/mining/pools/bit-pool-mining/",
+            "LogoUrl": "/media/30002316/bitpoolmining.png",
+            "Name": "Bit Pool Mining",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://bitpoolmining.com",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "MONA",
+                "HUSH",
+                "VTC",
+                "KMD",
+                "EXP",
+                "ETH",
+                "ETC",
+                "ZCL",
+                "BTG",
+                "BTCP"
+            ],
+            "ServerLocations": [
+                "U.S.A",
+                "Europe",
+                "Asia"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.375 %",
+            "FeeExpanded": "HUSH 0.5% \nMONA 0.5% \nVTC 0.5% \nKMD 0%",
+            "MinimumPayout": "0.05 All"
+        },
+        "869001": {
+            "Id": "869001",
+            "Url": "/mining/pools/unipool/",
+            "LogoUrl": "/media/34477924/unipool.png",
+            "Name": "UniPool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://unipool.pro/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BCN",
+                "TRTL",
+                "XMR"
+            ],
+            "ServerLocations": [
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS",
+                "SOLO",
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.17%",
+            "FeeExpanded": "Bytecoin: 0% \nTurtlecoin: 0.01%\nMonero: 0.5%\nWTIPS: 0.5%",
+            "MinimumPayout": "5 BCN \n100 TRTL\n0.1 XMR"
+        },
+        "925246": {
+            "Id": "925246",
+            "Url": "/mining/pools/hashloft/",
+            "LogoUrl": "/media/34478202/hashloft.png",
+            "Name": "HashLoft",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://www.hashloft.io/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTC",
+                "LTC",
+                "AUR",
+                "BCH",
+                "CANN",
+                "FLO",
+                "GAME",
+                "DGB"
+            ],
+            "ServerLocations": [
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@HashLoft",
+            "AverageFee": "1.47%",
+            "FeeExpanded": "1.47%",
+            "MinimumPayout": "20 USD Daily\nor\n0.001 BTC Weekly"
+        },
+        "925482": {
+            "Id": "925482",
+            "Url": "/mining/pools/equigems/",
+            "LogoUrl": "/media/34478337/equigems.png",
+            "Name": "EquiGems",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://equigems.online/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "BTCZ",
+                "HUSH",
+                "KMD",
+                "XSG",
+                "ZEC",
+                "ZCL",
+                "BTCP",
+                "BUCK",
+                "HEPTA",
+                "LTZ",
+                "SFE",
+                "ZEL",
+                "ZERC",
+                "ZEN"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@equigems",
+            "AverageFee": "0.9%",
+            "FeeExpanded": "0.9%",
+            "MinimumPayout": "0.1"
+        },
+        "925673": {
+            "Id": "925673",
+            "Url": "/mining/pools/whalesburg/",
+            "LogoUrl": "/media/34478459/whalesburg.png",
+            "Name": "Whalesburg",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://bit.ly/2OTGXFJ",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring",
+                "Smart Mining"
+            ],
+            "Coins": [
+                "ETH",
+                "ETC",
+                "UBQ",
+                "ELLA",
+                "EXP",
+                "PIRL"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@whalesburg",
+            "AverageFee": "0.9%",
+            "FeeExpanded": "0.9%",
+            "MinimumPayout": "0.01 ETH"
+        },
+        "925797": {
+            "Id": "925797",
+            "Url": "/mining/pools/turtlecoin-pool/",
+            "LogoUrl": "/media/34478524/turtlecoinpool.png",
+            "Name": "TurtleCoin Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://trtl.hackerknowledge.de",
+            "PoolFeatures": [
+                "Stratum",
+                "Vardiff",
+                "Monitoring"
+            ],
+            "Coins": [
+                "TRTL"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "1%",
+            "FeeExpanded": "1% TRTL",
+            "MinimumPayout": "100 TRTL"
+        },
+        "925912": {
+            "Id": "925912",
+            "Url": "/mining/pools/poolxyz/",
+            "LogoUrl": "/media/34835673/picturemessage_5ae0fq3e0k4.png",
+            "Name": "PoolXYZ",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "http://pool.xyz/",
+            "PoolFeatures": [
+                "Vardiff",
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "DBIX",
+                "MOAC",
+                "NILU",
+                "PIRL",
+                "GOL"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "",
+            "AverageFee": "0.5%",
+            "FeeExpanded": "DBIX: 0.5%\nMOAC: 0.5%\nNILU: 0.5%\nPIRL: 0.5%\nGOL: 0.5%",
+            "MinimumPayout": "1 DBIX;\n0.5 MOAC;\n0.5 NILU;\n0.5 PIRL;\n0.5 GOL"
+        },
+        "926148": {
+            "Id": "926148",
+            "Url": "/mining/pools/minerall/",
+            "LogoUrl": "/media/34835901/l2.png",
+            "Name": "Minerall",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": true,
+            "TxFeeSharedWithMiner": true,
+            "AffiliateURL": "https://minerall.io/?utm_source=cryptocompare",
+            "PoolFeatures": [
+                "Monitoring",
+                "Vardiff"
+            ],
+            "Coins": [
+                "ETH",
+                "XVG",
+                "ETC",
+                "ZEC"
+            ],
+            "ServerLocations": [
+                "China",
+                "Europe",
+                "U.S.A"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [
+                "ETH+XVG",
+                "ETC+XVG"
+            ],
+            "Twitter": "@minerall_io",
+            "AverageFee": "2%",
+            "FeeExpanded": "Ethereum 2 %\nVerge 2 %\nEthereum-Classic 2 %\nZcash 2 %",
+            "MinimumPayout": "0.05 ETH\n10 XVG\n0.06 ETC\n0.1 ZEC"
+        },
+        "927470": {
+            "Id": "927470",
+            "Url": "/mining/pools/arsmine/",
+            "LogoUrl": "/media/35284411/arsmine.png",
+            "Name": "Arsmine",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://arsmine.com/en/",
+            "PoolFeatures": [
+                "Stratum",
+                "Monitoring"
+            ],
+            "Coins": [
+                "ETH",
+                "ETC",
+                "MUSIC",
+                "ELLA",
+                "PIRL",
+                "EXP",
+                "MOAC"
+            ],
+            "ServerLocations": [
+                "Europe"
+            ],
+            "PaymentType": [
+                "PPS",
+                "PPLNS",
+                "SOLO"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@ArsmineCom",
+            "AverageFee": "1%",
+            "FeeExpanded": "Arsmine takes No FEE for PPS, 1% for SOLO",
+            "MinimumPayout": "Payouts are made automatically every 3 hours for all balances above 10, or 1 on Sunday"
+        },
+        "927967": {
+            "Id": "927967",
+            "Url": "/mining/pools/ethash-pool/",
+            "LogoUrl": "/media/35309099/ethash-pool.png",
+            "Name": "Ethash Pool",
+            "Recommended": false,
+            "Sponsored": false,
+            "MergedMining": false,
+            "TxFeeSharedWithMiner": false,
+            "AffiliateURL": "https://ethashpool.com/",
+            "PoolFeatures": [
+                "Monitoring",
+                "Vardiff",
+                "Stratum"
+            ],
+            "Coins": [
+                "ETP"
+            ],
+            "ServerLocations": [
+                "USA"
+            ],
+            "PaymentType": [
+                "PPLNS"
+            ],
+            "MergedMiningCoins": [],
+            "Twitter": "@ethashpool",
+            "AverageFee": "0%",
+            "FeeExpanded": "0%",
+            "MinimumPayout": "1.00 ETP"
+        }
+    }
+}

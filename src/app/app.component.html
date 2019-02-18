@@ -1,0 +1,25 @@
+<!-- The content below is only a placeholder and can be replaced.
+
+<div class="footer">
+    <app-header></app-header>
+</div> -->
+
+<div [ngClass]="{'setNightScreen':nightScreen.value}">
+    <div class="row">
+        <div class=" header">
+            <div class="mat-app-background ">
+                <app-nested-menu></app-nested-menu>
+            </div>
+        </div>
+        <button (click)="GoToTop()" id="myBtn" title="Go to top">Top</button>
+        <div class="data">
+            <div class="right nightMode">
+                <mat-slide-toggle [formControl]="nightScreen" (change)="NightMode()" [color]="'primary'">Night Screen</mat-slide-toggle>
+            </div>
+            <router-outlet #routerOutlet="outlet"></router-outlet>
+        </div>
+    </div>
+    <div class="footer mat-elevation-z6">
+        <app-footer></app-footer>
+    </div>
+</div>

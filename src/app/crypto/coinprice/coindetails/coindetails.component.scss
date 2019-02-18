@@ -1,0 +1,263 @@
+.blankSpace {
+    height: 100px
+}
+
+.mainLog,
+.coinIconLargecl {
+    padding-left: 0%;
+}
+
+.coinIconLarge {
+    height: 75px;
+}
+
+.title {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 9%;
+}
+
+.detailbutton {
+    //padding-bottom: 75px;
+    padding-left: 158px;
+    padding-top: 2%;
+}
+
+.cryptoName {
+    padding: 30px;
+    padding-left: 0px;
+    font-size: 25px;
+    font-family: ver;
+    font-weight: 900;
+}
+
+.logo {
+    padding-top: 4%;
+    font-size: 34px;
+    font-family: ver;
+}
+
+.price {
+    font-size: 30px;
+    padding-top: 23%;
+}
+
+.menu {
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+.menu {
+    padding-inline-start: 0px;
+    padding-inline-end: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.pricetable {
+    padding-top: 10px;
+}
+
+.Mineable {
+    background-color: #33b5e5;
+}
+
+.nChart {
+    display: block;
+    width: 1000px;
+    height: 400px;
+    font-size: 15px;
+}
+
+.chart {
+    font-size: 19px;
+}
+
+.links {
+    display: none;
+}
+
+.buyRating {
+    padding-top: 5%;
+    height: 205px;
+}
+
+mat-card-content {
+    text-align: center;
+}
+
+.perCircle {
+    padding: 3%
+}
+
+// Tooltip
+.tooltip {
+    position: relative;
+    display: inline-block;
+    // border-bottom: 1px dotted black;
+}
+
+.Overview {
+    display: flex;
+}
+
+mat-card {
+    height: 100%;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    line-height: 1.5;
+    font-size: 12px;
+    width: 180px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 25%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.descriptionVideo {
+    padding-top: 50%;
+}
+
+.highchartClass {
+    width: 1000px;
+    height: 500px;
+    display: block;
+}
+
+.detailsTab {
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+app-share {
+    padding: 2%;
+}
+
+@media(max-width: 800px) {
+    .priceBar {
+        text-align: center;
+        padding-right: 0px;
+    }
+    .coinIconLargecl {
+        text-align: center;
+        padding-left: 1%
+    }
+    .cryptoName {
+        text-align: center;
+        padding: 0px;
+    }
+    .price {
+        text-align: center;
+        padding-top: 0px;
+    }
+    .change {
+        text-align: center;
+        padding: 0px;
+    }
+    .menu {
+        padding-right: 0px;
+    }
+    .menu {
+        padding-top: 0%;
+        padding-bottom: 5%;
+    }
+    .detailbutton {
+        text-align: center;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    .change {
+        padding-bottom: 26px;
+    }
+    .socialLink,
+    .webLink {
+        display: none;
+    }
+    .links {
+        display: block;
+    }
+    .Overview {
+        display: block;
+    }
+    .descriptionVideo {
+        padding-top: 0%;
+    }
+    .highchartClass {
+        width: 600px;
+        height: 400px;
+    }
+}

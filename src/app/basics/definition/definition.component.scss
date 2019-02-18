@@ -1,0 +1,117 @@
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 15px;
+}
+
+#myTable th,
+#myTable td {
+    text-align: left;
+    padding: 12px;
+}
+
+#myTable tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+.tablepress .sorting:hover,
+.tablepress .sorting_asc,
+.tablepress .sorting_desc {
+    background-color: #049cdb;
+}
+
+.tablepress .sorting,
+.tablepress .sorting_asc,
+.tablepress .sorting_desc {
+    position: relative;
+    padding-right: 20px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.tablepress thead th {
+    border-bottom: 1px solid #ddd;
+}
+
+.tablepress td,
+.tablepress th {
+    padding: 8px;
+    border: none;
+    background: 0 0;
+    text-align: left;
+    float: none!important;
+}
+
+table th {
+    text-align: left;
+    border: 1px solid #ededed;
+    padding: 2px 8px;
+}
+
+.td-page-content,
+.td-post-content,
+.wpb_text_column,
+.td_block_text_with_title,
+.woocommerce #tab-description,
+.mce-content-body {
+    font-size: 15px;
+    line-height: 26px;
+    color: #222;
+}
+
+#myInput {
+    background-image: url('../../../assets/images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+input[type=text] {
+    width: 67%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../../../assets/images/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.alphabet {
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+}
+
+.item {
+    cursor: pointer;
+}
+
+.item:hover {
+    color: blue;
+}
+
+button {
+    white-space: normal;
+    text-align: left;
+}
+
+@media only screen and (min-width: 600px) {
+    .defsearch {
+        width: 100%;
+    }
+}

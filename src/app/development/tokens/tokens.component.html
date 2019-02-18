@@ -1,0 +1,68 @@
+<div class="tokenDetailsTitle">
+    <h2>
+        List of Blockchains
+    </h2>
+    <p>The list of various blockchain and their derived assets</p>
+</div>
+<div class="tokenlist">
+    <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8" matSortActive="count" matSortDirection="desc">
+
+        <!-- Position Column -->
+        <ng-container matColumnDef="position">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                <h3> #.</h3>
+            </th>
+            <td mat-cell *matCellDef="let element; let i = index;"> {{i+1}} </td>
+        </ng-container>
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="name">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                <h3> Blockchain</h3>
+            </th>
+            <td mat-cell *matCellDef="let element"> {{element.name}}</td>
+        </ng-container>
+
+        <!-- Weight Column -->
+        <ng-container matColumnDef="count">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                <h3> Asset Count</h3>
+            </th>
+            <td mat-cell *matCellDef="let element"> {{element.count}} </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="list">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                <h3> Asset List</h3>
+            </th>
+            <td class="cursor" mat-cell *matCellDef="let element">
+                <div routerLink="../tokenList/{{element.name}}" routerLinkActive="active" class="cursor"> List</div>
+            </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="network">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                <h3>Blockchain Network</h3>
+            </th>
+            <td mat-cell *matCellDef="let element">
+                <div class="cursor"> Network</div>
+            </td>
+        </ng-container>
+
+        <!-- Symbol Column -->
+        <ng-container matColumnDef="explorer">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                <h3> Blockchain Explorer</h3>
+            </th>
+            <td (click)="GenerateAndGoToExplorerLink(element.name)" class="cursor" mat-cell *matCellDef="let element">
+                <div class="cursor"> Explorer</div>
+            </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+</div>

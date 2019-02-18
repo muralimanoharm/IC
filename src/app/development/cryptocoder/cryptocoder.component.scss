@@ -1,0 +1,28 @@
+li {
+    list-style-type: none;
+}
+
+.selected {
+    background-color: #00ABED;
+    color: white;
+}
+
+.paddingzero {
+    padding: 0px;
+}
+
+.subtitles {
+    p {
+        text-align: center;
+        margin: 0px;
+    }
+    .cursor {
+        font-size: 14px;
+    }
+}
+
+.mat-expansion-panel-body {
+    padding: 0 0px 16px;
+}
+
+@media(max-width: 600px) {}

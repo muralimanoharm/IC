@@ -1,0 +1,25 @@
+{
+    "Data": {
+        "1": {
+            "name": "HyperPay",
+            "CoinCode": "HPY",
+            "Summary": "",
+            "Link": "hyperpay.tech",
+            "Category": "Scam"
+        },
+        "2": {
+            "name": "Capital Expanse",
+            "CoinCode": "CAPX",
+            "Summary": "",
+            "Link": "capitalexpanse.net",
+            "Category": "Scam"
+        },
+        "3": {
+            "name": "",
+            "CoinCode": "",
+            "Summary": "",
+            "Link": "",
+            "Category": ""
+        }
+    }
+}

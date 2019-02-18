@@ -1,0 +1,73 @@
+.tokenDetailsTitle {
+    text-align: center;
+    padding: 15px;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+.mat-table {
+    overflow: auto;
+    max-height: 500px;
+}
+
+table {
+    width: 100%;
+    // padding: 30px;
+}
+
+.pagination {
+    padding: 0px;
+    text-align: end;
+}
+
+.sticky {
+    height: auto !important;
+}
+
+.cursor {
+    width: min-content;
+}
+
+.cursor:hover {
+    color: #4130af;
+    font-size: 17px;
+}
+
+.tokenlist {
+    padding: 10%;
+    padding-top: 2%;
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+@media(max-width: 600px) {
+    // Custom header label that shows in each column, with a set width and bold font
+    .mobile-label {
+        width: 80px;
+        display: inline-block;
+        font-weight: bold;
+    }
+    // Remove the header row altogether
+    .mat-header-row {
+        font-size: 10px
+    }
+    // The row cells should display as a column, justified left, with a bit of extra padding
+    .mat-row {
+        flex-direction: column;
+        align-items: start;
+        padding: 68px 20px;
+    }
+    .coinIcon {
+        display: none;
+    }
+    .mat-cell,
+    h3 {
+        font-size: 10px
+    }
+    .tokenlist {
+        padding: 6px;
+    }
+}

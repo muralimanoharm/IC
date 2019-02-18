@@ -1,0 +1,111 @@
+<div class="row">
+
+</div>
+
+
+<div class="row">
+    <div class="col-s-3 sideNavBar">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <mat-card-title>Filtering </mat-card-title>
+                <mat-card-subtitle>Choose one</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+                <div class="col-xs-6 col-md-12">
+                    <mat-slide-toggle [formControl]="AirDrop" (change)="FilterToggle('AirDrop')" [color]="color">AirDrops</mat-slide-toggle>
+                    <span class="countLabel">
+                        22
+                    </span>
+                </div>
+                <div class="col-xs-6 col-md-12">
+                    <mat-slide-toggle [formControl]="Blockchains" (change)="FilterToggle('Blockchains')" [color]="color">Blockchains</mat-slide-toggle>
+                    <span class="countLabel">
+                        12
+                    </span>
+                </div>
+                <div class="col-xs-6 col-md-12">
+                    <mat-slide-toggle [formControl]="BountyProgram" (change)="FilterToggle('BountyProgram')" [color]="color ">Bounty program</mat-slide-toggle>
+                    <span class="countLabel ">
+                        8
+                    </span>
+                </div>
+                <div class="col-xs-6 col-md-12 ">
+                    <mat-slide-toggle [formControl]="Conference " (change)="FilterToggle('Conference')" [color]="color">Conference</mat-slide-toggle>
+                    <span class="countLabel">
+                        3
+                    </span>
+                </div>
+                <div class="col-xs-6 col-md-12">
+                    <mat-slide-toggle [formControl]="Exchanges" (change)="FilterToggle('Exchanges')" [color]="color ">Exchanges</mat-slide-toggle>
+                    <span class="countLabel ">
+                        7
+                    </span>
+                </div>
+                <div class="col-xs-6 col-md-12 ">
+                    <mat-slide-toggle [formControl]="Forks " (change)="FilterToggle('Forks')" [color]="color">Forks/Hard Forks</mat-slide-toggle>
+                    <span class="countLabel">
+                        17
+                    </span>
+                </div>
+                <div class="col-xs-6 col-md-12">
+                    <mat-slide-toggle [formControl]="ICO" (change)="FilterToggle('ICO')" [color]="color ">ICO/PreSales</mat-slide-toggle>
+                    <span class="countLabel ">
+                        11
+                    </span>
+                </div>
+                <div class="col-xs-6 col-md-12 ">
+                    <mat-slide-toggle [formControl]="Meetups " (change)="FilterToggle('Meetups')" [color]="color">Meetups</mat-slide-toggle>
+                    <span class="countLabel">
+                        5
+                    </span>
+                </div>
+                <div class="col-xs-6 col-md-12">
+                    <mat-slide-toggle [formControl]="Partnership" (change)="FilterToggle('Partnership')" [color]="color ">Partnership</mat-slide-toggle>
+                    <span class="countLabel ">
+                        4
+                    </span>
+                </div>
+
+            </mat-card-content>
+            <mat-card-actions>
+                <button mat-button>Reset</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+    <div class="col-s-9 ">
+        <h4>Calendar Data</h4>
+
+        <!-- Calendar Data by category-->
+
+        <!--
+          Airdops
+        -->
+        <div [ngClass]="{'diplayNone':!AirDrop.value}" class="row ">
+            <app-airdrops></app-airdrops>
+        </div>
+        <div [ngClass]="{'diplayNone':!Blockchains.value}" class="row ">
+            <app-blockchains></app-blockchains>
+        </div>
+        <div [ngClass]="{'diplayNone':!BountyProgram.value}" class="row ">
+            <app-bounty-program></app-bounty-program>
+        </div>
+        <div [ngClass]="{'diplayNone':!Conference.value}" class="row ">
+            <app-conference></app-conference>
+        </div>
+        <div [ngClass]="{'diplayNone':!Exchanges.value}" class="row ">
+            <app-exchanges></app-exchanges>
+        </div>
+        <div [ngClass]="{'diplayNone':!Forks.value}" class="row ">
+            <app-forks></app-forks>
+        </div>
+        <div [ngClass]="{'diplayNone':!ICO.value}" class="row ">
+            <app-ico></app-ico>
+        </div>
+        <div [ngClass]="{'diplayNone':!Meetups.value}" class="row ">
+            <app-meetups></app-meetups>
+        </div>
+        <div [ngClass]="{'diplayNone':!Partnership.value}" class="row ">
+            <app-partnership></app-partnership>
+        </div>
+    </div>
+</div>

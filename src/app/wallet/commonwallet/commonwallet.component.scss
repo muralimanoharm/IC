@@ -1,0 +1,223 @@
+.walletTitle {
+    text-align: center;
+}
+
+.mat-stroked-button {
+    margin: 9px;
+}
+
+.recommend {
+    background-color: lightblue;
+    color: white;
+}
+
+
+/*****/
+
+.example-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.example-header {
+    min-height: 64px;
+    padding: 8px 24px 0;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+.mat-table {
+    overflow: auto;
+    max-height: 500px;
+}
+
+table {
+    width: 100%;
+    // padding: 30px; 
+}
+
+.walletIcon {
+    height: 129px;
+    width: 129px;
+    margin-top: 31px;
+}
+
+.star {
+    height: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.rollNo {
+    width: 30px;
+}
+
+.pagination {
+    padding: 0px;
+    text-align: end;
+}
+
+.sticky {
+    height: auto !important;
+}
+
+// By default, the mobile label shouldn't show
+.mobile-label {
+    display: none;
+}
+
+.form-field {
+    width: 60%;
+}
+
+.hide {
+    display: none;
+}
+
+.cursor:hover {
+    color: #4130af;
+    font-size: 17px;
+}
+
+.overflow-container {
+    overflow-x: scroll;
+}
+
+.props-sortable .product-label {
+    display: block;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.props-sortable .product-value {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.firstrow {
+    li {
+        display: inline-block;
+        padding-left: 10px;
+        border-right: 0;
+        line-height: 24px;
+        padding-right: 25px;
+        vertical-align: bottom;
+        border-right: 1px solid #eee;
+        margin-top: 0;
+        padding-right: 15px;
+        width: auto;
+        white-space: nowrap;
+    }
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+}
+
+button:hover {
+    background-color: #eee;
+    color: darkblue;
+}
+
+.platform {
+    li {
+        display: inline-block;
+        border-right: 0;
+        line-height: 24px;
+        vertical-align: bottom;
+        border-right: 1px solid #eee;
+        margin-top: 0;
+        width: 50px;
+        white-space: nowrap;
+        padding-left: 9px;
+    }
+}
+
+.technicalAspects {
+    text-align: center;
+    p,
+    h4 {
+        text-align: center;
+    }
+}
+
+.weblink {
+    text-align: end;
+}
+
+@media(max-width: 600px) {
+    // Custom header label that shows in each column, with a set width and bold font
+    .mobile-label {
+        width: 80px;
+        display: inline-block;
+        font-weight: bold;
+    }
+    // Remove the header row altogether
+    .mat-header-row {
+        font-size: 10px
+    }
+    // The row cells should display as a column, justified left, with a bit of extra padding
+    .mat-row {
+        flex-direction: column;
+        align-items: start;
+        padding: 68px 20px;
+    }
+    .mat-cell,
+    h3 {
+        font-size: 10px
+    }
+    .mat-cell,
+    .mat-header-cell {
+        font-size: 12px;
+        padding: 10px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+}
+
+.description {
+    text-align: justify;
+}
+
+.detailbutton {
+    padding-bottom: 11px;
+}
+
+.exchName {
+    margin-bottom: 0px;
+}
+
+.platformImg {
+    padding-top: 15px;
+}
+
+@media(max-width:800px) {
+    .logo {
+        //text-align: center;
+    }
+    .firstrow {
+        border-right: 0px solid #eee;
+        padding: 0px;
+    }
+    .logo {
+        text-align: center;
+    }
+    .marginzero {
+        margin: 0px;
+    }
+    .weblink {
+        text-align: center;
+    }
+}
+
+
+/****/

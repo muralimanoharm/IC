@@ -1,0 +1,257 @@
+.cryptoCardTitle {
+    text-align: center;
+}
+
+.mat-stroked-button {
+    margin: 9px;
+}
+
+.recommend {
+    background-color: lightblue;
+    color: white;
+}
+
+
+/*****/
+
+.example-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.example-header {
+    min-height: 64px;
+    padding: 8px 24px 0;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+.mat-table {
+    overflow: auto;
+    max-height: 500px;
+}
+
+table {
+    width: 100%;
+    // padding: 30px; 
+}
+
+.walletIcon {
+    height: 209px;
+    width: 209px;
+    margin-top: 31px;
+}
+
+.star {
+    height: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.rollNo {
+    width: 30px;
+}
+
+.pagination {
+    padding: 0px;
+    text-align: end;
+}
+
+.sticky {
+    height: auto !important;
+}
+
+// By default, the mobile label shouldn't show
+.mobile-label {
+    display: none;
+}
+
+.form-field {
+    width: 60%;
+}
+
+.hide {
+    display: none;
+}
+
+.cursor:hover {
+    color: #4130af;
+    font-size: 17px;
+}
+
+.overflow-container {
+    overflow-x: scroll;
+}
+
+.props-sortable .product-label {
+    display: block;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.props-sortable .product-value {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.firstrow {
+    li {
+        display: inline-block;
+        padding-left: 10px;
+        border-right: 0;
+        line-height: 24px;
+        padding-right: 25px;
+        vertical-align: bottom;
+        border-right: 1px solid #eee;
+        margin-top: 0;
+        padding-right: 15px;
+        width: auto;
+        white-space: nowrap;
+    }
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+}
+
+button:hover {
+    background-color: #eee;
+    color: darkblue;
+}
+
+.platform {
+    li {
+        display: inline-block;
+        border-right: 0;
+        line-height: 24px;
+        vertical-align: bottom;
+        border-right: 1px solid #eee;
+        margin-top: 0;
+        width: 50px;
+        white-space: nowrap;
+    }
+}
+
+@media(max-width: 600px) {
+    // Custom header label that shows in each column, with a set width and bold font
+    .mobile-label {
+        width: 80px;
+        display: inline-block;
+        font-weight: bold;
+    }
+    // Remove the header row altogether
+    .mat-header-row {
+        font-size: 10px
+    }
+    // The row cells should display as a column, justified left, with a bit of extra padding
+    .mat-row {
+        flex-direction: column;
+        align-items: start;
+        padding: 68px 20px;
+    }
+    .mat-cell,
+    h3 {
+        font-size: 10px
+    }
+    .mat-cell,
+    .mat-header-cell {
+        font-size: 12px;
+        padding: 10px;
+    }
+    h3 {
+        font-size: 12px;
+    }
+}
+
+.description {
+    text-align: justify;
+}
+
+.detailbutton {
+    padding-bottom: 11px;
+}
+
+.exchName {
+    padding-bottom: 6px;
+    margin-bottom: 0px;
+}
+
+.cardDetails {
+    padding: 0px;
+}
+
+.cardDetailsTitle,
+.FeeDetailsTitle {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+    border: #cdcdcd medium solid;
+}
+
+.cardDetails {
+    .col-s-2 {
+        width: auto;
+    }
+    p {
+        text-align: center;
+        font-size: 11px;
+        line-height: .5;
+    }
+}
+
+.subtitle {
+    border-bottom: #cdcdcd medium solid;
+}
+
+.webLink {
+    text-align: end;
+}
+
+.cliente {
+    border-right: 1px solid #eee;
+    // margin-top: 10px;
+    //border: #cdcdcd medium solid;
+    // border-radius: 10px;
+    // -moz-border-radius: 10px;
+    // -webkit-border-radius: 10px;
+}
+
+@media(max-width:800px) {
+    .logo {
+        text-align: center;
+    }
+    .cardDetails {
+        .col-s-2 {
+            width: auto;
+        }
+        p {
+            font-size: 9px;
+            line-height: .5;
+        }
+    }
+    .titleDetails {
+        padding: 13px;
+        line-height: 2.5;
+        padding-bottom: 0px;
+    }
+    .webLink {
+        text-align: center;
+    }
+    .exchName {
+        text-align: center;
+        font-weight: 900;
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+}
+
+
+/****/

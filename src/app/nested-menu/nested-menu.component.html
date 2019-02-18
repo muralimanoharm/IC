@@ -1,0 +1,93 @@
+<div id="navbar" [ngClass]="{'setNightScreen':GetNightScreenValue(),'setDayScreen':!GetNightScreenValue()}" class="menuBar mat-elevation-z6">
+    <!-- <div class="row">
+        <div class="col-s-10">
+            <h1> Check This </h1>
+        </div>
+        <!-- <div class="col-s-2">
+
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-reddit"></a>
+            <a href="#" class="fa fa-telegram"></a>
+        </div> -->
+
+    <mat-progress-bar mode="indeterminate" *ngIf="loading"></mat-progress-bar>
+    <div class="row">
+        <div (click)="HideMenu()" routerLink="" routerLinkActive="active" class="col-s-1 title">
+            <button mat-button class="titleText">
+                IndianCryptos</button>
+        </div>
+        <div class="col-s-2" class="icon" (click)="ExpandMenu()">
+            <i class="fa fa-bars "></i>
+        </div>
+
+        <div #sideNavBar class="col-s-9 topnav" id="myTopnav">
+
+            <button (click)="HideMenu()" routerLink="Crypto" routerLinkActive="active" mat-stroked-button>Basics</button>
+            <button [matMenuTriggerFor]="crypto" mat-stroked-button>Crypto</button>
+            <!-- <button (click)="HideMenu()" mat-stroked-button></button> -->
+            <button (click)="HideMenu()" routerLink="exchange" routerLinkActive="active" mat-stroked-button>Exchanges</button>
+            <button mat-stroked-button [matMenuTriggerFor]="wallet">Wallet</button>
+            <button (click)="HideMenu()" routerLink="calendar" routerLinkActive="active" mat-stroked-button>Calendar</button>
+            <button mat-stroked-button [matMenuTriggerFor]="Development">Development</button>
+            <button mat-stroked-button [matMenuTriggerFor]="mining">Mining</button>
+            <button (click)="HideMenu()" routerLink="news" routerLinkActive="active" mat-stroked-button>News
+                <div class="notification">Soon!.</div>
+            </button>
+            <button (click)="HideMenu()" mat-stroked-button>Updates</button>
+            <button (click)="HideMenu()" routerLink="aboutUs" routerLinkActive="active" mat-stroked-button>AboutUs</button>
+            <!-- <button mat-stroked-button>ContactUs</button> -->
+
+            <mat-menu #wallet="matMenu">
+                <button (click)="HideMenu()" routerLink="wallet" routerLinkActive="active" mat-menu-item>Get A Wallet</button>
+                <button (click)="HideMenu()" routerLink="commonwallet" routerLinkActive="active" mat-menu-item>Common Wallets</button>
+                <button (click)="HideMenu()" routerLink="cryptocards" routerLinkActive="active" mat-menu-item>Crypto Cards</button>
+            </mat-menu>
+
+            <!--Button for Crypto Tab-->
+            <mat-menu #crypto="matMenu">
+                <button (click)="HideMenu()" routerLink="CoinPrice" routerLinkActive="active" mat-menu-item>Price & Prediction</button>
+                <button (click)="HideMenu()" routerLink="Deadcoins" routerLinkActive="active" mat-menu-item>Dead Coins</button>
+                <button (click)="HideMenu()" routerLink="legality" routerLinkActive="active" mat-menu-item>Legality</button>
+            </mat-menu>
+
+            <mat-menu #mining="matMenu">
+                <button (click)="HideMenu()" routerLink="mine" routerLinkActive="active" mat-menu-item>Lets Mine</button>
+                <!-- <button (click)="HideMenu()" mat-menu-item>Companies</button> -->
+                <button (click)="HideMenu()" routerLink="equipment" routerLinkActive="active" mat-menu-item>Equipment</button>
+                <button (click)="HideMenu()" routerLink="contract" routerLinkActive="active" mat-menu-item>Cloud Contract</button>
+                <button (click)="HideMenu()" routerLink="pool" routerLinkActive="active" mat-menu-item>Mining Pool</button>
+            </mat-menu>
+
+
+            <mat-menu #Development="matMenu">
+                <button (click)="HideMenu()" mat-menu-item routerLink="blockchain" routerLinkActive="active">Blockchain List</button>
+                <button (click)="HideMenu()" mat-menu-item routerLink="cryptocoder" routerLinkActive="active">Crypto coder</button>
+                <button (click)="HideMenu()" mat-menu-item routerLink="cryptoeconomics" routerLinkActive="active">Cryptoeconomics</button>
+                <!-- <button (click)="HideMenu()" mat-menu-item>Funding</button>
+                <button (click)="HideMenu()" mat-menu-item>Advisors</button>
+                <button (click)="HideMenu()" mat-menu-item>Api Trading</button> -->
+            </mat-menu>
+
+            <mat-menu #coding="matMenu">
+                <button (click)="HideMenu()" mat-menu-item>BlockChain</button>
+                <button (click)="HideMenu()" mat-menu-item>Wallet</button>
+            </mat-menu>
+
+            <mat-menu #Market="matMenu">
+                <button (click)="HideMenu()" mat-menu-item>Manipulation</button>
+                <button (click)="HideMenu()" mat-menu-item>Graph Analysis</button>
+                <button (click)="HideMenu()" mat-menu-item>Partnership Analysis</button>
+            </mat-menu>
+
+        </div>
+        <div class="col-s-2 socialTab">
+
+            <a href="https://www.facebook.com/IndianCryptos-470483933474608/?modal=admin_todo_tour" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/IndianCryptos" class="fa fa-twitter"></a>
+            <a href="https://www.reddit.com/user/IndianCryptos" class="fa fa-reddit"></a>
+            <a href="https://t.me/joinchat/Ge04ThHsnnn0Vq4R2kjAWg" class="fa fa-telegram"></a>
+        </div>
+    </div>
+
+</div>

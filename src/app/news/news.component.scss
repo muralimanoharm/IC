@@ -1,0 +1,219 @@
+.p-title {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.p-title:before {
+    padding-left: 10px;
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    width: 100px;
+    height: 5px;
+    background: rgb(125, 84, 240);
+    z-index: 1;
+}
+
+.toNews:before {
+    width: 70px;
+}
+
+.law:before {
+    width: 34px;
+}
+
+.newsletter:before {
+    width: 91px;
+}
+
+.row.equal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bg-1 {
+    background: url(../../assets/news-images/slider-1-1200x900.jpg) no-repeat center;
+    background-size: cover;
+    height: 260px;
+}
+
+.bg-2 {
+    background: url(../../assets/news-images/slider-2-450x600.jpg) no-repeat center;
+    background-size: cover;
+    margin-bottom: 12px;
+}
+
+.bg-3 {
+    background: url(../../assets/news-images/slider-3-450x600.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.bg-4 {
+    background: url(../../assets/news-images/slider-4-450x600.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.bg-5 {
+    background: url(../../assets/news-images/slider-5-450x600.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.bg-6 {
+    background: url(../../assets/news-images/slider-6-450x600.jpg) no-repeat center;
+    background-size: cover;
+}
+
+mat-card {
+    color: white;
+}
+
+mat-card-actions {
+    text-align: right;
+}
+
+.newscard {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.col-s-8,
+.col-s-4 {
+    padding: 5px;
+}
+
+
+/********************/
+
+.calImg {
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+}
+
+.newsIco {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    padding: 5px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    //border-bottom: 1px solid grey;
+}
+
+li:hover {
+    background-color: #c3c8ca;
+}
+
+.content {
+    color: black;
+}
+
+.newsContent {
+    font-size: 13px;
+    margin-top: 0px;
+    padding: 0px;
+    text-align: justify;
+}
+
+.newsMatCard {
+    width: 80%;
+    margin-left: 40px;
+}
+
+.newsIcoCol {
+    padding: 0px;
+}
+
+.newsContentCol {
+    padding: 0px;
+    padding-left: 10px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.nwsltr-primary-1 {
+    position: relative;
+}
+
+.nwsltr-primary-1 input {
+    height: 45px;
+    display: block;
+    width: 100%;
+    padding: 0 65px 0 20px;
+    border: 1px solid rgb(131, 51, 206);
+}
+
+input,
+button,
+select,
+textarea {
+    line-height: inherit;
+}
+
+.nwsltr-primary-1 button {
+    position: absolute;
+    top: 1px;
+    bottom: 1px;
+    right: 1px;
+    width: 45px;
+    text-align: center;
+    background: rgb(103, 37, 209);
+    color: #000;
+}
+
+.newsletter {
+    padding: 25px;
+}
+
+
+/*******************/
+
+@media screen and (max-width: 1200px) {
+    .newscard {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .newsMatCard {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .bg-1 {
+        background: url(../../assets/news-images/slider-1-1200x900.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .bg-2 {
+        background: url(../../assets/news-images/slider-2-450x600.jpg) no-repeat center;
+        background-size: cover;
+    }
+}

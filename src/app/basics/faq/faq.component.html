@@ -1,0 +1,16 @@
+<div class="faqSearch title">
+    <h2>Frequently Asked Questions</h2>
+    <input type="text" [(ngModel)]="searchText" placeholder="Enter search term here">
+</div>
+<mat-accordion>
+    <div *ngFor="let item of characters | filter: searchText:'question' ; index as i">
+        <mat-expansion-panel id="{{i+1}}">
+            <mat-expansion-panel-header>
+                <mat-panel-title [ngx-scroll-to]="i+1">
+                    <p [innerHTML]="item.question | highlight: searchText"></p>
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <span [innerHtml]="GetHTMLContent(item.answerID)"></span>
+        </mat-expansion-panel>
+    </div>
+</mat-accordion>

@@ -1,0 +1,361 @@
+<!-- Explain Div -->
+<!-- <div class="blankSpace">
+
+</div> -->
+<div class="row">
+    <app-share style></app-share>
+    <div class="webLink center col-s-2">
+
+        <ul class="menu">
+            <div class="title"> Website links </div>
+            <li (click)="DecideLinkType(3)"><i class="fa fa-external-link" aria-hidden="true">Website</i></li>
+            <li (click)="DecideLinkType(2)"><i class="fa fa-expand" aria-hidden="true">Explorer</i></li>
+            <li (click)="DecideLinkType(8)"><i class="fa fa-commenting-o" aria-hidden="true">Forum</i> </li>
+            <li (click)="DecideLinkType(9)"><i class="fa fa-book" aria-hidden="true">Whitepaper</i></li>
+            <li (click)="DecideLinkType(5)"><i class="fa fa-github-alt" aria-hidden="true">Github</i></li>
+        </ul>
+    </div>
+    <div class="priceBar col-s-8">
+        <div class="row">
+            <div class="mainLog left col-s-8">
+                <div class="row">
+                    <div class="coinIconLargecl col-s-3">
+                        <img class="coinIconLarge" src="../../../assets/images/coins/{{cryptoSymbol| lowercase}}.png" />
+                    </div>
+                    <div class="col-s-6">
+                        <div class="cryptoName">{{cryptoName}} {{cryptoSymbol}}</div>
+                    </div>
+                </div>
+                <div class="detailbutton row">
+                    <button *ngIf="IsMinable()" class="Mineable" mat-stroked-button [disabled]="true">Mineable</button>
+                    <button class="buyButton" mat-stroked-button>Buy</button>
+                    <!-- <button class="buyButton" mat-stroked-button>Prediction</button> -->
+                </div>
+            </div>
+            <div class="right col-s-3">
+                <div class="price">
+                    {{coinPrice}} {{currencySymbol}}
+                </div>
+                <div [ngClass]="{'positive' : change > 0, 'negative' : change < 0}" class="change">
+                    {{change | transform : 2}} %
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="center col-s-2"></div>
+            <div class="center col-s-8">
+                <table id="customers">
+                    <tr>
+                        <th>MarketCap</th>
+                        <th>Volume(24H)</th>
+                        <th>circulating Supply</th>
+                    </tr>
+                    <tr>
+                        <td> {{currencySymbol}} {{marketCap | transform : 2}}</td>
+                        <td> {{currencySymbol}} {{volume | transform : 2}}</td>
+                        <td> {{circulatingSupply| transform : 2}} </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <div class="links center col-s-2">
+
+        <ul class="menu">
+            <div class="title"> Links </div>
+            <li (click)="DecideLinkType(3)"><i class="fa fa-external-link" aria-hidden="true">Website</i></li>
+            <li (click)="DecideLinkType(2)"><i class="fa fa-expand" aria-hidden="true">Explorer</i></li>
+            <li (click)="DecideLinkType(8)"><i class="fa fa-commenting-o" aria-hidden="true">Forum</i> </li>
+            <li (click)="DecideLinkType(9)"><i class="fa fa-book" aria-hidden="true">Whitepaper</i></li>
+            <li (click)="DecideLinkType(5)"><i class="fa fa-github-alt" aria-hidden="true">Github</i></li>
+            <li (click)="DecideLinkType(4)"><i class="fa fa-telegram" aria-hidden="true">Telegram</i></li>
+            <li (click)="DecideLinkType(6)"><i class="fa fa-reddit-square" aria-hidden="true">Reddit</i></li>
+            <li (click)="DecideLinkType(7)"><i class="fa fa-gamepad" aria-hidden="true">Discord</i>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="socialLink center col-s-2">
+
+        <ul class="menu">
+            <div class="title"> Social Links </div>
+            <li (click)="DecideLinkType(4)"><i class="fa fa-telegram" aria-hidden="true">Telegram</i></li>
+            <li (click)="DecideLinkType(6)"><i class="fa fa-reddit-square" aria-hidden="true">Reddit</i></li>
+            <li (click)="DecideLinkType(7)"><i class="fa fa-gamepad" aria-hidden="true">Discord</i>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+    <mat-tab-group class="detailsTab" (selectedTabChange)="tabClick($event)">
+        <mat-tab>
+            <ng-template mat-tab-label>
+                <mat-icon> insert_chart</mat-icon>
+                Charts
+            </ng-template>
+
+            <div class="row">
+                <div class="col-s-1">
+
+                </div>
+                <div class="col-s-9">
+                    <div>
+                        <highcharts-chart [Highcharts]="Highcharts" [constructorType]="chartConstructor" [options]="chartOptions" [(update)]="updateFlag" [oneToOne]="oneToOneFlag" style="width: 100%; height: 400px; display: block;"></highcharts-chart>
+                    </div>
+                </div>
+            </div>
+        </mat-tab>
+        <mat-tab>
+            <ng-template mat-tab-label>
+                <mat-icon>add_shopping_cart</mat-icon>
+                Market
+            </ng-template>
+            <h3>{{cryptoName}} Market</h3>
+            <table mat-table [dataSource]="dataSource" matSort matSortActive="position">
+                <!--Position-->
+                <ng-container matColumnDef="position">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> #</th>
+                    <td>12</td>
+                </ng-container>
+                <!--Source-->
+                <ng-container matColumnDef="source">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Source</th>
+                    <td>12</td>
+                </ng-container>
+                <!--Pair-->
+                <ng-container matColumnDef="pair">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Pair</th>
+                    <td>12</td>
+                </ng-container>
+                <!--Volume24H-->
+                <ng-container matColumnDef="volumeH">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Volume24H</th>
+                    <td>12</td>
+                </ng-container>
+                <!--Price-->
+                <ng-container matColumnDef="price">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Price</th>
+                    <td>12</td>
+                </ng-container>
+                <!--volume%-->
+                <ng-container matColumnDef="volumeper">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Volume %</th>
+                    <td>12</td>
+                </ng-container>
+                <!--category-->
+                <ng-container matColumnDef="category">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Category</th>
+                    <td>12</td>
+                </ng-container>
+                <!--feeType-->
+                <ng-container matColumnDef="feeType">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> FeeType</th>
+                    <td>12</td>
+                </ng-container>
+                <!--updated-->
+                <ng-container matColumnDef="updated">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Updated</th>
+                    <td>12</td>
+                </ng-container>
+                <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+        </mat-tab>
+        <mat-tab>
+            <ng-template mat-tab-label>
+                <mat-icon>description</mat-icon>
+                Overview
+            </ng-template>
+            <h2> Overview </h2>
+            <div class="Overview row">
+                <div class="col-s-4">
+                    <mat-card class="overviewCard">
+                        <mat-card-header>
+                            <h4>{{cryptoName}} Price and Movement Today</h4>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <table id="customers">
+                                <tbody>
+                                    <tr>
+                                        <th>1 hour %</th>
+                                        <td>
+                                            -0.164
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>24 hour %</th>
+                                        <td>
+                                            -0.164
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>{{cryptoName}} {{currencySymbol}}</th>
+                                        <td>
+                                            -0.164
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>MarketCap</th>
+                                        <td>
+                                            {{currencySymbol}} {{marketCap | transform : 2}}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Volume 24H</th>
+                                        <td>
+                                            {{currencySymbol}} {{volume | transform : 2}}
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+                <div class="col-s-4">
+                    <mat-card class="overviewCard">
+                        <mat-card-header>
+                            <h4> {{cryptoName}} Short Term Forecast </h4>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <img class="buyRating" src="../../../assets/images/buyrating/{{coindetails.buyRating}}.png" />
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+                <div class="col-s-4">
+                    <mat-card class="overviewCard">
+                        <mat-card-header>
+                            <h4>Algo Score And Rating</h4>
+                        </mat-card-header>
+                        <mat-card-content>
+                            <div class="row">
+                                <div class="tooltip">
+                                    <circle-progress [percent]="80" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
+                                        [unitsFontSize]="10" [subtitle]="'Team Strength'">
+                                    </circle-progress>
+                                    <span class="tooltiptext">Do they have experienced leadership who's managed $1M+ enterprises before, a diversified and large enough team of developers, testers, marketers?</span>
+                                </div>
+                                <div class="tooltip">
+                                    <circle-progress [percent]="80" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
+                                        [unitsFontSize]="10" [subtitle]="'Product Strength'">
+                                    </circle-progress>
+                                    <span class="tooltiptext">Do they have a fully working product or just an idea? Is it open source? Does it have a clear roadmap? Is it released and generally available?</span>
+                                </div>
+                                <div class="tooltip">
+                                    <circle-progress [percent]="80" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
+                                        [unitsFontSize]="10" [subtitle]="'Coin Strength'">
+                                    </circle-progress>
+                                    <span class="tooltiptext">Is the coin capable of handling thousands of transactions per second? Is it market friendly and stable? Has it been growing strongly since its release as compared to the general market since then?</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="tooltip">
+                                    <circle-progress class="" [percent]="80" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
+                                        [unitsFontSize]="10" [subtitle]="'Github Activity'">
+                                    </circle-progress>
+                                    <span class="tooltiptext">Are they continuously active on GitHub developing their product and do they have a sizeable community?</span>
+                                </div>
+                                <div class="tooltip">
+                                    <circle-progress [percent]="80" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
+                                        [unitsFontSize]="10" [subtitle]="'Brand Awarness'">
+                                    </circle-progress>
+
+                                    <span class="tooltiptext">How large and active is the community as compared to the rest of the market?</span>
+                                </div>
+                                <div class="tooltip">
+                                    <circle-progress [percent]="80" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
+                                        [unitsFontSize]="10" [subtitle]="'Open Channels'">
+                                    </circle-progress>
+                                    <span class="tooltiptext">Are they open for discussions on Slack, Telegram or at least offer a contact form or email address on their website?</span>
+                                </div>
+                            </div>
+                        </mat-card-content>
+                    </mat-card>
+                </div>
+            </div>
+        </mat-tab>
+        <mat-tab>
+            <ng-template mat-tab-label>
+                <mat-icon>error_outline</mat-icon>
+                Purpose
+            </ng-template>
+            <mat-card class="center">
+                <h3>{{cryptoName}} Purpose </h3>
+                <div class="row">
+                    <div class="col-s-9">
+                        <mat-card>
+                            <div class="row">
+                                <div class="col-s-4">
+                                    <h4> {{cryptoName}} Clarity of purpose</h4>
+                                    <p>-----</p>
+                                </div>
+                                <div class="col-s-4">
+                                    <h4>{{cryptoName}} categories</h4>
+                                    <p>-----</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h4> {{cryptoName}} purpose and aspects</h4>
+                                <p>-----</p>
+                            </div>
+                            <div class="row">
+                                <h4>{{cryptoName}} additional differentiation against competition</h4>
+                                <p>-----</p>
+                            </div>
+                        </mat-card>
+                    </div>
+                    <div class="col-s-3">
+                        <div class="row">
+                            <h4>IC's Tip </h4>
+                            <p>emoji</p>
+                            <!--My Emoji-->
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-s-3">
+                        <p class="descriptionVideo">Description Video</p>
+                    </div>
+                    <div class="col-s-6">
+                        <iframe name="Description Video" width="100%" height="315" src="https://www.youtube.com/embed/JBJUtm6uAis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </mat-card>
+        </mat-tab>
+        <mat-tab>
+            <ng-template mat-tab-label>
+                <mat-icon>blur_circular</mat-icon>
+                News
+            </ng-template>
+            <div class="row">
+                <h4>Social Media</h4>
+                <div class="col-s-3">
+                </div>
+                <div class="col-s-6">
+                    <ngx-twitter-timeline [data]="{sourceType: 'url', url: 'https://twitter.com/iotatoken?lang=en'}" [opts]="{tweetLimit: 5}"></ngx-twitter-timeline>
+                </div>
+
+            </div>
+        </mat-tab>
+        <mat-tab>
+            <ng-template mat-tab-label>
+                <mat-icon> category</mat-icon>
+                Analysis
+            </ng-template>
+            <div class="row">
+                <h3>Comming Soon....</h3>
+            </div>
+        </mat-tab>
+        <mat-tab>
+            <ng-template mat-tab-label>
+                <mat-icon>flight_takeoff</mat-icon>
+                Events
+            </ng-template>
+            <h3>Comming Soon....</h3>
+        </mat-tab>
+    </mat-tab-group>
+</div>

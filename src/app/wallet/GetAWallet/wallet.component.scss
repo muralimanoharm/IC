@@ -1,0 +1,60 @@
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    padding: 5px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    border-bottom: 1px solid grey;
+}
+
+li:hover {
+    background-color: #c3c8ca;
+}
+
+
+/******************************/
+
+.bitcoinWallet {
+    padding: 4px;
+}
+
+.mat-expansion-panel-body {
+    padding: 0 15px 16px;
+}
+
+
+/********************************************/
+
+.p-title {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.p-title:before {
+    padding-left: 10px;
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    width: 100px;
+    height: 5px;
+    background: rgb(125, 84, 240);
+    z-index: 1;
+}
+
+.mb-20 {
+    font-size: 12px;
+}

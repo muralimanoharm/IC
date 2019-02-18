@@ -1,0 +1,104 @@
+<div class="main">
+    <h1 class="homeTitle">Welcome to Indian Cryptos</h1>
+    <h3 class="homeTitleContent">One stop solution for all your needs</h3>
+    <div class="homeContainer row">
+        <div class="col-s-4">
+            <h3 (click)="scroll(CryptoResearch)" class="homeSub">Crypto Research<br>
+                <img class="homeSubLogo" src="../../assets/images/btc.png" /></h3>
+            <p>Decrypting the World of Crypto Assets The constantly revolving cryptocurrency space needed a reliable source for up to date information. Incrementum accepted the challenge. The quarterly Crypto Research Report is the leading authority on cryptocurrency
+            </p>
+        </div>
+        <div (click)="scroll(Development)" class="col-s-4">
+            <h3 class="homeSub">Development
+                <br>
+                <img class="homeSubLogo" src="../../assets/images/development.png" /></h3>
+            <p>Cryptocurrency is the money of the future and has become a global phenomenon with most people, governments, companies, and banks being aware of its importance. Cryptocurrency is a digital asset designed to work as a medium of exchange. These
+                transactions are secured via cryptography. </p>
+        </div>
+        <div (click)="scroll(News)" class="col-s-4">
+            <h3 class="homeSub">News<br>
+                <img class="homeSubLogo" src="../../assets/images/news.png" /></h3>
+            <p>Bitcoin Cash, even with the combined value of Bitcoin Cash SV (BCHSV) and Bitcoin Cash ABC (BCHABC), has fallen by more than seven percent. Subsequent to the fork, the price of BCHABC, the original Bitcoin Cash chain with the roadmap set forth
+                by bitcoincash.org, dropped by more than 15 percent to $250.</p>
+        </div>
+
+    </div>
+
+    <!-- Explain Div -->
+    <div class="blankSpace">
+
+    </div>
+
+    <div #CryptoResearch class="homepageExplDeta row">
+        <div class="homePageExplainLogo col-s-6">
+            <img class="explainLogo" src="../../assets/images/btc.png" />
+        </div>
+        <div class="homePageExplainLogo col-s-6">
+
+            <h2>Crypto Research</h2>
+            <p>Bitcoin Cash, even with the combined value of Bitcoin Cash SV (BCHSV) and Bitcoin Cash ABC (BCHABC), has fallen by more than seven percent. Subsequent to the fork, the price of BCHABC, the original Bitcoin Cash chain with the roadmap set forth
+                by bitcoincash.org, dropped by more than 15 percent to $250.</p>
+            <button mat-stroked-button class="explainButton">Learn More</button>
+        </div>
+    </div>
+    <div #Development class="homepageExplDeta row">
+        <div class="homePageExplainLogo col-s-6">
+            <h2>Development</h2>
+            <p>Bitcoin Cash, even with the combined value of Bitcoin Cash SV (BCHSV) and Bitcoin Cash ABC (BCHABC), has fallen by more than seven percent. Subsequent to the fork, the price of BCHABC, the original Bitcoin Cash chain with the roadmap set forth
+                by bitcoincash.org, dropped by more than 15 percent to $250.</p>
+            <button mat-stroked-button class="explainButton">Learn More</button>
+        </div>
+        <div class="homePageExplainLogo col-s-6">
+            <img class="explainLogo" src="../../assets/images/development.png" />
+        </div>
+    </div>
+    <div #News class="homepageExplDeta row">
+        <div class="homePageExplainLogo col-s-6">
+            <img class="explainLogo" src="../../assets/images/news.png" />
+        </div>
+        <div class="homePageExplainLogo col-s-6">
+            <h2>News</h2>
+            <p>Bitcoin Cash, even with the combined value of Bitcoin Cash SV (BCHSV) and Bitcoin Cash ABC (BCHABC), has fallen by more than seven percent. Subsequent to the fork, the price of BCHABC, the original Bitcoin Cash chain with the roadmap set forth
+                by bitcoincash.org, dropped by more than 15 percent to $250.</p>
+
+            <button mat-stroked-button class="explainButton">Learn More</button>
+        </div>
+    </div>
+
+
+    <!-- Explain Div -->
+    <div class="getIntouch">
+        <footer id="footer">
+            <div class="inner">
+
+                <h2>Get in touch</h2>
+
+                <form action="#" method="post">
+
+                    <div class="field half first">
+                        <label for="name">Name</label>
+                        <input name="name" id="name" type="text" placeholder="Name">
+                    </div>
+                    <div class="field half">
+                        <label for="email">Email</label>
+                        <input name="email" id="email" type="email" placeholder="Email">
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+                    </div>
+                    <ul class="actions">
+                        <li><input value="Send Message" class="button alt" type="submit"></li>
+                    </ul>
+                </form>
+
+                <div class="copyright">
+
+                </div>
+
+            </div>
+        </footer>
+
+
+    </div>
+</div>

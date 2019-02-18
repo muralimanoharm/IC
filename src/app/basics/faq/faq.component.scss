@@ -1,0 +1,41 @@
+     ::ng-deep .highlight {
+        background: yellow;
+    }
+    
+    .faqSearch {
+        padding: 9%;
+        text-align: center;
+        background-image: url('../../../assets/images/faq.jpg');
+        background-size: cover;
+    }
+    
+    input[type=text] {
+        width: 67%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('../../../assets/images/searchicon.png');
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    
+    .mat-expanded mat-panel-title {
+        text-decoration: underline;
+    }
+    
+    input[type=text]:focus {
+        width: 100%;
+    }
+    
+    .mat-expansion-panel:not([class*=mat-elevation-z]) {
+        box-shadow: none;
+    }
+    
+    .title {
+        padding-left: 15%;
+    }

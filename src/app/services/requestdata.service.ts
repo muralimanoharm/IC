@@ -18,10 +18,16 @@ export class RequestdataService {
 
   }
 
+  getTestURLResult(keyword:string){
+    var url="";
+    url ="http://api.ethplorer.io/getTokenInfo/" + keyword +"?apiKey=freekey";
+    return this.http.get(url).pipe(map(res => res.text()));
+  }
+
   getURLResult(keyword:string,currency:string,historicalData = false,type = 0,limit = 0){ 
     var url="" ;
     if(!historicalData)
-    {
+      {
       if(keyword == "Cryptocompare")
       {
         url = this.cryptocompare+currency;

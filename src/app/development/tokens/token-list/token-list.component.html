@@ -2,32 +2,42 @@
     <h2>{{cryptoName}} Asset List</h2>
     <input type="text" [(ngModel)]="searchText" placeholder="Enter search term here">
 </div>
-
+<mat-paginator [length]="length" [pageSize]="pageSize" [pageSizeOptions]="pageSizeOptions" (page)="pageEvent = $event">
+</mat-paginator>
 <div class="row">
-    <div *ngFor="let item of tokenElementData | filter : cryptoName:'source' | filter : searchText:'name'">
+    <div *ngFor="let item of tokenElementData| slice:GetPageStart():GetPageEnd() | filter : cryptoName:'source' | filter : searchText:'name'">
         <div class="col-s-3">
             <mat-card>
                 <mat-card-header>
                     <mat-card-title>{{item.name}}</mat-card-title>
                     <mat-card-subtitle>{{item.companyName}}</mat-card-subtitle>
                 </mat-card-header>
-                <img *ngIf="item.source != 'eth'" class="sourceToken" mat-card-image src="../../../assets/images/tokens/{{item.source}}/{{item.symbol}}.png">
+                <img [ngClass]="{ethsourceToken: item.source == 'Etherium'}" [ngClass]="{sourceToken: item.source != 'Etherium'}" mat-card-image src="../../../assets/images/tokens/{{item.source}}/{{item.symbol}}.png">
                 <mat-card-content>
                     <h3>Description</h3>
-                    <p class="description">
+                    <p *ngIf="item.source != 'Etherium'" class="description">
                         {{item.description}}
                     </p>
+                    <div *ngIf="item.source == 'Etherium'">
+                        <h4>Contract Address</h4>
+                    </div>
+                    <div *ngIf="item.source == 'Etherium'">{{item.symbol}}</div>
                 </mat-card-content>
                 <mat-divider></mat-divider>
-                <mat-card-actions class="cardAction">
+                <mat-card-actions *ngIf="item.source != 'Etherium'" class="cardAction">
                     <div class="btn-group">
-                        <button *ngIf="IslinkAvailable(item.webLink)">Website</button>
-                        <button *ngIf="IslinkAvailable(item.githubLink)">Github</button>
-                        <button *ngIf="IslinkAvailable(item.telegramLink)">Telegram</button>
-                        <button *ngIf="IslinkAvailable(item.twitter)">Twitter</button>
-                        <button *ngIf="IslinkAvailable(item.linkedId)">LinkedIn</button>
-                        <button *ngIf="IslinkAvailable(item.medium)">Medium</button>
-                        <button *ngIf="IslinkAvailable(item.whitepaperlink)">Whitepaper</button>
+                        <button *ngIf="IslinkAvailable(item.webLink)" (click)="GotoLink(item.webLink)">Website</button>
+                        <button *ngIf="IslinkAvailable(item.githubLink)" (click)="GotoLink(item.githubLink)">Github</button>
+                        <button *ngIf="IslinkAvailable(item.telegramLink)" (click)="GotoLink(item.telegramLink)">Telegram</button>
+                        <button *ngIf="IslinkAvailable(item.twitter)" (click)="GotoLink(item.twitter)">Twitter</button>
+                        <button *ngIf="IslinkAvailable(item.linkedId)" (click)="GotoLink(item.linkedId)">LinkedIn</button>
+                        <button *ngIf="IslinkAvailable(item.medium)" (click)="GotoLink(item.medium)">Medium</button>
+                        <button *ngIf="IslinkAvailable(item.whitepaperlink)" (click)="GotoLink(item.whitepaperlink)">Whitepaper</button>
+                    </div>
+                </mat-card-actions>
+                <mat-card-actions *ngIf="item.source == 'Etherium'" [ngClass]="{ethsourceCardAction: item.source == 'Etherium'}">
+                    <div class="btn-group">
+                        <button *ngIf="item.source == 'Etherium'" (click)="GotoLink('https://etherscan.io/address/'+item.symbol)">Full Details</button>
                     </div>
                 </mat-card-actions>
             </mat-card>

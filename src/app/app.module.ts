@@ -61,6 +61,7 @@ import { PoolComponent } from './mine/pool/pool.component';
 import { LegalityComponent } from './crypto/legality/legality.component';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { InfiniteScrollerDirective } from './directive/infinite-scroller.directive';
+import { FakeaddressComponent } from './crypto/fakeaddress/fakeaddress.component';
 
 @NgModule({
   declarations: [
@@ -97,7 +98,8 @@ import { InfiniteScrollerDirective } from './directive/infinite-scroller.directi
     ContractComponent,
     PoolComponent,
     LegalityComponent,
-    InfiniteScrollerDirective
+    InfiniteScrollerDirective,
+    FakeaddressComponent
   ],
   imports: [
     BrowserModule,

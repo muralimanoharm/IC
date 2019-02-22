@@ -1,0 +1,90 @@
+<div class="coinPriceTitle">
+    <h2>
+        Fake Etherium Address
+    </h2>
+    <h4>The list of Etherium Address that are market fake for various reasons</h4>
+</div>
+
+<div class="mainElement row">
+    <div class="col-s-4">
+        <mat-form-field appearance="outline">
+            <mat-label>Enter Address Name</mat-label>
+            <input matInput (keyup)="applyFilter($event.target.value)">
+            <mat-icon matSuffix>search</mat-icon>
+        </mat-form-field>
+    </div>
+    <div class="pagination col-s-8">
+        <h2>
+            <mat-paginator [pageSizeOptions]="[25, 50,75]" showFirstLastButtons>
+            </mat-paginator>
+        </h2>
+    </div>
+
+</div>
+<div class="row overflow-container">
+    <div class="pricetable mat-elevation-z8">
+
+
+        <table mat-table [dataSource]="dataSource" matSort matSortActive="address" matSortDirection="desc">
+
+            <!--- Note that these columns can be defined in any order.
+      The actual rendered columns are set as a property on the row definition" -->
+
+            <!-- Position Column -->
+            <ng-container matColumnDef="position">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    <h3> #</h3>
+                </th>
+                <td mat-cell class="rollNo" *matCellDef="let element; let i = index;">{{DisplayPageDetails(i)}} </td>
+            </ng-container>
+
+            <!-- Name Column -->
+            <ng-container matColumnDef="address" sticky>
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    <h3>Name</h3>
+                </th>
+                <td mat-cell *matCellDef="let element">
+                    <a class="cursor" (click)="GotoTheLink('https://etherscan.io/address/'+element.address)"> {{element.address}}</a>
+                </td>
+            </ng-container>
+
+            <!-- Weight Column -->
+            <ng-container matColumnDef="comment">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    <h3> Comment</h3>
+                </th>
+                <td mat-cell *matCellDef="let element"> {{element.comment}} </td>
+            </ng-container>
+
+            <!-- Symbol Column -->
+            <!-- <ng-container matColumnDef="Summary">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                  <h3>Summary</h3>
+              </th>
+              <td mat-cell *matCellDef="let element">{{currencySymbol}} {{element.Price| number : fractionSize }} </td>
+          </ng-container> -->
+
+
+            <!-- Weight Column -->
+            <ng-container matColumnDef="date">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header>
+                    <h3>Date</h3>
+                </th>
+                <td mat-cell *matCellDef="let element">{{element.date}}</td>
+            </ng-container>
+
+
+            <!-- Star Column -->
+            <ng-container matColumnDef="star" stickyEnd>
+                <th mat-header-cell *matHeaderCellDef></th>
+                <td mat-cell *matCellDef="let element">
+                    <mat-icon>more_vert</mat-icon>
+                </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+
+        </table>
+    </div>
+</div>

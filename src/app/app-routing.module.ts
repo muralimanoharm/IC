@@ -19,6 +19,7 @@ import {CryptocardsComponent} from './wallet/cryptocards/cryptocards.component'
 import {ContractComponent} from './mine/contract/contract.component';
 import {EquipmentComponent} from './mine/equipment/equipment.component';
 import {PoolComponent} from './mine/pool/pool.component';
+import {FakeaddressComponent} from './crypto/fakeaddress/fakeaddress.component';
 
 const routes: Routes = [
   { path : '', pathMatch:'prefix', redirectTo:'CoinPrice' },
@@ -42,6 +43,7 @@ const routes: Routes = [
   { path : 'tokenList/:id', component:TokenListComponent},
   { path : 'Deadcoins' , component:DeadcoinsComponent},
   { path : 'legality', component:LegalityComponent},
+  { path : 'fakeaddress' , component:FakeaddressComponent},
   { path : 'cryptocoder' , loadChildren: './development/cryptocoder/cryptocoder.module#CryptoCoderModule'},
   { path : '**', redirectTo: '/pageNotFound'}
  

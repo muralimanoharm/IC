@@ -9,9 +9,9 @@
 </div>
 
 <div class="row">
-    <div class="col-s-2 subtitles">
+    <div class="col-s-2 subtitles content">
         <mat-card>
-            Development
+            <p class="cursor" [ngx-scroll-to]="'#routerOut'" routerLink="development" routerLinkActive="active">Development</p>
         </mat-card>
         <mat-accordion>
             <mat-expansion-panel [expanded]='blockchain'>

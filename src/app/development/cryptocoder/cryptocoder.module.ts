@@ -13,13 +13,15 @@ import {CryptocoderComponent} from '../cryptocoder/cryptocoder.component';
 import { BlockchaindevComponent } from '../cryptocoder/blockchaindev/blockchaindev.component';
 import { CryptoeconomicsComponent } from '../cryptoeconomics/cryptoeconomics.component';
 import { EcosystemComponent } from '../cryptocoder/ecosystem/ecosystem.component';
-
+import {DevelopmentComponent} from '../cryptocoder/development/development.component';
 
 
 export const routes: Routes = [
     { path : '',pathMatch:'full',redirectTo:'cryptocoder'},
     { path:'cryptocoder',component:CryptocoderComponent,
       children:[
+          {path:'',pathMatch:'full',redirectTo:'development'},  
+          {path:'development', component:DevelopmentComponent},
           {path:'blockchaindev/:id',component:BlockchaindevComponent},
           {path:'ecosystem/:id', component:EcosystemComponent}
       ]      
@@ -40,7 +42,8 @@ export const routes: Routes = [
         CryptocoderComponent,
         BlockchaindevComponent,
         CryptoeconomicsComponent,
-        EcosystemComponent
+        EcosystemComponent,
+        DevelopmentComponent
     ]
   })
   export class CryptoCoderModule { }

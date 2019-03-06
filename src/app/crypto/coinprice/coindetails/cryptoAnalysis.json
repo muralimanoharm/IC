@@ -20,7 +20,7 @@
             "facebookLink": "https://www.facebook.com/bitcoin/"
         },
         "ETH": {
-            "cryptoSymbol": "",
+            "cryptoSymbol": "ETH",
             "market": [],
             "buyRating": 0,
             "teamStrength": 0,

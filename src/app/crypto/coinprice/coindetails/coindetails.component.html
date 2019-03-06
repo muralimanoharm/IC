@@ -232,7 +232,7 @@
                         <mat-card-content>
                             <div class="row">
                                 <div class="tooltip">
-                                    <circle-progress [percent]="80" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
+                                    <circle-progress [percent]="teamStrength" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
                                         [unitsFontSize]="10" [subtitle]="'Team Strength'">
                                     </circle-progress>
                                     <span class="tooltiptext">Do they have experienced leadership who's managed $1M+ enterprises before, a diversified and large enough team of developers, testers, marketers?</span>
@@ -289,20 +289,20 @@
                             <div class="row">
                                 <div class="col-s-4">
                                     <h4> {{cryptoName}} Clarity of purpose</h4>
-                                    <p>-----</p>
+                                    <p>{{cryptoClarity}}</p>
                                 </div>
                                 <div class="col-s-4">
                                     <h4>{{cryptoName}} categories</h4>
-                                    <p>-----</p>
+                                    <p>{{categories}}</p>
                                 </div>
                             </div>
                             <div class="row">
                                 <h4> {{cryptoName}} purpose and aspects</h4>
-                                <p>-----</p>
+                                <p>{{purpose}}</p>
                             </div>
                             <div class="row">
                                 <h4>{{cryptoName}} additional differentiation against competition</h4>
-                                <p>-----</p>
+                                <p>{{diffrentiation}}</p>
                             </div>
                         </mat-card>
                     </div>

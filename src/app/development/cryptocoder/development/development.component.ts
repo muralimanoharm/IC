@@ -9,6 +9,7 @@ import {Router} from '@angular/router';
 export class DevelopmentComponent implements OnInit {
 
   cryptoName:string;
+  searchText:string;
   blockChainTutorials:BlockChainTutorialDetails[];
   constructor(private router:Router) { 
     this.router.routeReuseStrategy.shouldReuseRoute = function() {
@@ -21,7 +22,7 @@ export class DevelopmentComponent implements OnInit {
   }
 
   InitializePage(){
-    var data = require('src/app/development/cryptocoder/blockchaindev/blockchains.json');
+    var data = require('src/app/development/cryptocoder/development/development.json');
     this.blockChainTutorials=[];
     for(var key in data.Data){
       {

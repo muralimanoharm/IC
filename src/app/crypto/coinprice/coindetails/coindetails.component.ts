@@ -25,8 +25,28 @@ export class CoindetailsComponent implements OnInit {
   currencySymbol:string = "";
   timeFrom:number;
   timeTo:number;
-  analysisDetails:AnalysisDetails;
-  
+
+  /**Market */
+  market:string[];
+  /**Strength*/
+  buyRating:number;
+  teamStrength:number;
+  productStrength:number;
+  coinStrength:number;
+  githubActivity:number;
+  brandAwarness:number;
+  openChannels:number;
+  /*purpose*/
+  cryptoClarity:number;
+  categories:string[];
+  purpose:string;
+  diffrentiation:string;
+  icIdea:number;
+  youtubeLink:string;
+  /*news*/
+  twitterLink:string;
+  facebookLink:string;
+
   @ViewChild(MatSort) sort: MatSort;
 
   displayedColumns: string[] = ['position', 'source', 'pair', 'volumeH','price','volumeper','category','feeType','updated'];
@@ -55,7 +75,7 @@ export class CoindetailsComponent implements OnInit {
   }
 
   tabClick(tab:number) {
-    console.log(tab);
+    //console.log(tab);
   }
 
   getCryptoPrice(currency:string){
@@ -181,31 +201,32 @@ export class CoindetailsComponent implements OnInit {
   GetCoinAnalysisDetails(){
   var data = require('src/app/crypto/coinprice/coindetails/cryptoAnalysis.json');
     for(var key in data.Data){
-      if(data.Data[key].cryptoName ==  this.cryptoSymbol)
+      if(data.Data[key].cryptoSymbol ==  this.cryptoSymbol)
       {
-        this.analysisDetails.cryptoSymbol=data.Data[key].cryptoSymbol;
+        console.log(data.Data[key].cryptoSymbol);
+        console.log(this.cryptoSymbol);
+        this.cryptoSymbol=data.Data[key].cryptoSymbol;
         /**Market */
-        this.analysisDetails.market=data.Data[key].market;
+        this.market=data.Data[key].market;
         /**Strength*/
-        this.analysisDetails.buyRating=data.Data[key].buyRating;
-        this.analysisDetails.teamStrength=data.Data[key].teamStrength;
-        this.analysisDetails.productStrength=data.Data[key].productStrength;
-        this.analysisDetails.coinStrength=data.Data[key].coinStrength;
-        this.analysisDetails.githubActivity=data.Data[key].githubActivity;
-        this.analysisDetails.brandAwarness=data.Data[key].brandAwarness;
-        this.analysisDetails.openChannels=data.Data[key].openChannels;
+        this.buyRating=data.Data[key].buyRating;
+        this.teamStrength=data.Data[key].teamStrength;
+        this.productStrength=data.Data[key].productStrength;
+        this.coinStrength=data.Data[key].coinStrength;
+        this.githubActivity=data.Data[key].githubActivity;
+        this.brandAwarness=data.Data[key].brandAwarness;
+        this.openChannels=data.Data[key].openChannels;
         /*purpose*/
-        this.analysisDetails.cryptoClarity=data.Data[key].cryptoClarity;
-        this.analysisDetails.categories=data.Data[key].categories;
-        this.analysisDetails.purpose=data.Data[key].purpose;
-        this.analysisDetails.diffrentiation=data.Data[key].diffrentiation;
-        this.analysisDetails.icIdea=data.Data[key].icIdea;
-        this.analysisDetails.youtubeLink=data.Data[key].youtubeLink;
+        this.cryptoClarity=data.Data[key].cryptoClarity;
+        this.categories=data.Data[key].categories;
+        this.purpose=data.Data[key].purpose;
+        this.diffrentiation=data.Data[key].diffrentiation;
+        this.icIdea=data.Data[key].icIdea;
+        this.youtubeLink=data.Data[key].youtubeLink;
         /*news*/
-        this.analysisDetails.twitterLink=data.Data[key].twitterLink;
-        this.analysisDetails.facebookLink=data.Data[key].facebookLink;
+        this.twitterLink=data.Data[key].twitterLink;
+        this.facebookLink=data.Data[key].facebookLink;
       }
-      console.log(this.analysisDetails);
     }
   }
 
@@ -228,28 +249,3 @@ export enum LinkType{
 }
 
 const ELEMENT_DATA:string[] =[];
-
-export interface AnalysisDetails{
-  /**Symbol */
-  cryptoSymbol:string;
-  /**Market */
-  market:string[];
-  /**Strength*/
-  buyRating:number;
-  teamStrength:number;
-  productStrength:number;
-  coinStrength:number;
-  githubActivity:number;
-  brandAwarness:number;
-  openChannels:number;
-  /*purpose*/
-  cryptoClarity:number;
-  categories:string[];
-  purpose:string;
-  diffrentiation:string;
-  icIdea:number;
-  youtubeLink:string;
-  /*news*/
-  twitterLink:string;
-  facebookLink:string;
-}

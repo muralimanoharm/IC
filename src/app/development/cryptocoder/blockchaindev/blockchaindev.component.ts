@@ -9,6 +9,7 @@ import {Router} from '@angular/router';
 })
 export class BlockchaindevComponent implements OnInit {
   cryptoName:string;
+  searchText:string;
   blockChainTutorials:BlockChainTutorialDetails[];
   constructor(private _Activatedroute:ActivatedRoute,private router:Router) { 
     this.router.routeReuseStrategy.shouldReuseRoute = function() {

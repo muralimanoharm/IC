@@ -9,36 +9,6 @@
             "categories": [""],
             "level": 1,
             "type": "Bitcoin"
-        },
-        "How Bitcoin Works Free": {
-            "name": "How Bitcoin Works Free",
-            "author": "IndianCryptos",
-            "authorMailID": "indiancryptos@gmail.com",
-            "description": "",
-            "creationDate": "",
-            "categories": [""],
-            "level": 1,
-            "type": "Bitcoin"
-        },
-        "The Bitcoin Network": {
-            "name": "The Bitcoin Network",
-            "author": "IndianCryptos",
-            "authorMailID": "indiancryptos@gmail.com",
-            "description": "",
-            "creationDate": "",
-            "categories": [""],
-            "level": 1,
-            "type": "Bitcoin"
-        },
-        "Lightning Networks": {
-            "name": "Lightning Networks",
-            "author": "IndianCryptos",
-            "authorMailID": "indiancryptos@gmail.com",
-            "description": "",
-            "creationDate": "",
-            "categories": [""],
-            "level": 1,
-            "type": "Bitcoin"
         }
     }
 }

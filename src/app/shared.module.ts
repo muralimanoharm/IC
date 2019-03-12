@@ -4,11 +4,12 @@ import { FilterPipe } from './pipes/filter.pipe';
 import { HighlightPipe } from './pipes/highlight.pipe';
 import { OrderByPipe} from './pipes/orderBy.pipe';
 import { ShareComponent } from './share/share.component';
+import { SafePipe } from './pipes/safe.pipe';
 
 @NgModule({
     imports: [],
-    declarations: [Page404Component,FilterPipe,HighlightPipe,OrderByPipe,ShareComponent],
-    exports:[Page404Component,FilterPipe,HighlightPipe,OrderByPipe,ShareComponent]
+    declarations: [Page404Component,FilterPipe,HighlightPipe,OrderByPipe,ShareComponent, SafePipe],
+    exports:[Page404Component,FilterPipe,HighlightPipe,OrderByPipe,ShareComponent,SafePipe]
   })
 
 export class SharedModule { }

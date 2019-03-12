@@ -2,6 +2,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Component, OnInit ,ViewChild} from '@angular/core';
 import {coinDetails,AppData} from '../../../app.component';
 import {RequestdataService, HistoryType, DataPeriod} from '../../../services/requestdata.service';
+import {TickerapiService} from '../../../services/tickerapi/tickerapi.service';
 import {MatSort, MatTableDataSource} from '@angular/material';
 
 import * as Highcharts from 'highcharts/highstock';
@@ -49,7 +50,7 @@ export class CoindetailsComponent implements OnInit {
 
   @ViewChild(MatSort) sort: MatSort;
 
-  displayedColumns: string[] = ['position', 'source', 'pair', 'volumeH','price','volumeper','category','feeType','updated'];
+  displayedColumns: string[] = ['position', 'exchange', 'time', 'buyrate','sellrate','24hrrates','fees','buyratepfees','sellratespfees'];
   dataSource = new MatTableDataSource(ELEMENT_DATA);
 
   
@@ -62,7 +63,7 @@ export class CoindetailsComponent implements OnInit {
 
   /************************************** */
 
-  constructor( private _Activatedroute:ActivatedRoute,private appData:AppData, private requestdataService:RequestdataService) { 
+  constructor( private _Activatedroute:ActivatedRoute,private appData:AppData, private requestdataService:RequestdataService,private tickerapiService:TickerapiService) { 
    this.cryptoName =this._Activatedroute.snapshot.params['id'];
    this.cryptoSymbol = this.cryptoName;
    this.currency = this._Activatedroute.snapshot.params['currency'];
@@ -70,7 +71,8 @@ export class CoindetailsComponent implements OnInit {
   ngOnInit() {
     this.coindetails = this.appData.GetCoinDetails(this.cryptoName);
     this.getCryptoPrice(this.currency);
-    this.GetCoinAnalysisDetails();
+    this.GetCoinAnalysisDetails(); 
+    this.GetCryptoPriceInIndianMarket();
     this.dataSource.sort = this.sort;
   }
 
@@ -98,6 +100,9 @@ export class CoindetailsComponent implements OnInit {
     },error => {
       alert("ERROR");
     });
+  }
+  GetCryptoPriceInIndianMarket(){
+    this.tickerapiService.GetCryptoPriceInIndianMarket(this.cryptoSymbol,this.market);
   }
 
   GetCryptoHistoricalData(currency:string,type:number,limit:number){
@@ -165,6 +170,14 @@ export class CoindetailsComponent implements OnInit {
     return false;
   }
 
+  createRange(number){
+    var items: number[] = [];
+    for(var i = 1; i <= number; i++){
+       items.push(i);
+    }
+    return items;
+  }
+
   DecideLinkType(selectedLink:number){
     switch(selectedLink)
     {
@@ -203,8 +216,6 @@ export class CoindetailsComponent implements OnInit {
     for(var key in data.Data){
       if(data.Data[key].cryptoSymbol ==  this.cryptoSymbol)
       {
-        console.log(data.Data[key].cryptoSymbol);
-        console.log(this.cryptoSymbol);
         this.cryptoSymbol=data.Data[key].cryptoSymbol;
         /**Market */
         this.market=data.Data[key].market;

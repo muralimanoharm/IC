@@ -53,7 +53,7 @@
                     <h3>Name</h3>
                 </th>
                 <td mat-cell *matCellDef="let element">
-                    <div routerLink="../CoinDetails/{{element.name}}/{{currency}}" routerLinkActive="active" class="cursor"><img class="coinIcon" src="../../assets/images/coins/{{element.name| lowercase}}.png" /><span class="cryptName">{{element.fullName}}</span> ({{element.name}})
+                    <div routerLink="../CoinDetails/{{element.name}}/{{currency}}" routerLinkActive="active" class="cursor cryptName"><img class="coinIcon" src="../../assets/images/coins/{{element.name| lowercase}}.png" /><span class="cryptName">{{element.fullName}}</span> ({{element.name}})
                     </div>
                 </td>
             </ng-container>

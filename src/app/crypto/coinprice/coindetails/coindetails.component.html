@@ -121,43 +121,43 @@
                     <td>12</td>
                 </ng-container>
                 <!--Source-->
-                <ng-container matColumnDef="source">
-                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Source</th>
+                <ng-container matColumnDef="exchange">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Exchange Name</th>
                     <td>12</td>
                 </ng-container>
                 <!--Pair-->
-                <ng-container matColumnDef="pair">
-                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Pair</th>
+                <ng-container matColumnDef="time">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Update Time</th>
                     <td>12</td>
                 </ng-container>
                 <!--Volume24H-->
-                <ng-container matColumnDef="volumeH">
-                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Volume24H</th>
+                <ng-container matColumnDef="buyrate">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Buy Rate</th>
                     <td>12</td>
                 </ng-container>
                 <!--Price-->
-                <ng-container matColumnDef="price">
-                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Price</th>
+                <ng-container matColumnDef="sellrate">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Sell Rate</th>
                     <td>12</td>
                 </ng-container>
                 <!--volume%-->
-                <ng-container matColumnDef="volumeper">
-                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Volume %</th>
+                <ng-container matColumnDef="24hrrates">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> 24hr Rates</th>
                     <td>12</td>
                 </ng-container>
                 <!--category-->
-                <ng-container matColumnDef="category">
-                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Category</th>
+                <ng-container matColumnDef="fees">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Fees</th>
                     <td>12</td>
                 </ng-container>
                 <!--feeType-->
-                <ng-container matColumnDef="feeType">
-                    <th mat-header-cell *matHeaderCellDef mat-sort-header> FeeType</th>
+                <ng-container matColumnDef="buyratepfees">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Buy Rates + Fees</th>
                     <td>12</td>
                 </ng-container>
                 <!--updated-->
-                <ng-container matColumnDef="updated">
-                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Updated</th>
+                <ng-container matColumnDef="sellratespfees">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Sell Rates + Fees</th>
                     <td>12</td>
                 </ng-container>
                 <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
@@ -188,7 +188,7 @@
                                     <tr>
                                         <th>24 hour %</th>
                                         <td>
-                                            -0.164
+                                            {{change | transform : 2}} %
                                         </td>
                                     </tr>
                                     <tr>
@@ -238,13 +238,13 @@
                                     <span class="tooltiptext">Do they have experienced leadership who's managed $1M+ enterprises before, a diversified and large enough team of developers, testers, marketers?</span>
                                 </div>
                                 <div class="tooltip">
-                                    <circle-progress [percent]="80" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
+                                    <circle-progress [percent]="productStrength" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
                                         [unitsFontSize]="10" [subtitle]="'Product Strength'">
                                     </circle-progress>
                                     <span class="tooltiptext">Do they have a fully working product or just an idea? Is it open source? Does it have a clear roadmap? Is it released and generally available?</span>
                                 </div>
                                 <div class="tooltip">
-                                    <circle-progress [percent]="80" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
+                                    <circle-progress [percent]="coinStrength" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
                                         [unitsFontSize]="10" [subtitle]="'Coin Strength'">
                                     </circle-progress>
                                     <span class="tooltiptext">Is the coin capable of handling thousands of transactions per second? Is it market friendly and stable? Has it been growing strongly since its release as compared to the general market since then?</span>
@@ -252,20 +252,20 @@
                             </div>
                             <div class="row">
                                 <div class="tooltip">
-                                    <circle-progress class="" [percent]="80" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
-                                        [unitsFontSize]="10" [subtitle]="'Github Activity'">
+                                    <circle-progress class="" [percent]="githubActivity" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10"
+                                        [subtitleFontSize]="10" [unitsFontSize]="10" [subtitle]="'Github Activity'">
                                     </circle-progress>
                                     <span class="tooltiptext">Are they continuously active on GitHub developing their product and do they have a sizeable community?</span>
                                 </div>
                                 <div class="tooltip">
-                                    <circle-progress [percent]="80" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
+                                    <circle-progress [percent]="brandAwarness" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
                                         [unitsFontSize]="10" [subtitle]="'Brand Awarness'">
                                     </circle-progress>
 
                                     <span class="tooltiptext">How large and active is the community as compared to the rest of the market?</span>
                                 </div>
                                 <div class="tooltip">
-                                    <circle-progress [percent]="80" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
+                                    <circle-progress [percent]="openChannels" [space]="-10" [radius]="40" [outerStrokeWidth]="10" [innerStrokeWidth]="10" [outerStrokeColor]="'#4882c2'" [innerStrokeColor]="'#e7e8ea'" [animation]="true" [animationDuration]="1000" [titleFontSize]="10" [subtitleFontSize]="10"
                                         [unitsFontSize]="10" [subtitle]="'Open Channels'">
                                     </circle-progress>
                                     <span class="tooltiptext">Are they open for discussions on Slack, Telegram or at least offer a contact form or email address on their website?</span>
@@ -284,16 +284,21 @@
             <mat-card class="center">
                 <h3>{{cryptoName}} Purpose </h3>
                 <div class="row">
-                    <div class="col-s-9">
+                    <div>
                         <mat-card>
                             <div class="row">
                                 <div class="col-s-4">
                                     <h4> {{cryptoName}} Clarity of purpose</h4>
-                                    <p>{{cryptoClarity}}</p>
+                                    <span *ngFor="let item of createRange(cryptoClarity)">
+                                        <img class="star" src="../../../../assets/images/star.png">
+                                    </span>
                                 </div>
                                 <div class="col-s-4">
                                     <h4>{{cryptoName}} categories</h4>
                                     <p>{{categories}}</p>
+                                </div>
+                                <div class="col-s-4">
+                                    <a class="cursor" (click)="DecideLinkType(3)"><i class="fa fa-external-link" aria-hidden="true">Website</i></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -301,27 +306,18 @@
                                 <p>{{purpose}}</p>
                             </div>
                             <div class="row">
+                                <div class="col-s-3">
+                                    <!-- <p class="descriptionVideo">Description Video</p> -->
+                                </div>
+                                <div class="col-s-6">
+                                    <iframe name="Description Video" width="100%" height="315" [src]="youtubeLink | safe" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="row">
                                 <h4>{{cryptoName}} additional differentiation against competition</h4>
                                 <p>{{diffrentiation}}</p>
                             </div>
                         </mat-card>
-                    </div>
-                    <div class="col-s-3">
-                        <div class="row">
-                            <h4>IC's Tip </h4>
-                            <p>emoji</p>
-                            <!--My Emoji-->
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-s-3">
-                        <p class="descriptionVideo">Description Video</p>
-                    </div>
-                    <div class="col-s-6">
-                        <iframe name="Description Video" width="100%" height="315" src="https://www.youtube.com/embed/JBJUtm6uAis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </mat-card>
